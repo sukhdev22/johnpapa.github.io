@@ -1,5 +1,8 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
+	<!--<div class="sidebar-title-img">
+		<img src="/assets/media/johnpapa.net.png?s=150" />
+	</div>-->
 	<a href="{{ site.BASE_PATH }}/">
 		<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
 	</a>
@@ -22,15 +25,13 @@
 				<i class="fa fa-github-alt fa-lg"></i>
 			</a>
 		</li>
-		{% endif %}
-		{% if site.author.twitter %}
+		{% endif %} {% if site.author.twitter %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">
 				<i class="fa fa-twitter fa-lg"></i>
 			</a>
 		</li>
-		{% endif %}
-		{% if site.author.email %}
+		{% endif %} {% if site.author.email %}
 		<li>
 			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
 				<i class="fa fa-envelope fa-lg"></i>
@@ -45,8 +46,7 @@
 				<i class="fa fa-pinterest fa-lg"></i>
 			</a>
 		</li>
-		{% endif %}
-		{% if site.author.linkedin %}
+		{% endif %} {% if site.author.linkedin %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.author.linkedin }}">
 				<i class="fa fa-linkedin fa-lg"></i>
@@ -59,5 +59,21 @@
 			</a>
 		</li>
 	</ul>
+<!--
+			<div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+
+			<div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+
+			<script type='text/javascript'>
+function _dmBootstrap(file) {
+var _dma = document.createElement('script'); _dma.type = 'text/javascript'; _dma.async = true; _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://')
++ file;
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+}
+function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+(function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js');
+setTimeout(_dmFollowup, 2000);})();
+</script>-->
+
 </div>
 <!-- sidebar.html end -->
