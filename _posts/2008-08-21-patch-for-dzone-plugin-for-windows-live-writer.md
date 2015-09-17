@@ -1,0 +1,10 @@
+---
+layout: post
+title: Patch for DZone PlugIn for Windows Live Writer
+date: 2008-08-21 10:49
+author: John
+comments: true
+categories: [All]
+---
+<p>My buddy <a href="http://www.jstawski.com/">Jonas</a> noticed that some of my posts where causing a IE script error (nothing in FireFox though). Turns out that it was just happening in my latest posts and it was due to the DZone Plugin v1.0.0.3 which had a bug in it that was causing the script error. I&#160; fixed the script code and uploaded the fixed <a href="http://www.codeplex.com/wlwplugin4dzone">version v1.0.0.4 to CodePlex</a>. You can grab the source or the binary from <a href="http://www.codeplex.com/wlwplugin4dzone">here</a>.</p>  <p>Thanks <a href="http://www.jstawski.com/">Jonas</a>!</p>  <p></p>  <p></p>  <p></p>  <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/PatchforDZonePlugInforWindowsLiveWriter_974A/image_2.png"><img title="image" style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="96" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/PatchforDZonePlugInforWindowsLiveWriter_974A/image_thumb.png" width="483" border="0" /></a></p><div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/patch-for-dzone-plugin-for-windows-live-writer/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/patch-for-dzone-plugin-for-windows-live-writer/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" alt="DotNetKicks Image" border="0/"></a></div><div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript"><!-- var dzone_url = '/all/patch-for-dzone-plugin-for-windows-live-writer/'; var dzone_title = 'Patch for DZone PlugIn for Windows Live Writer'; var dzone_blurb = 'Patch for DZone PlugIn for Windows Live Writer'; var dzone_style = '1'; --></script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+

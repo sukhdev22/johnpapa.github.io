@@ -1,0 +1,10 @@
+---
+layout: post
+title: SharePoint Training in Norway
+date: 2008-06-05 23:49
+author: John
+comments: true
+categories: [All]
+---
+<p><span style="font-size: 12pt; line-height: 115%">Sahil Malik is taking his expertise over seas. He will be in Norway the week of Sep 1, 2008 hosting <a href="http://www.programutvikling.no/kurskalenderoversikt.aspx?mid_1=1352&amp;mid=1535&amp;id=273948">SharePoint 2007 Training</a><b>. </b>This is some advanced SharePoint training from an brilliant trainer. </span></p>  <p><span style="font-size: 12pt; line-height: 115%">From his site:</span></p>  <p style="margin-left: 40px"><em><span style="font-size: 12pt; line-height: 115%">This course is aimed towards advanced developers – people who aren’t afraid to open Visual Studio, and cut slash the product to suit their needs. So certainly you will learn every aspect of writing features, solutions, etc. but this course will really put you at the next level compared to your peers because you will have a full mastery on IIS 7, and 2008 technologies, as they apply to SharePoint 2007.</span></em></p><div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/sharepoint-training-in-norway/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/sharepoint-training-in-norway/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" border="0/"></a></div><div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript">var dzone_url = '/all/sharepoint-training-in-norway/';</script><script type="text/javascript">var dzone_title = 'SharePoint Training in Norway';</script><script type="text/javascript">var dzone_blurb = 'SharePoint Training in Norway';</script><script type="text/javascript">var dzone_style = '1';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+

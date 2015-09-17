@@ -1,0 +1,10 @@
+---
+layout: post
+title: Got Questions? Ask the Experts at MIX10
+date: 2010-03-10 04:42
+author: John
+comments: true
+categories: [Silverlight]
+---
+<p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/GotQuestionsAsktheExpertsatMIX10_1750/image0022_2.png"><img style="border-bottom: 0px; border-left: 0px; margin: 0px 10px 5px 0px; display: inline; border-top: 0px; border-right: 0px" title="image0022" border="0" alt="image0022" align="left" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/GotQuestionsAsktheExpertsatMIX10_1750/image0022_thumb.png" width="201" height="260" /></a>On Monday the 15th from 5pm – 6:30pm at MIX10 there will be a “Ask the Experts” event where an incredible pool of knowledgeable experts on topics including Silverlight, WCF RIA Services, and Blend will be available to answer your questions. You can also win some great prizes including a Zune HD! I’ll be there along with Adam Kinney, Brad Abrams, Joe Stegman, and many others. More details are below, but please stop by and see us!</p>  <p><strong><font color="#ff0000">“Ask the Experts” returns to MIX on Monday, March 15.</font></strong></p>  <p><strong><font color="#ff0000"></font></strong></p>  <p>5:00 – 6:30pm; Monday, March 15</p>  <p>Location: Shorelines A (Meal Hall)</p>  <p>You supply the conversation, we supply the beer!&#160; MIX speakers, Microsoft team members and members of the web community will be available to answer your questions and take your feedback at this informal reception.&#160;&#160; You’ll find experts in all content areas covered at MIX10, including: Web Standards, Windows Azure, Windows Phone, RIA, Framework &amp; Tools, Cloud Services and the MIX Community.</p>  <p>If the food, drink and technology experts weren’t enough… we’re holding an old-fashioned drawing for two 16GB <a href="https://mail.microsoft.com/OWA/redir.aspx?C=8ae23521df694d6abeae6cd4d9ffbd33&amp;URL=http%3a%2f%2fwww.zune.net%2fen-us%2fproducts%2fzunehd%2fdefault.htm">Zune HDs</a>!&#160; You must be present to win.</p>
+

@@ -1,0 +1,10 @@
+---
+layout: post
+title: 4 Sessions in Vegas @ DevConnections
+date: 2008-02-01 18:53
+author: John
+comments: true
+categories: [All]
+---
+<P mce_keep="true">I've been so busy of late I can't believe the summer is almost over! I recently completed relocating my family to South Florida, getting ready for the new school year, writing a ton of articles and sessions for conferences, and a bunch of other .NET jobs. I need to slow down :)</P> <P mce_keep="true">Anyway, this year at <A class="" href="http://www.devconnections.com/?refer=juliaL" mce_href="http://www.DevConnections.com/?refer=juliaL">DevConnections</A> in November in Las Vegas I will be presenting 4 topics. 2 of them will be on the Entity Framework and how it has evolved. It has really changed for the better over the past year and&nbsp;a half! The latest betas were just released a few days ago for EF, of which&nbsp;I will be working har dto make sure I get all of my sessions up to date on the latest bits.</P> <P mce_keep="true">The other 2 sessions I willbe presenting are on mobile development. Of course since I am a data guy i could not resist making one of the sessions all about design considerations&nbsp;for data centric mobile applications :)</P> <P mce_keep="true">The Las Vegas <A class="" href="http://www.devconnections.com/?refer=juliaL" mce_href="http://www.DevConnections.com/?refer=juliaL">DevConnections</A> has added a data centric mini track. There will be some great speakers in this track ... oh and me too. The Julia Lerman, DonKiely, Kathleen Dollard, Bill Vaughn, Dino Esposito, Dave Sussman, Alex Homer, and more! </P> <P mce_keep="true">&nbsp;</P> <P mce_keep="true"><A class="" href="http://www.devconnections.com/?refer=juliaL" mce_href="http://www.DevConnections.com/?refer=juliaL"><IMG src="http://www.thedatafarm.com/blog/devlifeimages/fall07connexdata.png" border=0 mce_src="http://www.thedatafarm.com/blog/devlifeimages/fall07connexdata.png"></A>&nbsp;</P> <P mce_keep="true">&nbsp;</P> <P mce_keep="true">I hope to see you there!</P>
+

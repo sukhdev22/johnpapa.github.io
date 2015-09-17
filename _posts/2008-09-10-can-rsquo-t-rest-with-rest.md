@@ -1,0 +1,17 @@
+---
+layout: post
+title: Can’t REST with REST
+date: 2008-09-10 23:59
+author: John
+comments: true
+categories: [Silverlight]
+---
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>I just finished another chapter of <a href="http://www.amazon.com/exec/obidos/ASIN/0596523092/johnpanet-20">Data Services with Silverlight 2</a>. It&rsquo;s a great feeling when this happens. There is always a bit of a slight pause afterwards though as I begin to realize how much more I have to write. For example, I finished a chapter on using RESTful services from Amazon to <a href="http://www.amazon.com/exec/obidos/ASIN/0596523092/johnpanet-20"><img title="DSS2 cover - xlarge" style="border-right: 0px; border-top: 0px; margin: 5px 5px 5px 0px; border-left: 0px; border-bottom: 0px" height="316" alt="DSS2 cover - xlarge" width="241" align="left" border="0" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/CantRESTwithREST_14EF0/DSS2%20cover%20-%20xlarge_3.png" /></a>create a Silverlight 2 based shopping application. Its a case study really &hellip; and it follows a chapter that discusses a primer of REST as it pertains to Silverlight 2, WebClient, HttpWebRequest, and many other issues.&nbsp;</p>
+<p>But as I finished these 2 chapters I am now going to dive into writing a chapter that shows how to build RESTful services that can be consumed by a Silverlight 2 application. This includes POSTs, Gets, Uri Templates, message formats, LINQ to JSON, and much more. To tie it all together I decided to build a RESTful service that interacts with Twitter&rsquo;s RESTful API &hellip; and a Twitter client that I call SilverTwit that consumes both. So there is so much much more to go on the topic of REST and Silverlight 2. Oh, and then I still have to wrap up the Syndication and Astoria chapters. The good news is that I have created all of the chapter outlines, then I created the sample code, so the chapters just flow at this point. That&rsquo;s why I can now write 10 pages in a day whereas before I was working on dozens of examples to base the book on.</p>
+<p>My style is to discuss the topics and then demonstrate them in a case study like format while including the complete source code for the samples. I&rsquo;ll put all of the code on the web site once I am done, in both VB and C# (thanks to <a href="/all/instant-vb-and-instant-c-ndash-paying-huge-dividends/">Instant VB</a>). Many of the examples can be expanded easily, and I hope people do take on that task.</p>
+<p>But for tonight, I am just happy that another milestone is reached!</p>
+<div class="wlWriterHeaderFooter" style="padding-right: 4px; padding-left: 4px; padding-bottom: 4px; margin: 0px; padding-top: 4px; text-align: left"><a href="http://www.dotnetkicks.com/kick/?url=/data-services-with-silverlight-2/can-rsquo-t-rest-with-rest/"><img alt="DotNetKicks Image" border="0" src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/data-services-with-silverlight-2/can-rsquo-t-rest-with-rest/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" /></a></div>
+<div class="wlWriterHeaderFooter" style="padding-right: 4px; padding-left: 4px; padding-bottom: 4px; margin: 0px; padding-top: 4px; text-align: left"><script type="text/javascript"><!-- var dzone_url = '/data-services-with-silverlight-2/can-rsquo-t-rest-with-rest/'; var dzone_title = 'Can’t REST with REST'; var dzone_blurb = 'Can’t REST with REST'; var dzone_style = '2'; --></script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script></div>
+

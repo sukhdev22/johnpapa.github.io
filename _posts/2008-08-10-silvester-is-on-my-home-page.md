@@ -1,0 +1,10 @@
+---
+layout: post
+title: Silvester is on my Home Page
+date: 2008-08-10 20:14
+author: John
+comments: true
+categories: [All]
+---
+<p><a href="http://www.silverlightshow.net/items/Silvester-A-Silverlight-Twitter-Widget.aspx"><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilvesterisonmyHomePage_11B0F/image_2.png"><img title="image" style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="356" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilvesterisonmyHomePage_11B0F/image_thumb.png" width="297" align="right" border="0" /></a>Silvester</a> is a tool that I ran across on <a href="http://www.silverlightshow.net/Profile.aspx?userId=da53489a-6e89-4819-b763-9d435b8dcf68">Emil Stoychev’s</a> site. It is a simple UI for showing the latest tweets from a Twitter account in a Silverlight 2 beta 2 widget. You simply copy some HTML to your site, change the Twitter account name, and its off and running. </p>  <p>&#160;</p>  <p>The explanation of the widget and some examples of how the code works can be <a href="http://www.silverlightshow.net/items/Silvester-A-Silverlight-Twitter-Widget.aspx">found on this post</a>.</p><div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/silvester-is-on-my-home-page/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/silvester-is-on-my-home-page/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" alt="DotNetKicks Image" border="0/"></a></div><div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript">var dzone_url = '/all/silvester-is-on-my-home-page/';</script><script type="text/javascript">var dzone_title = 'Silvester is on my Home Page';</script><script type="text/javascript">var dzone_blurb = 'Silvester is on my Home Page';</script><script type="text/javascript">var dzone_style = '1';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+

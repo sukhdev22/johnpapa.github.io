@@ -1,0 +1,10 @@
+---
+layout: post
+title: 51st MSDN Magazine article! - Where has the time gone?
+date: 2008-02-01 18:52
+author: John
+comments: true
+categories: [All]
+---
+<p>So I am a bit late realizing that my <a href="http://msdn.microsoft.com/msdnmag/issues/06/11/DataPoints/default.aspx">50th article</a> was published in MSDN Magazine (including its predecessors MIND [Microsoft Internet Developer] and MIND [Microsoft Interactive Developer]) last month. The article was titled <a href="http://msdn.microsoft.com/msdnmag/issues/06/11/DataPoints/default.aspx">Revisiting System.Transactions</a> and was in the November 2006 issue of MSDN Magazine. I did not realize this until today when I saw <a href="http://msdn.microsoft.com/msdnmag/issues/06/12/DataPoints/default.aspx">my 51st article</a> was published (<a href="http://msdn.microsoft.com/msdnmag/issues/06/12/DataPoints/default.aspx">RSS Feeds on a SmartPhone</a>).</p><p>My first article with MIND was back in December of 1998 and I wrote every few months for them for a few years. But it was not until 2001 when I started the Data Points column ... which makes this year my 5th year authoring the column. Wow, time sure does fly!</p><p>The last book I was involved in was published back in 2000 ... I stopped writing books once the kids started coming along. Wow, talk about working overtime ... when I was writing books I would put in a regular work week at my job plus another 50 hours a week on the book. It was an insane time. I remember when writing my last book my youngest daughter had colic, so she would stay up all night crying. The only way to ease her crying was to hold and sway with her. Since I was up all night writing the book, I would have her in one arm, and i would be typing on the keyboard all while swaying ... all through the night (I dedicated that book to her since she was there the whole time I wrote it). That was when&nbsp;I decided it was time to hang up the books before I missed their childhood.</p><p>Anyway ... it&#39;s been a long ride for me with writing. Thank you very much for reading my thoughts all these years!</p><p>&nbsp;</p>
+

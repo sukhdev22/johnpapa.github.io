@@ -1,0 +1,10 @@
+---
+layout: post
+title: Cars, Planes, Cars, Planes, and Cars
+date: 2008-04-08 21:45
+author: John
+comments: true
+categories: [All]
+---
+<p>This past weekend I went online to check in for my flight on Sunday. I've used online check-ins for as long as they have been around. I have not been to a ticket counter in years. Yet for some reason I could not check in online this past weekend. So I call Orbitz and they tell me they know nothing and that I must call the airline directly to find out how to check in. So I call the airline and they tell me there are no problems with my reservation but I must check in at the airport. So I, being very very stupid in hindsight, believed them. I went to the Sarasota, FL airport on Sunday and they tell me I cannot check in because my my flights have been delayed and canceled. Um ... What!?!?!?!?!?!</p> <p>There were no alternatives out of Sarasota to get to my destination that evening. I was furious when they told me that they knew this for hours yet did not post it on their web site nor tell me any of this when I called them a few hours ago! The best they could do was get me out the following day which would cause me to miss half the day at a .NET training class where I was the supposed to be training this week. </p> <p>I found a flight out of Tampa, which is a 1 hour 15 minute drive from the Sarasota airport that was leaving in 1 hour and 20 minutes. I decided to try it. I got back in my car, drove up to Tampa, and of course a thunderstorm with the fury of Heaven poured down on me. It took me 1 hour and 25 minutes to get there, I figured it was too late. Then I saw that the flight was delayed by 15 minutes! I ran to the ticket counter to get my ticket ... 50 people were in line ahead of me! Somehow that line moved so fast I got my ticket (they actually let me buy it!). I ran up the escalator, to the shuttle, into security who gave this sweaty little Italian man some interesting looks, and to the gate as they were closing the doors. i was literally yelling for them to wait as they stepped into the doorway. It was crazy.</p> <p>I made it. I made it.</p>
+

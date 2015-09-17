@@ -1,0 +1,10 @@
+---
+layout: post
+title: Entity Framework & LINQ in Miramar, FL
+date: 2008-05-19 20:33
+author: John
+comments: true
+categories: [All]
+---
+<p>I'll be heading to <a href="http://fladotnet.com/">Miramar, FL on July 8th</a> for the local .NET User Group meeting to speak to the group about the Entity Framework and LINQ. I "hope" the final bits are released by then, but not on July 8th, please (yikes!). I went through a major overhaul of my demonstrations last week when the latest beta bits were released and it was the day before my last presentation on LINQ and the Entity Framework. It went well, but it was a bit too much "last minute" for me. Especially when I am spending every free moment writing my Silverlight book and its examples.</p> <p>There is a lot to demonstrate .... showing why it exists, how it works, how to use it with a real world application. There are also the discussions of where it is heading, when to use it, when not to use it, and how it compares to existing tools. I often get asked "should I use EF in my app?". The answer always depends of course. But I generally do not encourage people to rip out their existing architecture and replace it with anything unless there is a major benefit that you can receive. The EF is a great tool, no doubt, but it still does not support certain aspects that would make it great (i.e. POCO). Can EF be everything to everyone? No, certainly not. Can EF be a valuable piece of your architecture? Absolutely. Would I jump up and down continuously for a week if they made it work with POCO?&nbsp; HECK YES!</p> <p>Anyway ... its a good topic and always stirs up a good discussion, which is why I love talking about it. Its not about the model and its not about the data. Its about both, together.</p> <p>If you are going to be in the area, <a href="http://fladotnet.com/">please stop by. Should be a good discussion in South Florida</a>! Here is the <a href="http://www.fladotnet.com/Reg.aspx?EventID=306">registration link</a>.</p>
+

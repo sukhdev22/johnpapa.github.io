@@ -1,0 +1,10 @@
+---
+layout: post
+title: What's Your Score on the Wonderlic Exam?
+date: 2008-04-28 15:14
+author: John
+comments: true
+categories: [All]
+---
+<p>The NFL draft just ended this past weekend. I am a big NY Giants fan and we had a great year last year and a very enjoyable Super Bowl. The Giants had a fantastic draft in 2007 where all of their picks made the team and most of them contributed heavily to their Super Bowl run and victory. But did you know that every NFL draft pick has to take a test called the Wonderlic test?</p> <p>The real Wonderlic test is a series of 50 questions that are timed. While <a href="http://walterfootball.com/draftwonderlic.php">this Wonderlic sample test</a> is not the official one it does give you a good baseline to see how you might fare on it.&nbsp; Some draft picks score very low on this exam, and they are often shied supposedly because if they don;t score well on it they won;t pick up the football plays. Eli Manning scored a 39 on his Wonderlic test (quarterbacks really need to score high due to their role in the game). One of the Giants draft picks this year Mario Manningham scored a 6, I am told. Now this guy is a dynamic wide receiver and should be phenomenal if he can focus on football and avoid the problems that have allegedly caused him issues in the past. </p> <p>But I digress ... take the sample Wonderlic exam and see how you would do. Remember, only give yourself 5 minutes on it. I scored a 42.5 but honestly guessed at 1 and got it right.</p> <p>&nbsp;</p> <p>Here is a blurb taken right from the page. Interesting that Marino scored so low and he's one of the best QBs of all time. So take it with a grain of salt, but heck, its fun.</p> <p><font color="#008000"><em>Vince Young made headlines last year when it was rumored that he scored a 6. As we all saw in 2006, the Wonderlic doesn't mean much. St. Louis' Ryan Fitzpatrick scored a 50, and he's nothing more than a backup quarterback. </em></font></p> <p><font color="#008000"><em><br>Some sample scores of other players include: Drew Bledsoe - 37; Steve Young - 33; John Elway - 30; Dan Marino - 16; Deltha O'Neal - 15; Donovan McNabb -14.</em></font></p>
+

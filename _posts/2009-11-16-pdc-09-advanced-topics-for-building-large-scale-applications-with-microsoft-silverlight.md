@@ -1,0 +1,10 @@
+---
+layout: post
+title: PDC 09 - Advanced Topics for Building Large-Scale Applications with Microsoft Silverlight
+date: 2009-11-16 17:10
+author: John
+comments: true
+categories: [Silverlight]
+---
+<p>If you are at <a href="http://microsoftpdc.com/">PDC</a> this week, please stop by <a href="http://microsoftpdc.com/Sessions/CL22">my session</a>. I will be presenting <a href="http://microsoftpdc.com/Sessions/CL22">Advanced Topics for Building Large-Scale Applications with Microsoft Silverlight</a> at <a href="http://microsoftpdc.com/">PDC 09</a> this Wednesday at 4:30 pm.&#160; I will be discussing how to use the MVVM pattern with <a href="http://silverlight.net">Silverlight</a>, different variations of MVVM, how to PRISM works with <a href="http://silverlight.net">Silverlight</a>, and how to integrate a custom screen presentation framework. All of these topics center around building large scale applications using <a href="http://silverlight.net">Silverlight</a> based on real world experiences.&#160; </p>  <p>The session will be in Hall F at 4:30 pm on Wednesday afternoon this week. </p>  <p>The abstract for this sessions is:</p>  <blockquote>   <p>Come learn about Silverlight application development patterns such as composite applications with Prism, developing using the Model-View-ViewModel (MVVM) pattern, and methods of implementing large, modular, multi-page applications within your team. Hear about frameworks created to help assist in rapid development using these patterns without sacrificing good application development patterns.</p> </blockquote>  <p><a href="http://www.microsoftpdc.com"><img style="border-bottom: 0px; border-left: 0px; margin: 5px 0px; display: inline; border-top: 0px; border-right: 0px" title="PDC09Bling_Speaker_ImA_240" border="0" alt="PDC09Bling_Speaker_ImA_240" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/PDC09AdvancedTopicsforBuildingLargeScale_C74B/PDC09Bling_Speaker_ImA_240_3.jpg" width="200" height="260" /></a></p>
+

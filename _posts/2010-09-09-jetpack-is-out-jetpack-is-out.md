@@ -1,0 +1,10 @@
+---
+layout: post
+title: JetPack is Out! JetPack is Out!
+date: 2010-09-09 14:46
+author: John
+comments: true
+categories: [Silverlight]
+---
+<p>JetPack is out! JetPack is out! </p>  <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/3732847f17b6_A25C/image_2.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3732847f17b6_A25C/image_thumb.png" width="591" height="356" /></a>&#160;</p>  <p>A lot of you asked about this theme after Tsitsi showed it off on <a href="/silverlight/apply-and-customize-the-new-silverlight-themes/">Silverlight TV</a> 2 weeks ago.</p>  <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/3732847f17b6_A25C/image_4.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3732847f17b6_A25C/image_thumb_1.png" width="294" height="182" /></a>&#160;<a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/3732847f17b6_A25C/image_6.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3732847f17b6_A25C/image_thumb_2.png" width="228" height="182" /></a> </p>  <p>You can see a <a href="http://www.silverlight.net/content/samples/sl4/themes/jetpack.html">preview of the various styles in JetPack here</a>.</p>  <p>What do you get?</p>  <ul>   <li>Jet Pack, of course!</li>    <li>Resource dictionaries with the assets </li>    <li>Integration with Visual Studio templates (for the navigation and ria services project templates) </li>    <li>VSIX installer</li> </ul>  <p>If you like JetPack or the other themes you can <a href="http://jpapa.me/theme9910">download all the themes here</a><strong></strong>.</p>
+

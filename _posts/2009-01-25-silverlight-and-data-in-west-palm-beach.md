@@ -1,0 +1,10 @@
+---
+layout: post
+title: Silverlight and Data in West Palm Beach
+date: 2009-01-25 14:31
+author: John
+comments: true
+categories: [Silverlight]
+---
+<p>This Tuesday I will be presenting Silverlight and data services in West Palm Beach, sponsored by INETA. I've presented Silverlight quite a bit and each time I do I change a little of the presentation and demos as I find new interesting demos. This presentation will focus on data binding techniques, SOAP, REST, RSS and Astoria from Silverlight. You can register from the link below ... hope to see you there!</p>  <p>&#160;<a href="http://www.amazon.com/exec/obidos/ASIN/0596523092/johnpanet-20"><img title="image" style="border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px" height="159" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightandDatainWestPalmBeach_CC2B/image_3.png" width="125" border="0" /></a></p>  <p>I’ll be giving away various books inlcuding my <a href="http://www.amazon.com/exec/obidos/ASIN/0596523092/johnpanet-20">Data Driven Services with Silverlight 2</a> , compliments of O’Reilly Media.&#160; </p>  <p>&#160;</p>  <table cellspacing="0" cellpadding="2" width="580" border="0"><tbody>     <tr>       <td valign="top" width="578"><dt><font size="5"><a href="http://www.fladotnet.com/Reg.aspx?EventID=355">Florida.NET West Palm Beach .NET User Group</a></font><font size="5">&#160; <br />West Palm Beach, FL (Jan 27 2009)</font>             <br /><a href="http://ineta.org"><img title="image" style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="114" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/Events_13B45/image4_thumb.png" width="171" border="0" /></a>&#160; </dt></td>     </tr>      <tr>       <td valign="top" width="578">         <p>I will be presenting: </p>          <ul>           <li>Data Binding, WCF, SOAP, REST, Astoria with Silverlight 2 </li>         </ul>       </td>     </tr>   </tbody></table>
+

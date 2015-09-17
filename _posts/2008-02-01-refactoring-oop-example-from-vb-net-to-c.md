@@ -1,0 +1,10 @@
+---
+layout: post
+title: Refactoring - OOP Example from VB.NET to C#
+date: 2008-02-01 18:49
+author: John
+comments: true
+categories: [All]
+---
+<P>OK, I don't want to leave out the C# developers from this VB.NET OOP example that <A HREF="/blogs/raymond.lewallen">Raymond</A> <A HREF="/blogs/raymond.lewallen/archive/2005/04/26/62457.aspx">posted recently</A>. So here is one way to accomplish this code in C#. </P> <P>&nbsp;</P> <FIELDSET><LEGEND>Inheritence, Interfaces, and OOP (oh my!)</LEGEND><PRE><SPAN style="FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: Arial"><SPAN style="COLOR: blue">public class</SPAN> foo { <SPAN style="COLOR: blue">public static</SPAN> Int32 GetNumberOfRequiredTokens(IPerson person) { <SPAN style="COLOR: blue">return</SPAN> person.GetNumberOfRequiredTokens(); } } <SPAN style="COLOR: blue">public interface</SPAN> IPerson { Int32 GetNumberOfRequiredTokens(); } <SPAN style="COLOR: blue">public abstract class</SPAN> Person : IPerson { <SPAN style="COLOR: blue">public</SPAN> Person() { } <SPAN style="COLOR: blue">private</SPAN> Int32 baseTokenAmount = 1; <SPAN style="COLOR: blue">protected</SPAN> Int32 Tokens { <SPAN style="COLOR: blue">get</SPAN> { <SPAN style="COLOR: blue">return</SPAN> baseTokenAmount; } } <SPAN style="COLOR: blue">public abstract</SPAN> Int32 GetNumberOfRequiredTokens(); } <SPAN style="COLOR: blue">public class</SPAN> Child : Person { <SPAN style="COLOR: blue">public override</SPAN> Int32 GetNumberOfRequiredTokens() { <SPAN style="COLOR: blue">return base</SPAN>.Tokens; } } <SPAN style="COLOR: blue">public class</SPAN> Adult : Person { <SPAN style="COLOR: blue">public override</SPAN> Int32 GetNumberOfRequiredTokens() { <SPAN style="COLOR: blue">return base</SPAN>.Tokens * 3; } } <SPAN style="COLOR: blue">public class</SPAN> Infant : Person { <SPAN style="COLOR: blue">public override</SPAN> Int32 GetNumberOfRequiredTokens() { <SPAN style="COLOR: blue">throw new</SPAN> TooYoungException(); } } <SPAN style="COLOR: blue">public class</SPAN> TooYoungException : Exception { } </SPAN></PRE></FIELDSET>
+

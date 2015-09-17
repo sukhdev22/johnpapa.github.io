@@ -1,0 +1,10 @@
+---
+layout: post
+title: Guitar Chords and Silverlight
+date: 2009-03-12 17:40
+author: John
+comments: true
+categories: [Silverlight]
+---
+<p>My article <a href="/silverlight/silverlight-chord-finder/">that I alluded to yesterday</a> on <a href="http://www.simple-talk.com/dotnet/.net-framework/using-silverlight-to-build-a-guitar-chord-calculator/">building a guitar chord calculator with Silverlight</a> was just published by Simple-Talk. Here are the links:</p>  <ul>   <li><a href="http://www.simple-talk.com/dotnet/.net-framework/using-silverlight-to-build-a-guitar-chord-calculator/">Full article</a></li>    <li><a href="http://silverlightchordcalc.codeplex.com/">CodePlex source</a></li>    <li><a href="/wp-content/uploads/demos/chordcalc/demo.html">Demo</a></li> </ul>  <p> Here is the shortened overview quoted form the article:</p>  <blockquote>   <p>One of the advantages of using Silverlight is that it can be used to build any type of application, including games. As well as spending a lot of time building varying types of business applications and writing a book that focuses on building data driven applications, I’ve also spent time building less traditional and more fun programs with Silverlight. Regardless of the type of application and its requirements, there are some key aspects of Silverlight development that apply. This article explains how to apply some common and widely-used aspects of Silverlight to build a guitar chord finder. </p>    <h4></h4>    <p>The program allows the user to choose from an assortment of chords and then display on a fret board how the user could places their fingers to play the chord. The application can display and play the main major and minor chords, however it can be modified to also include other chords including suspended, 7ths, and others. </p> </blockquote>  <p>It was a lot of fun to write!</p>  <p><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="Figure1" border="0" alt="Figure1" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/GuitarChordsandSilverlight_F893/Figure1_3.png" width="501" height="365" /></p>
+

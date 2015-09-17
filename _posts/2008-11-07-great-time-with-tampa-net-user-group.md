@@ -1,0 +1,10 @@
+---
+layout: post
+title: Great Time with Tampa .NET User Group
+date: 2008-11-07 23:26
+author: John
+comments: true
+categories: [All]
+---
+<p> Last night I had the privilege of <a href="/all/entity-framework-and-free-stuff-in-tampa-on-nov-6th/">presenting the Entity Framework v1 to the Tampa .NET User Group</a> at the Microsoft offices. I had just been up there for a half day of Silverlight 2 2 weeks ago and I have been overwhelmed by the great participation of this group. The people really get into the presentations and ask a lot of great&#160; questions. It makes it a lot of fun! Special thanks to <a href="http://www.ineta.org">INETA</a>, Keith Kabza and Joe Healy for having my there.</p>  <p><a href="/wp-content/uploads/files/downloads/Tampa-Nov2008-EF-Slides.pdf"><img title="image" style="border-right: 0px; border-top: 0px; display: block; float: none; margin-left: auto; border-left: 0px; margin-right: auto; border-bottom: 0px" height="282" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/GreatTimewithTampa.NETUserGroup_14990/image_7.png" width="373" border="0" /></a></p>  <p>I promised I would <a href="/wp-content/uploads/files/downloads/Tampa-Nov2008-EF-Slides.pdf">post my slides from the event, so here they are</a>. The <a href="/wp-content/uploads/files/downloads/Tampa-Nov2008-EF-Code.rar">Entity Framework code samples I presented are also available here</a>. </p>  <p>Thanks to everyone for attending. I really enjoyed meeting you all and grabbing a drink afterwards.</p>  <p><img title="image" style="border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px" height="49" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/GreatTimewithTampa.NETUserGroup_14990/image7.png" width="260" border="0" /></p>  <p><img title="image" style="border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px" height="88" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/GreatTimewithTampa.NETUserGroup_14990/image_3.png" width="122" border="0" /></p>
+

@@ -1,0 +1,10 @@
+---
+layout: post
+title: Should the Silverlight 2 Firestarter By a Full Day?
+date: 2008-08-27 16:04
+author: John
+comments: true
+categories: [All]
+---
+<p>Joe Healy and I have been coordinating a <a href="http://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032387218&amp;culture=en-US">Silverlight 2 Firestarter event</a>. I posted the <a href="/all/silverlight-2-firestarter/">details of this event yesterday on my site</a>. the agenda is a 3 hour morning to lunch presentation/demonstration/discussion on Silverlight 2 with data, REST, services, and so on. We received some feedback that it might be good to have a full day Firestarter event where the morning lays the groundwork for Silverlight 2 (everything you need to know to get started) and the afternoon is the more advanced stuff (my original content). We are flexible and likely we’ll do the whole day if that is what everyone wants.</p>  <p>So the question is: would this be beneficial to have a full day like this? Or is a full day too much? Please chime in.</p><div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/should-the-silverlight-2-firestarter-by-a-full-day/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/should-the-silverlight-2-firestarter-by-a-full-day/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" alt="DotNetKicks Image" border="0/"></a></div><div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript"><!-- var dzone_url = '/all/should-the-silverlight-2-firestarter-by-a-full-day/'; var dzone_title = 'Should the Silverlight 2 Firestarter By a Full Day?'; var dzone_blurb = 'Should the Silverlight 2 Firestarter By a Full Day?'; var dzone_style = '1'; --></script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+

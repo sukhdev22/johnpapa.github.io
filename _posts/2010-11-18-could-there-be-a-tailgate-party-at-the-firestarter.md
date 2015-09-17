@@ -1,0 +1,10 @@
+---
+layout: post
+title: Could There Be a Tailgate Party at the Firestarter?
+date: 2010-11-18 11:38
+author: John
+comments: true
+categories: [Silverlight]
+---
+<p>Only two weeks remain until the Silverlight Firestarter. </p>  <p>This week on <a href="http://jpapa.me/sltv53">SIlverlight TV</a>, John and Scott Guthrie discuss the upcoming Silverlight Firestarter and what the folks watching it online and in person should expect to see and hear. The event kicks off with a keynote presented by Scott and the session agenda takes the audience on journey, showing how to develop business applications in Silverlight.</p>  <p><a href="http://jpapa.me/sltv53"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="SNAGHTML15fca279" border="0" alt="SNAGHTML15fca279" src="/wp-content/uploads/files/media/image/Windows-Live-Writer/1d2725ba590e_777C/SNAGHTML15fca279_1.png" width="289" height="166" /></a></p>  <p><font style="background-color: #ffff00">NOTE: </font>In addition to the live schedule for the Firestarter, there will also be 20+ videos for viewing offline on Dec 2. Since we have so much great content coming, SIlverlight TV will now take a 2 week break due to the holiday and the Firestarter, and resume again on Dec 9th. </p>  <p>Relevant links: </p>  <ul>   <li><a href="/">John's blog</a> and on Twitter (<a href="http://twitter.com/john_papa">@john_papa</a>) </li>    <li><a href="http://weblogs.asp.net/scottgu/">Scott's blog</a> and on Twitter (<a href="http://twitter.com/scottgu">@scottgu</a>) </li> </ul>  <p>Follow us on Twitter <a href="http://www.twitter.com/SilverlightTV">@SilverlightTV</a> or on the web at <a href="http://silverlight.tv/">http://silverlight.tv</a></p>  <p><a href="http://jpapa.me/slfs10">Register now for the Silverlight Firestarter, Dec 2, 2010!</a></p>  <p><a href="http://jpapa.me/slfs10"><img alt="Firestarter" src="http://files.channel9.msdn.com/thumbnail/ed08c3f1-1a91-42b7-bd26-2edd85271d99.jpg" /></a></p>
+

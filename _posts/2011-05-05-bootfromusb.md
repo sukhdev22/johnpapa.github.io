@@ -1,0 +1,10 @@
+---
+layout: post
+title: Making a Bootable USB with Windows 7
+date: 2011-05-05 06:19
+author: John
+comments: true
+categories: [boot, diskpart, Uncategorized, usb, windows]
+---
+<p>Tonight I had a DVD with Windows 7 that used to work, but it wasn’t anymore. So I pulled out my trusty USB stick with a bootable copy of Windows 7 on it … alas that drive had gone through the wash a while back and finally kicked the bucket. I was determined not to strike out 3 times, so I decided to make a new USB bootable device. The steps are pretty easy to create a USB stick that boot up the Windows 7 setup from an ISO image, so I figured I would share the love.</p> <ol> <li>Grab a a Windows 7 ISO image and extract it to a folder (not on the USB stick)</li>  <li>You can use a lot of programs, many of them free, to extract from an ISO. I use 7zip.</li> <li>Grab a 4GB USB stick </li> <li>Format the USB stick with NTFS using the “quick format”. (You can do this via Windows Explorer) </li> <li>Open a CMD prompt (run it as administrator)</li> <li>Run DISKPART</li> <li>Select the volume for the USB stick. First enter LIST VOL to show the list.</li> <li>Then enter SELECT VOL x where x is the volume number from the list</li> <li>Mark the volume as active by entering ACTIVE</li> <li>Enter EXIT to quit the DISKPART command line (but do not close the CMD prompt window)</li> <li>In the CMD prompt window, go to the location where you extracted the Windows 7 files on your computer</li> <li>Go into the BOOT folder</li> <li>Type BOOTSECT /NT60 &lt;drive letter&gt;: where the drive letter is the USB drive. </li> <li>Example BOOTSECT /NT60 G:</li> <li>Copy all of the files you extracted for Windows 7 to the USB stick</li> <li>On the computer you want to install Windows 7, go to your BIOS and make sure that boot from USB is enabled and in the correct position in the boot sequence.</li></ol> <p>Once all files are copied to the USB stick, you can plug the USB stick into a computer and boot from it to run Windows 7 setup.</p> <p>Hope this helps!</p>
+

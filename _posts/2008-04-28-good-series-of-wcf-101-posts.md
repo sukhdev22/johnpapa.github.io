@@ -1,0 +1,12 @@
+---
+layout: post
+title: Good Series of WCF 101 Posts
+date: 2008-04-28 13:28
+author: John
+comments: true
+categories: [All]
+---
+<p>Ironically, I had a <a href="/all/wcf-configuration-simple-oversight/">problem with WCF configuration</a> last night and found myself googling for answers. It turns out my problem was quite simply resolved once I realized I forgot to put my app.config in the bin folder of my multi layered application, but in the process I ran across some good posts by Sahil.</p> <p>My friend <a href="http://blah.winsmarts.com/">Sahil Malik</a> has been posting a series of posts on WCF recently. <a href="http://blah.winsmarts.com/2008-4-Writing_the_WCF_Hello_World_App.aspx">Here is a nice hello world post</a> that demonstrates how to create a simple WCF application and run it using VS.NET to self host the services and test it. Its a nice post because it cuts out all of the garbage that often accompanies any discussion on WCF. </p> <p>Sahil also addresses the <a href="http://blah.winsmarts.com/2008-4-What_is_WCF.aspx">basics of WCF in this post</a>. its a good read for those diving in. He also has a post that discusses how to <a href="http://blah.winsmarts.com/2008-4-Writing_your_first_WCF_client.aspx">create a WCF client</a> and another post that demonstrates how to <a href="http://blah.winsmarts.com/2008-4-Host_a_WCF_Service_in_IIS_7_-and-amp;_Windows_2008_-_The_right_way.aspx">host WCF services in IIS</a>.</p> <p>Why do I like these posts? Because Sahil, as usual, takes what can be a complicated topic and breaks it down into some basic areas to focus on. </p> <div class="wlWriterSmartContent" id="scid:C16BAC14-9A3D-4c50-9394-FBFEF7A93539:47eb42a0-0017-4aea-ab6f-875dc0cc7fd9" style="padding-right: 0px; display: inline; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px"><!--dotnetkickit--></div>&nbsp;&nbsp; <div class="wlWriterSmartContent" id="scid:B3E14793-948F-49af-A347-D19C374A7C4F:3988a1ea-e949-4a31-91ab-be7e6df4fc3a" style="padding-right: 0px; display: inline; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px"> <script type="text/javascript"><!--
+digg_bodytext = 'Ironically, I had a problem with WCF configuration last night and found myself googling for answers. It turns out my problem was quite simply resolved once I realized I forgot to put my app.config in the bin folder of my multi layered application, but in the process I ran across some good posts by Sahil.';
+//--></script> <script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script> </div>
+

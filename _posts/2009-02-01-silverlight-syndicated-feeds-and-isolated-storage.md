@@ -1,0 +1,10 @@
+---
+layout: post
+title: Silverlight, Syndicated Feeds, and Isolated Storage
+date: 2009-02-01 13:26
+author: John
+comments: true
+categories: [Silverlight]
+---
+<p>In the latest issue of my Data Points column in<a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx"><img title="image" style="border-right: 0px; border-top: 0px; display: inline; margin: 5px 0px 5px 5px; border-left: 0px; border-bottom: 0px" height="260" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightSyndicatedFeedsandIsolatedSto_BD0F/image_3.png" width="203" align="right" border="0" /></a> MSDN Magazine (Feb 2009 issue) I wrote an article titled “<a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx">Syndicated Data And Isolated Storage In Silverlight</a>”. In the article I address:</p>  <ul>   <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070012">HTTP Web Requests and Threading</a>      <br /></li>    <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070040">Adding a Feed</a>      <br /></li>    <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070047">Parsing Feeds</a>      <br /></li>    <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070053">Cross-Domain Requests for Feeds</a>      <br /></li>    <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070061">Basic Isolated Storage</a>      <br /></li>    <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070087">Organized Isolated Storage</a></li> </ul>  <p></p>  <p>Enjoy!</p>  <p></p>  <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightSyndicatedFeedsandIsolatedSto_BD0F/image_5.png"><img title="image" style="border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px" height="500" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightSyndicatedFeedsandIsolatedSto_BD0F/image_thumb_1.png" width="500" border="0" /></a></p>
+

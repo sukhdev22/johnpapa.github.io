@@ -1,0 +1,10 @@
+---
+layout: post
+title: IIS Default Web Site Won't Start!
+date: 2008-02-01 18:52
+author: John
+comments: true
+categories: [All]
+---
+<p>So&nbsp;I am playing around with the <a href="http://www.telerik.com/">Telerik </a>controls, the <a href="http://msdn.microsoft.com/netframework/future/linq/">LINQ </a>preview and <a href="http://msdn.microsoft.com/vcsharp/future/default.aspx">C# 3.0</a> code, some demos I am creating for the upcoming VSLive <a href="http://www.ftponline.com/conferences/vslive/">conferences </a>and some work for my job &hellip; when all of the sudden my web site won&rsquo;t start. I rebooted my PC (the fix all solution) but it still would not start. Hmmmm. I figured it had to be something I just installed but it turned out to be something else entirely. Something I installed (or reinstalled) a few weeks ago &hellip; <a href="http://www.skype.com/">Skype</a>. </p> <p>It turns out that <a href="http://www.skype.com/helloagain.html">Skype </a>was binding itself to my ports so IIS could not start my default web site on port 80. Now why this just started happening tonight I may never know. But thanks to <a href="http://mcosier.blogspot.com/2005/05/service-could-not-bind-instance-1.html">a post I found on Matthew Cosier&rsquo;s Blog</a> it pointed me to <a href="http://www.skype.com/helloagain.html">Skype</a>.</p> <p>As soon as I went into the options of <a href="http://www.skype.com/helloagain.html">Skype </a>and went to view the connection settings, I unchecked the checkbox that allows <a href="http://www.skype.com/helloagain.html">Skype </a>to use port 80 and 443. I then shut <a href="http://www.skype.com/helloagain.html">Skype </a>down and turned it back on and all was well. My web site started just fine this time. I like <a href="http://www.skype.com/helloagain.html">Skype</a>, but man that is annoying. Thankfully a quick <a href="http://www.google.com/">Google </a>search found Matthew&rsquo;s post and i only lost about 15 minutes of time. I&rsquo;m reposting it so future victims will have double the chances to get a hit on <a href="http://www.google.com/">Google</a>.</p>
+

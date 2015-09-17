@@ -1,0 +1,10 @@
+---
+layout: post
+title: Feedburner Up and Down
+date: 2008-08-16 15:42
+author: John
+comments: true
+categories: [All]
+---
+<p>Yesterday I noticed a huge drop of about 50% on of <a href="http://www.feedburner.com">Feedburner</a> subscriber count. I went from 611 to 311 in a day. It turns out that a lot of people were talking about this on <a href="http://twitter.com/">Twitter</a> and on the web so after a little bit of poking around I found that the Google Feedcatcher stats were not showing up on my subscriber list. The Google Feedcatcher makes up about 50% of my subscribers, so it looks like that was the culprit. </p>  <p>So if you had a drop yesterday too, that’s probably the reason. It looks to all be back to normal today.</p>  <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/FeedburnerUpandDown_DB7A/image_2.png"><img title="image" style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="200" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/FeedburnerUpandDown_DB7A/image_thumb.png" width="389" border="0" /></a> </p>  <p></p>  <p></p>  <p></p>  <p>Notice the right half of the pie chart is all Google.</p><div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/feedburner-up-and-down/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/feedburner-up-and-down/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" alt="DotNetKicks Image" border="0/"></a></div><div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript">var dzone_url = '/all/feedburner-up-and-down/';</script><script type="text/javascript">var dzone_title = 'Feedburner Up and Down';</script><script type="text/javascript">var dzone_blurb = 'Feedburner Up and Down';</script><script type="text/javascript">var dzone_style = '1';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+
