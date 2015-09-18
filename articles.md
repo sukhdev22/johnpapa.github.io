@@ -1,0 +1,123 @@
+---
+layout: page
+title: Articles
+permalink: /articles/
+---
+
+<h5>2012</h5>
+<a href="http://visualstudiomagazine.com/articles/2012/09/01/client-side-storage.aspx" target="_blank">A Unified Approach to Client-Side Storage (Aug 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/08/01/get-involved-in-open-source.aspx" target="_blank">Git Involved in Open Source (Aug 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/07/01/3-things-you-need-to-learn-about-css-selectors.aspx" target="_blank">3 Things You Need to Learn About CSS Selectors (Jul 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/06/01/gunfight-at-the-ok-corral-javascript-libraries.aspx" target="_blank">JavaScript Libraries: Picking the Right One for You (Jun 2012)</a>
+<a href="http://msdn.microsoft.com/en-us/magazine/3f15161c-1692-4780-8125-9b1fa960f922" target="_blank">Client Insight: Advanced JsRender Templating Features (May 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/05/01/impact-from-windows-8-in-2012-and-beyond.aspx" target="_blank">The Impact from Windows 8, in 2012 and Beyond (May 2012)</a>
+<a href="http://msdn.microsoft.com/en-us/magazine/afbf1741-fda2-41e9-918e-113794ab279a" target="_blank">Client Insight: Using JsRender with JavaScript and HTML (April 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/04/01/code-reuse-with-external-templates-and-knockoutjs.aspx" target="_blank">Code Reuse with External Templates and Knockout.js (Apr 2012)</a>
+<a href="http://msdn.microsoft.com/en-us/magazine/6e8addc2-e701-49f4-8cfc-174ffd897d9a" target="_blank">Client Insight: Knockout's Built-in Bindings for HTML and JavaScript (Mar 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/03/05/developer-impacts-2012.aspx" target="_blank">Developer Impacts 2012 (Mar 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/03/01/5-minute-tour-of-css3-background-gradients.aspx" target="_blank">5-Minute Tour of CSS3 Background Gradients (Mar 2012)</a>
+<a href="http://msdn.microsoft.com/en-us/magazine/e1f5beaa-0f00-4ea4-a952-2164205b897a" target="_blank">Client Insight: Getting Started with Knockout (Feb 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/02/22/was-mix-a-missed-opportunity-for-microsoft.aspx" target="_blank">MIX: a Missed Opportunity for Microsoft? (Feb 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/02/01/2-great-javascript-data-binding-libraries.aspx" target="_blank">2 Great JavaScript Data-Binding Libraries (Feb 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/01/20/3-impacts-from-2011-and-what-they-mean-moving-forward-part-1.aspx" target="_blank">3 Impacts from 2011, and What they Mean Moving Forward (Jan 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/01/10/easy-web-development-with-jsfiddle.aspx" target="_blank">Easy Web Development with jsFiddle (Jan 2012)</a>
+<a href="http://visualstudiomagazine.com/articles/2012/01/01/microsoft-phone-challenges.aspx" target="_blank">Windows Phone Challenges for Microsoft (Jan 2012)</a>
+<h5>2011</h5>
+<a href="http://visualstudiomagazine.com/articles/2011/12/01/working-with-the-html5-canvas.aspx" target="_blank">Working with the HTML5 Canvas: A 5-Minute Tutorial (Dec 2011)</a>
+<a href="http://visualstudiomagazine.com/articles/2011/11/28/an-entity-framework-book-worth-your-time.aspx" target="_blank">An Entity Framework Book Worth Your Time (Nov 2011)</a>
+<a href="http://visualstudiomagazine.com/articles/2011/11/14/getting-the-most-out-of-twitter.aspx" target="_blank">Getting the Most out of Twitter (Nov 2011)</a>
+<a href="http://visualstudiomagazine.com/articles/2011/11/01/silverlight-skills-carry-over-to-windows-8-metro-style-apps.aspx" target="_blank">Silverlight Skills Carry Over to Windows 8 'Metro Style' Apps (Nov 2011)</a>
+<a href="http://visualstudiomagazine.com/articles/2011/10/25/running-windows-8-in-a-virtual-machine.aspx" target="_blank">Running Windows 8 in a Virtual Machine (Oct 2011)</a>
+<a href="http://visualstudiomagazine.com/articles/2011/10/20/simple-and-sustainable-development.aspx" target="_blank">It's Beautiful, But is it Sustainable? (Oct 2011)</a>
+<a href="http://visualstudiomagazine.com/articles/2011/10/01/mvvm-in-5-minutes.aspx" target="_blank">MVVM in 5 Minutes (Oct 2011)</a>
+<a href="http://visualstudiomagazine.com/articles/2011/09/30/windows-8-animations.aspx" target="_blank">Windows 8 Animations Library Creates Better User Experiences (Sep 2011)</a>
+<a href="http://visualstudiomagazine.com/articles/2011/09/20/retemplating-in-blend.aspx" target="_blank">Retemplating a Control and Adding Visual States with Expression Blend (Sep 2011)</a>
+<a href="http://visualstudiomagazine.com/articles/2011/09/01/pdpap_effective-javascript.aspx" target="_blank">Effective JavaScript Tips (Sep 2011)</a>
+<a href="http://visualstudiomagazine.com/articles/2011/08/22/expression-blend-tips.aspx" target="_blank">Expression Blend Drawing Tips (Aug 2011)</a>
+<a href="http://visualstudiomagazine.com/articles/2011/08/15/fundamental-mvvm.aspx" target="_blank">Fundamental MVVM (Aug 2011)</a>
+<h5>2009</h5>
+<a href="http://msdn.microsoft.com/en-us/magazine/780d2e55-fe3d-4fa1-9389-9a79c1c346d6" target="_blank">Data Validation with Silverlight 3 and the DataForm (Oct 2009)</a>
+<a href="http://msdn.microsoft.com/en-us/magazine/a60b7bf7-9325-4bd1-b231-d69505240159" target="_blank">Data Performance and Fault Strategies in Silverlight 3 (Aug 2009)</a>
+<a href="http://msdn.microsoft.com/en-us/magazine/0baffc04-f18b-429b-97f1-162e150bc989" target="_blank">Building An Out-of-Browser Client With Silverlight 3 (Jun 2009)</a>
+<a href="http://msdn.microsoft.com/en-us/magazine/cd979095-74ec-46bc-931e-f5595265e939" target="_blank">Using Silverlight 2 With ADO.NET Data Services (Apr 2009)</a>
+<a href="http://www.simple-talk.com/dotnet/.net-framework/using-silverlight-to-build-a-guitar-chord-calculator/" target="_blank">Using Silverlight to Build a Guitar Chord Calculator (Mar 2009)</a>
+<a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx" target="_blank">Syndicated Data And Isolated Storage In Silverlight (Feb 2009)</a>
+<h5>2008</h5>
+<a href="http://msdn.microsoft.com/en-us/magazine/dd148648.aspx" target="_blank">Cloud Gazing with Silverlight 2 (Nov 2008)</a>
+<a href="http://msdn.microsoft.com/en-us/magazine/cc794260.aspx" target="_blank">Service Driven Apps with Silverlight 2 and WCF (Sep 2008)</a>
+<a href="http://msdn.microsoft.com/en-us/magazine/cc700340.aspx" target="_blank">Entity Framework in Layered Architectures (Jul 2008)</a>
+<a href="http://www.simple-talk.com/dotnet/.net-framework/data-and-silverlight-2-data-binding/" target="_blank">Data Binding and Silverlight 2 (Jun 2008)</a>
+<a href="http://msdn.microsoft.com/en-us/magazine/cc507640.aspx" target="_blank">Entity Framework Q&amp;A (May 2008)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc337893.aspx" target="_blank">Standard Query Operators with LINQ (Mar 2008)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163286.aspx" target="_blank">Designing an Entity Model (Feb 2008)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc135982.aspx" target="_blank">Accessing Data in Mobile Applications (Jan 2008)</a>
+<h5>2007</h5>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163299.aspx" target="_blank">Data Binding in WPF (Dec 2007)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163346.aspx" target="_blank">SQL Server CTE's (Oct 2007)</a>
+<a href="http://www.simple-talk.com/dotnet/.net-framework/.net-3.5-language-enhancements/" target="_blank">.NET 3.5 Language Enhancements (July 2007)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163399.aspx" target="_blank">ADO.NET Entity Framework Overview (Jul 2007)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163409.aspx" target="_blank">SQL Server Management Objects (Jun 2007)</a>
+<a href="http://www.simple-talk.com/dotnet/.net-tools/gathering-rss-feeds-using-visual-studio-and-rss.net/" target="_blank">Gathering RSS Feeds (May 2007)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163442.aspx" target="_blank">Disabling Constraints and Triggers (Apr 2007)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163477.aspx" target="_blank">Data Bound Applications with ADO.NET and Custom Objects (Feb 2007)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163495.aspx" target="_blank">Column Expressions, DataRelations, and Computations (Jan 2007)</a>
+<h5>2006</h5>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163511.aspx" target="_blank">RSS Feeds on a Smartphone (Dec 2006)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163527.aspx" target="_blank">System.Transactions (Nov 2006)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163584.aspx" target="_blank">Reporting controls in SQL Server 2005 Reporting Services (Jul 2006)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc188691.aspx" target="_blank">Designing Reports with SQL Server Reporting Services 2005 (Jun 2006)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163611.aspx" target="_blank">SQL Server 2005 XML support, exception handling, and more (May 2006)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163639.aspx" target="_blank">Using XQuery, New Large DataTypes, and More (Mar 2006)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163671.aspx" target="_blank">SqlConnectionStringBuilder, DataView, and More (Jan 2006)</a>
+<h5>2005</h5>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163709.aspx" target="_blank">DataSet and DataTable in ADO.NET 2.0 (Nov 2005)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc188702.aspx" target="_blank">The Enterprise Library Data Access Application Block, Part 3 (Oct 2005)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc188705.aspx" target="_blank">The Enterprise Library Data Access Application Block, Part 2 (Aug 2005)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163766.aspx" target="_blank">The Enterprise Library Data Access Application Block, Part 1 (Jul 2005)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163782.aspx" target="_blank">XML Features in SQL Server 2000 (Jun 2005)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163799.aspx" target="_blank">Data Access Strategies Using ADO.NET and SQL (May 2005)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163847.aspx" target="_blank">ADO.NET and System.Transactions (Feb 2005)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163862.aspx" target="_blank">Data Source Controls in ASP.NET 2.0 (Jan 2005)</a>
+<h5>2004</h5>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163877.aspx" target="_blank">Efficient Coding With Strongly Typed DataSets (Dec 2004)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163891.aspx" target="_blank">Updating Data in Linked Servers, Information Schema Views, and More (Nov 2004)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163908.aspx" target="_blank">Handling Data Concurrency Using ADO.NET, Part 2 (Oct 2004)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163924.aspx" target="_blank">Handling Data Concurrency Using ADO.NET (Sep 2004)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163940.aspx" target="_blank">Migrating from ADO to ADO.NET, Part 2 (Aug 2004)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163954.aspx" target="_blank">Migrating from ADO to ADO.NET (Jul 2004)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc188717.aspx" target="_blank">Contrasting the ADO.NET DataReader and DataSet (Jun 2004)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc188728.aspx" target="_blank">Saving Parent-child Data in a Multitiered App Using ADO.NET (May 2004)</a>
+<a href="http://www.ftponline.com/vsm/2004_07/magazine/columns/qa/" target="_blank">Display and Manage Images in ASP.NET (May 2004)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc163987.aspx" target="_blank">Creating Audit Tables, Invoking COM Objects, and More (Apr 2004)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc164003.aspx" target="_blank">Exception-handling Techniques (Mar 2004)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc164032.aspx" target="_blank">Exploring SQL Server Triggers: Part 2 (Jan 2004)</a>
+<h5>2003</h5>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc164047.aspx" target="_blank">Exploring SQL Server Triggers (Dec 2003)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc164062.aspx" target="_blank">SQL Server User-defined Functions (Nov 2003)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc164076.aspx" target="_blank">Exploring the ADO.NET DataRow (Oct 2003)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc164090.aspx" target="_blank">Developing with .NET Compact Framework, SQL Server CE, &amp; Replication (Sep 2003)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc164120.aspx" target="_blank">Managing Hierarchical Inserts in ASP.NET and ADO.NET (Jul 2003)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc164134.aspx" target="_blank">Techniques in Filling ADO.NET DataTables: Performing Your Own Analysis (Jun 2003)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc164150.aspx" target="_blank">Techniques for Managing Rowset Paging (Mar 2003)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc188790.aspx" target="_blank">Expressions in ADO.NET (Jan 2003)</a>
+<h5>2002</h5>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc188919.aspx" target="_blank">DataRelations in ADO.NET (Nov 2002)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc301622.aspx" target="_blank">Five Ways to Rev up Your SQL Performance (Jul 2002)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc301615.aspx" target="_blank">Building a Tiered Web App Using the DataSet and the ASP DataGrid (May 2002)</a>
+Establishing Relationships Between Rowsets with ADO.NET (Feb 2002)
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc301606.aspx" target="_blank">Using the ADO.NET DataSet for Multitiered Apps (Jan 2002)</a>
+<h5>2001</h5>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc301605.aspx" target="_blank">Abstracting ADO.NET (Nov 2001)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc301598.aspx" target="_blank">ADO to XML: Building a Data Access Tier with DataManager Component (Aug 2001)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc301592.aspx" target="_blank">Revisiting the Ad-Hoc Data Display Web Application (Jun 2001)</a>
+<a href="http://msdn2.microsoft.com/en-us/magazine/cc301946.aspx" target="_blank">SSL: Protect Your E-Commerce Web Site with SSL and Digital Certificates (Apr 2001)</a>
+<h5>2000</h5>
+Managing Session State Across Servers on a Web Farm (Oct 2000)
+<h5>1999</h5>
+Using Stored Procedures from ADO 2.1: Enhancing the Refresh Method (Nov 1999)
+Automically Backing Up Your Files in Visual SourceSafe (Sep 1999)
+Creating HTML Pick Lists with Remote Data Services (May 1999)
+Enable Email in Your Web Application (Feb 1999)
+Shape Up Your Data: Using ADO 2.0 Hierarchical Recordsets in ASP (Jan 1999)
+<h5>1998</h5>
+Ad Hoc Web Reporting with ADO 2.0 (Dec 1998)
