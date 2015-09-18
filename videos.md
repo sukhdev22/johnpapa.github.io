@@ -4,13 +4,21 @@ title: Videos
 permalink: /videos/
 ---
 
-<h2>Videos at Pluralsight</h2>
-<ul>
-        <li><a href="http://jpapa.me/artspeaking" target="_blank">The Art of Public Speaking and Effective Presentations</a><img class=" wp-image-12011 alignnone" style="border: 0px; position: absolute; margin: -2px 0 0 0;" alt="new" src="http://www.johnpapa.net/wp-content/uploads/2012/12/new.png" width="42" height="33" /></li>
-        <li><a href="http://jpapa.me/spajsps" target="_blank">Single Page Apps Jump Start</a><img class=" wp-image-12011 alignnone" style="border: 0px; position: absolute; margin: -2px 0 0 0;" alt="new" src="http://www.johnpapa.net/wp-content/uploads/2012/12/new.png" width="42" height="33" /></li>
-	<li><a href="http://jpapa.me/spaps" target="_blank">Single Page Apps with HTML5, Web API, Knockout and jQuery</a></li>
-	<li><a href="http://jpapa.me/komvvm" target="_blank">Building HTML5 and JavaScript Apps with MVVM and Knockout</a></li>
-	<li><a href="http://jpapa.me/typescript101" target="_blank">TypeScript Fundamentals</a></li>
-	<li><a href="http://jpapa.me/jsrenderps" target="_blank">JsRender Fundamentals</a></li>
-	<li><a href="http://jpapa.me/Win8IntroPS" target="_blank">Introduction to Building Windows 8 Applications</a></li>
-</ul>
+##Videos at Pluralsight
+
+- [Visual Studio Code](http://jpapa.me/vscodecourse)
+- [Angular Testing: Play by Play with Ward Bell](http://jpapa.me/pbptesting)
+- [JavaScript Build Automation with Gulp](http://jpapa.me/gulpps)
+- [Learning Angular: Play by Play with Ken Cenerelli](http://jpapa.me/pbpken)
+- [Angular Patterns: Clean Code](http://jpapa.me/ngclean)
+- [Building Apps with Angular and Breeze - Part 1](http://jpapa.me/spangz1)
+- [Building Apps with Angular and Breeze - Part 2](http://jpapa.me/spangz2)
+- [Angular: Play by Play with Ward Bell](http://jpapa.me/pbpngdesign)
+- [Essential Knockout and JavaScript Tips](http://jpapa.me/kotips)
+- [The Art of Public Speaking and Effective Presentations](http://jpapa.me/artspeaking)
+- [Single Page Apps Jump Start](http://jpapa.me/spajsps)
+- [Single Page Apps with HTML5, Web API, Knockout and jQuery](http://jpapa.me/spaps)
+- [Building HTML5 and JavaScript Apps with MVVM and Knockout](http://jpapa.me/komvvm)
+- [TypeScript Fundamentals](http://jpapa.me/typescript101)
+- [JsRender Fundamentals](http://jpapa.me/jsrenderps)
+- [Introduction to Building Windows 8 Applications](http://jpapa.me/Win8IntroPS)
