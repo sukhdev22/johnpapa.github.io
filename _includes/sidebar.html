@@ -1,17 +1,12 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
-	<!--<div class="sidebar-title-img">
-		<img src="/assets/media/johnpapa.net.png?s=150" />
-	</div>-->
+	<h1 class="text-center">John Papa</h1>
 	<a href="{{ site.BASE_PATH }}/">
 		<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
 	</a>
 	<h3 class="title">
-        <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
-    </h3>
-	<!--<div class="sidebar-logo">
-		<img src="/assets/media/jp.png" />
-	</div>-->
+		<a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
+	</h3>
 </header>
 
 {% if site.author.bio %}
@@ -48,25 +43,21 @@
 			</a>
 		</li>
 		{% endif %}
-		{% if site.author.pinterest %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://pinterest.com/{{ site.author.pinterest }}">
-				<i class="fa fa-pinterest fa-lg"></i>
-			</a>
-		</li>
-		{% endif %} {% if site.author.linkedin %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.author.linkedin }}">
-				<i class="fa fa-linkedin fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
 	</ul>
 
 	<div class="sidebar-content">
 
+		<nav id="page-nav">
+			<ul class="main-navigation list-unstyled list-inline">
+				<li><a href="/about/">About</a></li>
+				<li><a href="/articles">Articles</a></li>
+				<li><a href="/spa">SPA</a></li>
+				<li><a href="/videos">Videos</a></li>
+			</ul>
+		</nav>
+
 		<h5>Recent Posts</h5>
-		<ul class="list-unstyled list-inline">
+		<ul class="list-unstyled">
 			{% for post in site.posts limit:10 %}
 				<li>
 					<span>{{ post.date | date_to_string }}</span> &raquo;
