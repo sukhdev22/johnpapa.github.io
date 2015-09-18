@@ -1,0 +1,138 @@
+<p>Good day.</p>
+
+<p>I’m building an app in Durandal and knockout. I’m trying to get images to display in my app. How should my html and js files look like?</p>
+
+<p>My current files look like this:</p>
+
+<p>Html:</p>
+
+<pre><code>Welcome Screen
+
+
+    The screen indicates some technical requirements needed to successfully run the system:
+    JavaScript, HTML5 and CSS3
+
+Icons of preferred browsers are shown but for optimal user experience we suggest Chrome. 
+Click the green “Load application” button to start the system.
+</code></pre>
+
+<p>Js:
+define(function (require) {
+    //var http = require(‘plugins/http’),
+    ko = require(‘knockout’);</p>
+
+<p>// var img = “../images/WelcomScreen.png”;
+    /*
+    var url = ‘../images/WelcomScreen.png’;</p>
+
+<pre><code>var qs = {
+    tags: 'mount ranier',
+    tagmode: 'any',
+    format: 'json'
+};*/
+
+
+return {
+
+    img: ko.observable(),
+
+    activate: function () {
+        img = "../images/WelcomScreen.png";
+        return img;
+    }
+
+    /*
+    images: ko.observableArray([]),
+    activate: function () {
+        var that = this;
+        if (this.images().length &amp;gt; 0) {
+            return;
+        }
+
+        return http.jsonp(url, qs, 'jsoncallback').then(function (response) {
+            that.images(response.items);
+        });
+    }*/
+}; });
+</code></pre>
+
+<p>Please help me.</p>
+
+<p>Kind regards
+Yvette
+<!--more-->
+AUTHOR: Yvette
+AUTHOR EMAIL: yvettek@omegahr.co.za
+AUTHOR URL: 
+SUBJECT: [John Papa] Connect
+IP: 192.168.0.142
+Array
+(
+    [1_Name] =&gt; Yvette
+    [2_Email] =&gt; yvettek@omegahr.co.za
+    [3_Website] =&gt; 
+    [4_Comment] =&gt; Good day.</p>
+
+<p>I’m building an app in Durandal and knockout. I’m trying to get images to display in my app. How should my html and js files look like?</p>
+
+<p>My current files look like this:</p>
+
+<p>Html:</p>
+
+<pre><code>Welcome Screen
+
+
+    The screen indicates some technical requirements needed to successfully run the system:
+    JavaScript, HTML5 and CSS3
+
+Icons of preferred browsers are shown but for optimal user experience we suggest Chrome. 
+Click the green “Load application” button to start the system.
+</code></pre>
+
+<p>Js:
+define(function (require) {
+    //var http = require(‘plugins/http’),
+    ko = require(‘knockout’);</p>
+
+<p>// var img = “../images/WelcomScreen.png”;
+    /*
+    var url = ‘../images/WelcomScreen.png’;</p>
+
+<pre><code>var qs = {
+    tags: 'mount ranier',
+    tagmode: 'any',
+    format: 'json'
+};*/
+
+
+return {
+
+    img: ko.observable(),
+
+    activate: function () {
+        img = "../images/WelcomScreen.png";
+        return img;
+    }
+
+    /*
+    images: ko.observableArray([]),
+    activate: function () {
+        var that = this;
+        if (this.images().length &amp;gt; 0) {
+            return;
+        }
+
+        return http.jsonp(url, qs, 'jsoncallback').then(function (response) {
+            that.images(response.items);
+        });
+    }*/
+}; });
+</code></pre>
+
+<p>Please help me.</p>
+
+<p>Kind regards
+Yvette</p>
+
+<p>)</p>
+

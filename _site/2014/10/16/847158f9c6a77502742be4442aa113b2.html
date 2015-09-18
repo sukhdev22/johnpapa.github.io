@@ -1,0 +1,61 @@
+<p>Hi John</p>
+
+<p>Thanks for your great style guide. I just wanted to share one observation regarding the controllerAs syntax in conjunction with a $watcher. I found that</p>
+
+<p>$scope.$watch( ‘vm.myVar’, function .. etc</p>
+
+<p>didnt work. What I needed was:</p>
+
+<p>$scope.$watch( function(){ return vm.myVar; }, function .., etc</p>
+
+<p>And furthermore, if I were watching a variable on an injected service, and had referenced the service as a local variable, I needed this:</p>
+
+<p>vm.myService  = MyService;
+$scope.$watch( function(){ return vm.getValue() ), function(){ /* do stuff */ });</p>
+
+<p>vm.getValue = function(){ return vm.myService.getValue() };</p>
+
+<p>Though the watcher worked if I referenced MyService directly.</p>
+
+<p>Anyway, just offering it as a possible amendment to your excellent suggestions.</p>
+
+<p>Thanks</p>
+
+<p>Doug
+<!--more-->
+AUTHOR: doug goodman
+AUTHOR EMAIL: doug31415@gmail.com
+AUTHOR URL: 
+SUBJECT: [John Papa] Connect
+IP: 108.20.203.128
+Array
+(
+    [1_Name] =&gt; doug goodman
+    [2_Email] =&gt; doug31415@gmail.com
+    [3_Website] =&gt; 
+    [4_Comment] =&gt; Hi John</p>
+
+<p>Thanks for your great style guide. I just wanted to share one observation regarding the controllerAs syntax in conjunction with a $watcher. I found that</p>
+
+<p>$scope.$watch( ‘vm.myVar’, function .. etc</p>
+
+<p>didnt work. What I needed was:</p>
+
+<p>$scope.$watch( function(){ return vm.myVar; }, function .., etc</p>
+
+<p>And furthermore, if I were watching a variable on an injected service, and had referenced the service as a local variable, I needed this:</p>
+
+<p>vm.myService  = MyService;
+$scope.$watch( function(){ return vm.getValue() ), function(){ /* do stuff */ });</p>
+
+<p>vm.getValue = function(){ return vm.myService.getValue() };</p>
+
+<p>Though the watcher worked if I referenced MyService directly.</p>
+
+<p>Anyway, just offering it as a possible amendment to your excellent suggestions.</p>
+
+<p>Thanks</p>
+
+<p>Doug
+)</p>
+

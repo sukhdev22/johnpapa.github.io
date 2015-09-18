@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>dbyll</title>
+	
+	<meta name="author" content="dbyll">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/dbtek">
+				<i class="fa fa-github"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/dbtek">
+				<i class="fa fa-twitter"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="mailto:dbyll@ismaildemirbilek.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			
+			<a class="navbar-brand" href="/">
+				<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=35" class="img-circle" />
+				
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs">
+		<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=150" class="img-circle" />
+	</a>
+	<h3 class="title">
+        <a href="/"></a>
+    </h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Your stylish, minimalist theme!
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/dbtek">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/dbtek">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:dbyll@ismaildemirbilek.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://pinterest.com/asd123">
+				<i class="fa fa-pinterest fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/asd123">
+				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 col-sm-offset-3">
+		<div class="page-header">
+  <h1>dbyll </h1>
+</div>
+
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    March
+    1st,
+    
+    2009
+  </span>
+
+  <h2>
+    <a href="/all/2009/03/01/fighting-back-against-the-sql-server-2005-tools-installation-program.html">Fighting Back Against the SQL Server 2005 Tools Installation Program</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>There is a funky problem that sometimes sticks its ugly head out and bites you when trying to install SQL Server 2005 and its tools. I’ve hit this a few times when installing, but not every time. When installing SQL Server 2005, its databases and its tools sometimes the client tools do not get installed even when you check the box for this option. Then you go to the Start menu and look for the tools and they are not there! So then you go try to install them again, thinking maybe you did not check that box. This time it says the tools are already installed so there is nothing for the install program to do. Now the growling begins.</p>
+<p>I’ve read some interesting theories behind why this happens, mostly revolving around how the main SQL installer does not run the tools installer properly. I just want my tools installed :-). I have enough to do without worrying about installing software all day long.</p>
+<p>The solution is to go to the Tools folder on your installation CD (or DVD) and run the Tools install program directly. Your path may vary of course, but on my CD it was located at this path.</p>
+<p>&#160;</p>
+<blockquote>   <p><em>E:\ENGLISH\SQL2005\DEVELOPER\SQL Server x64\Tools\Setup\SqlRun_Tools.msi</em></p> </blockquote>
+<p>&#160;</p>
+<p>Notice I am running the english 64bit version of SQL Server 2005 Developer edition. The executable to install the tools is named <em>SqlRun_Tools.msi</em></p>
+<p>&#160;</p>
+<p>I hope this helps someone save some time and growls :-)</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    27th,
+    
+    2009
+  </span>
+
+  <h2>
+    <a href="/silverlight/2009/02/27/live-search-from-silverlight.html">Live Search from Silverlight</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>My <a href="http://www.code-magazine.com/Article.aspx?quickid=0903051">first article for CoDe Magazine is now online</a>.&#160; The article is a short one that explains how to use Live Search from a Silverlight application using HTTP communication. I modified an excerpt from my book <a href="http://www.amazon.com/exec/obidos/ASIN/0596523092/johnpanet-20">Data-Driven Services with Silverlight 2</a> (with the permission of O’Reilly Media of course) and made it available to CoDe Magazine. I thought that this would be a good quick example for anyone interested in how to hook into external services from Silverlight.</p>
+<p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/LiveSearchfromSilverlight_11346/image_8.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/LiveSearchfromSilverlight_11346/image_thumb_2.png" width="244" height="69" /></a></p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    23rd,
+    
+    2009
+  </span>
+
+  <h2>
+    <a href="/silverlight/2009/02/23/heading-to-mix-09-and-presenting-too.html">Heading to MIX 09 and Presenting Too</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="http://2009.visitmix.com/">MIX</a> is a unique conference in the Microsoft world as its not nearly as big as the PDC nor Tech Ed in sheer size<a href="http://2009.visitmix.com/"><img style="border-right-width: 0px; margin: 5px 5px 5px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/HeadingtoMIX09andPresentingToo_CA19/image_3.png" width="260" height="92" /></a>, yet it could be the most interesting conference. MIX combines the developer and designer communities for web development and has historically been the launching pad for WPF and <a href="http://silverlight.net">Silverlight</a> related news. MIX is held in Las Vegas, which is a great conference city and is pretty easy to get to. Because its a smaller sized conference (less people), its easier to network, have more conversations, and you get more of a sense of the people around you. </p>
+<p><strong><font color="#ff00ff">Who is MIX for?</font></strong></p>
+<p>MIX is for designer and developers. Lots of AJAX, ASP.NET, Silverlight, RIA in general, XAML, cool design fun and more.</p>
+<p><strong><font color="#ff00ff">But its so expensive, isn’t it?</font></strong></p>
+<p>Yes, but … its getting cheaper by the day too, the cost started out for me at $1300 for hotel ($900) and flight ($400) … my flight was just reduced by $100 and my hotel by $560.&#160; The Venetian is running a special of $199 per night and if you stay 2 nights, you get the 3rd night free. So its about $150 a night for 3 nights including taxes. You can stay even cheaper if you book another hotel a little off the strip too.</p>
+<p><strong><font color="#ff00ff">I’m speaking there.</font></strong></p>
+<p>I just found out that one of my topics was selected for MIX, so I will also be presenting at MIX 09. My session title is “<a href="https://content.visitmix.com/2009/Sessions">When Errors Happen: Debugging Microsoft Silverlight</a>”. The idea came from many of the trials I went through in figuring out good ways to debug problems when developing RIA applications. The abstract is as follows:</p>
+<blockquote>   <p><a href="https://content.visitmix.com/2009/Sessions">When Errors Happen: Debugging Microsoft Silverlight</a></p>    <p>Come see how to debug Silverlight applications using Fiddler, Internet Explorer 8, and the Web Development Helper tools. Learn how using the right tool save precious time and effort whether dealing with cross domain policy recognition, RESTful response analysis, or just a general error.</p></blockquote>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    14th,
+    
+    2009
+  </span>
+
+  <h2>
+    <a href="/all/2009/02/14/book-review-pro-ado-net-data-services.html">Book Review&#58; Pro ADO.NET Data Services</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>I’ve been catching up on some reading and research lately. The blogs, articles, and books just seem to pile up, don’t they? The latest book I knocked off my reading list is <a href="http://www.amazon.com/exec/obidos/ASIN/143021614X/johnpanet-20">Pro ADO.NET Data Services</a>. I was really excited to read this book given my interest in Astoria (yes, I know its ADO.NET Data Services, but I like calling it Astoria still). In fact, I wrote an entire chapter in my book on a subset of Astoria … specifically in how it works with Silverlight 2. I was pretty thrilled to be able to read a book that dives into Astoria over the course of 300 pages.<a href="http://www.amazon.com/exec/obidos/ASIN/143021614X/johnpanet-20"><img style="border-bottom: 0px; border-left: 0px; margin: 5px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" align="left" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/BookReviewProADO.NETDataServices_D5AD/image_5.png" width="174" height="228" /></a> </p>
+<p>The book starts off with a very good discussion of RESTful services and Astoria. The foundations are laid out quite well and I highly recommend reading this material even as a refresher. Chapters 1 and 2 are excellent at describing the fundamentals. </p>
+<p>Chapter 3 has a lot of good material and topics, however I found it laid out in a very confusing manner. It just did not flow well for me. But I do stress that it is worth reading as there is a lot of good material in it. Still a very good chapter. One specific topic I liked was the discussion of the $value command. I admit, I was unaware of that (always nice to learn something new!)</p>
+<p>Chapter 4 covers WCF services and APIs with Astoria. More good material here.</p>
+<p>The remaining chapters lost a lot of steam for me. They cover the role of Astoria with AJAX, Mashups, Silverlight and BizTalk. The information is OK, but the flow and the coverage of the topics just seemed haphazard to me. Again, let me be clear …. it i all GOOD material but I found myself scratching my head on where we were going next.I also would have liked to have seen some full examples of building applications with Astoria to tie together a lot of the earlier topics.</p>
+<p>One disclaimer … I did not read the chapter on BizTalk so my review has nothing to do with that chapter. I 'can’t comment one way or the other on it.</p>
+<p>Chapter 9 sums up with a nice discussion of the future of Astoria. </p>
+<p><strong>Conclusion:</strong></p>
+<p>The book started out very strong for me (5/5 stars) and covered a lot of the basics of Astoria, but the flow and minimal coverage on some topics made me less content with the second half of the book. Ultimately, I do recommend buying this book if you want to learn Astoria. I rate this book with 3.5/5 stars. </p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    10th,
+    
+    2009
+  </span>
+
+  <h2>
+    <a href="/silverlight/2009/02/10/ado-net-data-services-and-silverlight-at-the-tampa-ux-user-group.html">ADO.NET Data Services and Silverlight at the Tampa UX User Group</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="http://www.tampaux.org/"><img style="border-bottom: 0px; border-left: 0px; margin: 5px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" align="right" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/ADO.NETDataServicesandSilverlightattheTa_D081/image5.png" width="260" height="162" /></a>Tomorrow night I will be visiting the <a href="http://www.fladotnet.com/Reg.aspx?EventID=362">Tampa UX user group</a> (TUX) for an <a href="http://ineta.org">INETA</a> sponsored event to demonstrate how ADO.NET Data Services can be set up to work with Silverlight, how to communicate with the from Silverlight, and some other cool stuff. I’ve got a stash of books to give away from O’Reilly Media, including a couple of my <a href="http://www.amazon.com/exec/obidos/ASIN/0596523092/johnpanet-20">Data Driven Services with Silverlight 2</a> books. </p>
+<p>If you are in the Tampa area, stop by … more information below:</p>
+<p>&#160;</p>
+<p>WHO: John Papa (MVP C#)    <br />WHEN: Wednesday, February 11th, 2009     <br />Doors open at 6:30PM, presentations start at 7:00PM Sharp!     <br />WHERE: Answers Systems (<a href="http://maps.live.com/default.aspx?v=2&amp;FORM=LMLTCP&amp;cp=28.036972%7E-82.653011&amp;style=r&amp;lvl=14&amp;tilt=-90&amp;dir=0&amp;alt=-1000&amp;phx=0&amp;phy=0&amp;phscl=1&amp;where1=4029%20Tampa%20Rd%20Oldsmar%20fl%2034677&amp;encType=1">Directions</a>)     <br />WHAT: John Papa on ADO.NET Data Services with a little Silverlight Binding.     <br />Much of this material comes from John's excellent book <a href="http://www.amazon.com/exec/obidos/ASIN/0596523092/johnpanet-20">Data-Driven Services with Silverlight 2</a>. John writes the Data Points column for MSDN Magazine and speaks at a lot of national conferences.     <br />We'll have a few other things going on too. We are giving away a full copy of Blend Studio (that's all the MS Blend products in case you didn't know).     <br />As always we'll have pizza, additional prizes, and plenty of fun.     <br />This event is sponsored by <img alt="Official INETA Logo" src="http://www.ineta.org/OfficialLogo.ashx?ugid=1" width="114" height="70" /></p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    10th,
+    
+    2009
+  </span>
+
+  <h2>
+    <a href="/all/2009/02/10/kindle-2-ndash-is-it-worth-it-now.html">Kindle 2 – Is It Worth It Now?</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>I love to read. I don;t read enough, well, there can’t be enough :) … but I wish I had more to read as my book list keeps growing faster than I read. I’m an early adopter for many tech items, but the steep price tag for the Amazon Kindle v1 was too much for me to throw at something I had no experience with. Just like the iPhone v1, I felt it was worth waiting a year to see how it fared, to see if Amazon stuck with it, see it first hand, and make sure books were going to be available in its format. </p>
+<center><iframe style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none" border="0" marginwidth="0" src="http://rcm.amazon.com/e/cm?t=johnpanet-20&amp;o=1&amp;p=12&amp;l=ur1&amp;category=kindle&amp;banner=1RR50DN6TK7D02JARP02&amp;f=ifr" frameborder="0" width="300" scrolling="no" height="250"></iframe></center>
+<p>I have had a chance to play with the Kindle and recently I decided I was going to give one a try when the net version came out. I was very happy with the feel of the Kindle and most importantly to me, it was easy on my eyes. Often with books I hold them with one hand at a time laying down, sitting, standing at the exercise machine … trying to stay comfortable. Sometimes my eyes get tired and I wish I could increase the font size. My biggest hurdle to the Kindle was my uneasiness over the strain it might put on my eyes. In the brief time I borrowed a Kindle v1, I was amazed at the screen. I am so used to LCD’s with their backlighting that I assumed my eyes would hurt, but they did not. So I will be giving the Kindle v2 a shot … <a href="http://www.amazon.com/gp/product/B00154JDAI?tag=johnpanet-20">I pre-ordered one on Amazon</a> yesterday, hoping to get one when they are released on February 24th. I’ll be reviewing it on my blog as I go through the motions with it.</p>
+<p><a href="http://www.amazon.com/gp/product/B00154JDAI?tag=johnpanet-20"><img height="143" alt="Kindle2" src="http://g-ecx.images-amazon.com/images/G/01/associates/2009/banners/k2-email_002._V251584110_.jpg" width="480" align="left" border="0" /></a></p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>You can read more about the Kindle 2 at Amazon, but the highlights to me of the new version are:</p>
+<p>- Reported longer battery life</p>
+<p>- Reported ability to read PDF and Word documents</p>
+<p>- More storage</p>
+<p>- Large selection of books</p>
+<p>- Slimmer form factor (no more angular geometric shapes. Now thin and sleek)</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    4th,
+    
+    2009
+  </span>
+
+  <h2>
+    <a href="/silverlight/2009/02/04/book-review-silverlight-in-action.html">Book Review&#58; Silverlight In Action</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="http://www.amazon.com/exec/obidos/ASIN/1933988428/johnpanet-20"><img title="image" style="border-right: 0px; border-top: 0px; display: inline; margin: 0px 5px 5px 0px; border-left: 0px; border-bottom: 0px" height="259" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/BookReviewSilverlightInAction_138AF/image_5.png" width="212" align="left" border="0" /></a>I had the chance to read through&#160; Chad Campbell and John Stockton’s book <a href="http://www.amazon.com/exec/obidos/ASIN/1933988428/johnpanet-20">Silverlight 2 in Action</a> recently. I’ve read this book along with a few others on Silverlight 2 recently. I’ll be posting reviews of the others soon, too. Overall, this book is well written from 2 very knowledgeable Silverlight&#160; sources. Before I get to my conclusion, I’ll explain my thoughts on each chapter.</p>
+<p><em>Quick disclaimer: I have my own book out on the market titled <a href="http://www.amazon.com/exec/obidos/ASIN/0596523092/johnpanet-20">Data Driven Services with Silverlight 2</a>. I do not consider these books to be competitors because they fill different informational needs. Silverlight in Action 2 targets Silverlight as a whole while <a href="http://www.amazon.com/exec/obidos/ASIN/0596523092/johnpanet-20">Data Driven Services with Silverlight 2</a> targets data, services and line of business applications specifically.&#160; So these books compliment each other, IMO. But my experience with Silverlight, teaching it,&#160; and writing about it gives me a good perspective on reviewing my colleagues’ book.</em></p>
+<p><em>Chapter 1&#160; - Introducing Silverlight</em></p>
+<p><em></em></p>
+<p><em></em></p>
+<p>Nice introduction of XAML and attached properties along with some overviews of what Silverlight is and is not. Like most intro chapters, it won’t be off interest to those already in aware of these points while for beginners it does a good job of setting the stage.</p>
+<p><em>Chapter 2 – Harmony with the Web</em></p>
+<p>Interesting chapter that discusses placement of the Silverlight control, how to embed it in HTML, the plug in features, interaction with the DOM, browser detection, and the javascript.js file and it relevance. This provides a good foundation for those interested in the surrounding aspects of a Silverlight control. </p>
+<p><em>Chapter 3 – Back to Basics: Layout and Text</em></p>
+<p>This is the first chapter that dives into the XAML for Silverlight more deeply. The basic layout panels are discussed and how they work. It also goes over the UIElement and FrameworkElement classes and their importance to Silverlight. Its a short chapter but an important piece of information that is laid out well in the book.</p>
+<p><em>Chapter 4 – Handling User Interaction</em></p>
+<p>This chapter starts by covering the ways that user interaction can be handled with clicks, mouse events, drag and drop and more. Then it dives into the most commonly used controls in Silverlight. Each control gets a brief mention at what it does and how to use it. I think it could have used a little more information and examples on each of these controls to help the reader decide which controls to use and in what situations. Covered a lot of ground but felt light to me. I was very glad to see quality coverage of the DataTemplates here.</p>
+<p><em>Chapter 5 – Getting Down with Data Binding</em></p>
+<p>This chapter covers the data binding syntax, binding modes, value converters, and all the essentials of data binding. It also covers the DataGrid control, which is great since this control needs more attention than many others since it has so many more features. A discussion of LINQ and its role in Silverlight is also presented at the end of this chapter. Overall, nice coverage of the “need to knows” of data binding.</p>
+<p><em>Chapter 6 – Networking and Communications</em></p>
+<p>This starts with a great description of cross domain communications and how to implement policy files. Its a nice level of detail before diving into the communication means. The chapter then follows up by showing how to talk to WCF services from Silverlight and how to talk to REST from Silverlight. The WCF coverage was OK, but the REST coverage felt light to me. Especially since the next topic in the chapter was covered well in in great depth: reading syndicated feed items. There is a lot to cover in this chapter and most topics are hit very well.</p>
+<p><em>Chapter 7 -&#160; Managing Digital Media</em></p>
+<p>This chapter shifts gears a bit and dives into video and other media with Silverlight. I really liked the way this chapter laid things out for the reader. It went into excellent depth on media and showed some good examples too. It contains some excellent additional tips to discuss how to deal with some issues when using video in Silverlight.</p>
+<p><em>Chapter 8 -&#160; Getting a Grip on Graphics</em></p>
+<p>Shapes, brushes, transforms … these are all basic parts of a Silverlight graphical design. They are pretty easy when broken down … and this chapter does a good job of laying them out for the reader. Good stuff, don’t skip this chapter if you are serious about Silverlight UX.</p>
+<p><em>Chapter 9 -&#160; Bringing it to Life: Animation</em></p>
+<p>This chapter has some great topics, though I found some of it a bit confusing at times. Overall it is a solid chapter though covering the essentials of animation in Silverlight. </p>
+<p><em>Chapter 10 -&#160; Giving it Style</em></p>
+<p>Excellent chapter. I really enjoyed reading through this chapter as it covered some great material that is critical to UX. Resources, visual states (with the all important VisualStateManager), templates … all critical component to creating a smooth and enjoyable user experience … and this chapters does a great job explaining them. </p>
+<p><em>Chapter 11 -&#160; Enhancing the Experience</em></p>
+<p>This is one of those chapters where you find a variety of topics that you need to know but don’t necessarily fit in any particular area. the chapter does a good job of covering its concepts, especially with Isolated Storage.</p>
+<p><em>Chapter 12 -&#160; Share the Light: Distribution and Deployment</em></p>
+<p>This chapter does a great job at explaining how to deploy a Silverlight control and provide a nice Silverlight installation screen for the user. Good stuff that we sometimes take for granted as developers.</p>
+<p><em>Conclusion</em></p>
+<p>Very good book. I give it 4.5 stars out of 5. I enjoyed the book and its presentation of the material. I found very few areas that were light while the vast majority of the material did a solid job of presenting itself to the reader. I did find a few areas that I thought could have been expanded (as I mentioned in the chapter breakdown), but overall its a solid book. I definitely recommend this book to anyone looking to learn to develop with Silverlight 2.</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    4th,
+    
+    2009
+  </span>
+
+  <h2>
+    <a href="/all/2009/02/04/sir-devfish-rsquo-s-crusade-of-enlightenment.html">Sir DevFish’s Crusade of Enlightenment</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/SirDevFishsCrusadeofEnlightenment_11376/devfish_2.png"><img title="devfish" style="border-right: 0px; border-top: 0px; display: inline; margin: 5px; border-left: 0px; border-bottom: 0px" height="260" alt="devfish" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SirDevFishsCrusadeofEnlightenment_11376/devfish_thumb.png" width="132" align="right" border="0" /></a>   &lt;p&gt;The economy is down, weather is cold, and dragons are roaming the  earth once again. Yet even in the darkest of times, when the shadow looms over us all, sometimes a glimmer of hope peers through the clouds. <a href="http://www.devfish.net/">Sir DevFish, Joe Healy</a>, is riding once again this winter to bring enlightenment to all who will listen as he brings the <a href="http://www.devfish.net/fullblogitemview.aspx?blogid=623">MSDN Roadshow Tiki Hut Tour to the people</a>. He will bring with him news of the great jQuery, the savior of client side scripting. He will bring with him news of Data Services, the vast knowledge of data from libraries long lost. And he will bring with him sight into the future of the cloud, with Azure. Join Sir DevFish and his trusty companion Squire Jeff Barnes as they journey through the land of the sunshine on their crusade. &lt;/p&gt;  &lt;p&gt; Join Sir DevFish on his quest … come to the MSDN Tiki Hut Road Show …&lt;/p&gt;  &lt;p&gt; <strong><a href="http://www.devfish.net/fullblogitemview.aspx?blogid=623">MSDN Tiki Hut Roadshow</a>       <br /></strong>&lt;/p&gt;  &lt;p&gt;<b>Session 1 – jQuery with ASP.NET</b> - JQuery is an open source JavaScript library that has a passionate following among Ajax developers. Microsoft is integrating the open source JQuery library into both the ASP.NET Web Forms and ASP.NET MVC frameworks and providing full product support. Learn how you can take advantage of JQuery to build richly interactive client-side Ajax applications when developing either ASP.NET Web Forms or ASP.NET MVC applications. Also see how JQuery works in combination with ASP.NET AJAX to provide the best framework for building Ajax applications.&lt;/p&gt;  &lt;p&gt;<b>Session 2 – Data Services</b> - OnPremise and Off - In the near future, applications will be developed using a combination of custom application code and online building block services, including data-centric services. In this session we discuss advancements in the Microsoft development platform and online service interfaces to enable seamless interaction with data services both on-premises (e.g., ADO.NET Data Services Framework over on-premises SQL Server) and in the cloud (e.g., SQL Server Data Services). Learn how you can leverage existing know-how related to LINQ (Language Integrated Query), data access APIs, data-binding, and more when building applications using online data.&lt;/p&gt;  &lt;p&gt;<b>Session 3 – Architecting for the Cloud using Windows Azure</b> - This session provides a tour of the Windows Azure cloud computing platform, an overview of its various components, and explains how these fit together to provide best-of-cloud experiences. We will explore the architecture that links many of the Microsoft .NET services and lets ISVs and businesses deliver compelling solutions. Learn how to compose these services with SQL Data Services to create applications in the cloud and connect them with on-premise systems. We will also examine the next generation of messaging, data, access control, and directory services, and how they fit together to provide a seamless integration into the cloud.&lt;/p&gt;</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2009
+  </span>
+
+  <h2>
+    <a href="/silverlight/2009/02/01/silverlight-syndicated-feeds-and-isolated-storage.html">Silverlight, Syndicated Feeds, and Isolated Storage</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>In the latest issue of my Data Points column in<a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx"><img title="image" style="border-right: 0px; border-top: 0px; display: inline; margin: 5px 0px 5px 5px; border-left: 0px; border-bottom: 0px" height="260" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightSyndicatedFeedsandIsolatedSto_BD0F/image_3.png" width="203" align="right" border="0" /></a> MSDN Magazine (Feb 2009 issue) I wrote an article titled “<a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx">Syndicated Data And Isolated Storage In Silverlight</a>”. In the article I address:</p>
+<ul>   <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070012">HTTP Web Requests and Threading</a>      <br /></li>    <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070040">Adding a Feed</a>      <br /></li>    <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070047">Parsing Feeds</a>      <br /></li>    <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070053">Cross-Domain Requests for Feeds</a>      <br /></li>    <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070061">Basic Isolated Storage</a>      <br /></li>    <li><a href="http://msdn.microsoft.com/en-us/magazine/dd419660.aspx#id0070087">Organized Isolated Storage</a></li> </ul>
+<p></p>
+<p>Enjoy!</p>
+<p></p>
+<p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightSyndicatedFeedsandIsolatedSto_BD0F/image_5.png"><img title="image" style="border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px" height="500" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightSyndicatedFeedsandIsolatedSto_BD0F/image_thumb_1.png" width="500" border="0" /></a></p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    January
+    31st,
+    
+    2009
+  </span>
+
+  <h2>
+    <a href="/all/2009/01/31/installing-sql-server-on-64bit-vista-ndash-the-native-client-got-restless.html">Installing SQL Server on 64bit Vista – The Native Client Got Restless</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>Sometimes things go amiss. Sometimes they work out. And sometimes we have no idea why things end up where they do. Today I was installing SQL Server 2005 developer edition on a Vista 64bit PC. I’ve done this dozens of times between 32bit and 64 bit OS’s, including Vista 64bit so there was nothing new here for me. But that did not stop the wild and wacky stuff form happening to the installation.</p>
+<p>I ran across this issue where during the installation of SQL Server is failed to install the Database server and the tools (pretty much the keys of what I needed) due to a problem with the SQL Native Client. The error was:</p>
+<blockquote>   <p>&quot;And installation package for the product Microsoft Native Client cannot be found. Try the installation again using a&#160; valid copy of the installation package 'sqlncli_x64.msi&quot;</p> </blockquote>
+<p>Now, I was installing the 64 bit OS version of SQL Server … and heck, I am human, so I even double and triple checked that. A quick google search found a few issues people have run into similar to mine. The short version of the story is that Visual Studio installed a version of SQL Native Client on my PC that SQL Server did not like. So I had to go into Add/Remove programs and remove SQL Native Client. Then I tried installing the 64bit SQL Server 2005 Developer edition and everything worked.</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+<hr/>
+
+<ul class="pager"> 
+
+  
+  <li class="previous">
+    
+    <a href="/page94">&larr; Newer</a>
+    
+  </li>
+  
+  
+  <li>
+    <span class="page_number">Page: 95 of 136</span>
+  </li>
+
+  
+  <li class="next">
+    <a href="/page96">Older &rarr;</a>
+  </li>
+  
+
+</ul>
+
+
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2015 dbyll with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'dbyll']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+

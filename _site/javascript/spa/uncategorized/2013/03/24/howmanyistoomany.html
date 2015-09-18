@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Why All Those JavaScript Libraries?</title>
+    
+    <meta name="author" content="John Papa">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico">
+
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+    <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default visible-xs" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://github.com/johnpapa">
+                <i class="fa fa-github"></i>
+            </a>
+            
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://twitter.com/john_papa">
+                <i class="fa fa-twitter"></i>
+            </a>
+            
+            
+            <a class="navbar-brand" href="/">
+                <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=35" class="img-circle" />
+                
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/categories.html">Categories</a></li>
+                <li><a href="/tags.html">Tags</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <!-- nav-menu-dropdown -->
+    <div class="btn-group hidden-xs" id="nav-menu">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+            <li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+        </ul>
+    </div>
+
+    <div class="col-sm-4 sidebar hidden-xs hidden-sm not-mobile">
+        <!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<h1 class="text-center">John Papa</h1>
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=150" class="img-circle" />
+	</a>
+	<h3 class="title">
+		<a href="/"></a>
+	</h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Evangelist on the Loose
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/johnpapa">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		 
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/john_papa">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		 
+	</ul>
+
+	<div class="sidebar-content">
+
+		<nav id="page-nav">
+			<ul class="main-navigation list-unstyled list-inline">
+				<li><a href="/about/">About</a></li>
+				<li><a href="/articles">Articles</a></li>
+				<li><a href="/spa">SPA</a></li>
+				<li><a href="/videos">Videos</a></li>
+			</ul>
+		</nav>
+
+		<h5>Recent Posts</h5>
+		<ul class="list-unstyled">
+			
+				<li>
+					<span>16 Sep 2015</span> &raquo;
+					<a href="/angular/angular2/community/event/javascript/uncategorized/2015/09/16/angular-2-hack-night-coming-to-orlando.html">
+					Angular 2 Hack Night Coming to Orlando</a>
+				</li>
+			
+				<li>
+					<span>29 Aug 2015</span> &raquo;
+					<a href="/angular/asp.net/github/gulp/html5/javascript/pluralsight/typescript/uncategorized/visual%20studio%20code/2015/08/29/learning-visual-studio-code.html">
+					Learning Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/visual-studio-code-webinar.html">
+					Visual Studio Code Webinar</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/automatically-restarting-asp-net-on-osx-with-dnxmon.html">
+					Automatically Restarting ASP.NET on OSX with DNXMON</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/getting-started-with-asp-net-5-on-osx.html">
+					Getting Started with ASP.NET 5 on OSX</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/refactoring-with-visual-studio-code.html">
+					Refactoring with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/intellisense-witha-visual-studio-code.html">
+					Intellisense with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/git-and-preferences-in-visual-studio-code.html">
+					Git and Preferences in Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/debugging-with-visual-studio-code.html">
+					Debugging with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/visual-studio-code.html">
+					Introducing Visual Studio Code</a>
+				</li>
+			
+		</ul>
+	</div>
+
+</div>
+<!-- sidebar.html end -->
+        <div class="not-mobile row sidebar-extras">
+            <table class="col-centered">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-sm-8">
+        <div class="page-header">
+  <h1>Why All Those JavaScript Libraries? </h1>
+</div>
+	
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   March 
+	   24th,
+	   
+	   2013
+	 </span>
+	  <div class="article_body">
+	  <p>Flustered by so much JavaScript? Concerned with all the seemingly new patterns to learn? Confused about how to organize it? You are not alone.</p>
+
+<h3>Many JavaScript Libraries</h3>
+<p>You may look and think, wow, there are a lot of JavaScript libraries in this project. <a href="http://www.johnpapa.net/wp-content/uploads/2013/03/3-24-2013-11-49-54-AM.jpg" rel="attachment wp-att-16711"><img src="http://www.johnpapa.net/wp-content/uploads/2013/03/3-24-2013-11-49-54-AM-204x600.jpg" alt="3-24-2013 11-49-54 AM" width="204" height="600" class="alignright size-large wp-image-16711" /></a> The “Many” is subjective based upon your perspective. Is 3 many? Is it 10, 20, 30 ? I think it depends on who you ask. Let me put it another way: if you work on a ASP.NET MVC project take a look at all of the dll’s in your references folder. How many is too many there? I bet they don’t bother most folks. Rarely do I hear complaints about that. Is it because Microsoft put them there? Or is it because they are out of sight out of mind? Or possibly we are just used to them being there.</p>
+
+<p>Now let’s take a look at the 3rd party JavaScript libraries I included in my course and in the Hot Towel SPA template. 
+<a href="http://www.johnpapa.net/howmanyistoomany/3-24-2013-11-56-52-am/" rel="attachment wp-att-16741"><img src="http://www.johnpapa.net/wp-content/uploads/2013/03/3-24-2013-11-56-52-AM.jpg" alt="3-24-2013 11-56-52 AM" width="192" height="198" class="alignleft size-full wp-image-16741" /></a></p>
+
+<p>My point is that the number of JavaScript libraries I use is dependent on the value they offer. If a library offers more value to me than me writing it, then I am fine using it.</p>
+
+<p>Note that I rolled up the min versions using a feature of VS 2012. Some people remove these files, others leave them alone. Choose your own adventure :)</p>
+<pre class="prettyprint">
+<content include="Scripts\jquery-1.9.1.js" />
+<content include="Scripts\jquery-1.9.1.min.js">
+  <dependentupon>jquery-1.9.1.js</dependentupon>
+</content>
+<content include="Scripts\jquery-1.9.1.min.map">
+  <dependentupon>jquery-1.9.1.js</dependentupon>
+</content>
+<none include="Scripts\jquery-1.9.1.intellisense.js">
+  <dependentupon>jquery-1.9.1.js</dependentupon>
+</none>
+</pre>
+
+<h3>Tracking Dependencies</h3>
+<p>I had a comment recently on a <a href="http://www.pluralsight.com/training/Courses/Discussion/single-page-apps-jumpstart" target="_blank">discussion board</a> for my latest <a href="http://jpapa.me/spajsps" target="_blank">SPA JumpStart course at Pluralsight</a>. “TheWayItIs” explains</p>
+
+<blockquote>My concern comes with the many code libraries and hierarchical dependencies of your patterns upon these.This in itself seems to become spaghetti of external dependencies on your patterns.</blockquote>
+
+<p>I already know these things, and <code>that</code> is the heart of the problem. I’ve gone through this jungle and come out the other end. Seeing the relationships and dependencies between these libraries is clear to me now. However, that is because I now know what to look for and how they all work together. Further, the patterns I employ help clarify this for new libraries and dependencies I may add or remove in the future. Now that I have this knowledge, it is more difficult to imagine what it is like to be without the knowledge. It is like this for anyone who tries to explain something that they know to someone who doesn’t know. I have to break it back down to the time when I lacked it. This is my job: to walk through these issues and show you what to look for and how to gain this clarity.</p>
+
+<p>The dependencies are handled by 2 main players: the require.js and the module pattern. The module pattern separates code into more files, where each file has one specific role. then require.js helps load those dependencies between modules in their proper order. This is over simplification, but really, that’s the key to this point: it doesn’t have to be complex.</p>
+
+<blockquote>Keep your code separated and let require.js handle dependencies.</blockquote>
+
+<p>I’ve been a .NET coder since the beginning and I use these same concepts with .NET. It all falls down to Single Responsibility Principle  (SRP). Keep your code separated (and do not repeat yourself) and you gain code re-use, reduce bugs, make it easier to maintain, and can scale easier.</p>
+
+<h3>Production Capable?</h3>
+<p>The same person on the discussion thread at my SPA course also asks</p>
+
+<blockquote>... are you proposing your sessions as production capable patterns relying on these many libs or should we view these patterns as useful for an expiring app such as a code camp with speakers?</blockquote>
+
+<p>My answer is yes. Yes these libraries and patterns are production capable right now, today, this moment (notice the pun on moment.js). Of course patterns and libraries evolve.</p>
+
+<h3>Why Introduce New Libraries?</h3>
+<p>Case in point is that I knew Durandal.js and Breeze.js were being developed when I wrote my intermediate SPA course. They were not ready for apps at that time (this was last summer), so I wrote replacements by hand. This accomplished a few things. First, when you go through my intermediate course you understand the complexities of solving these problems that these 2 libraries solve for you.  Why? Because I walked through how to do it all manually and it was much more work. Second, there is value in seeing how this all works so you do not have magical black boxes solving your issues. Not that you want to recreate the wheel, but its important to know how a wheel rolls. Finally, after going through that experience, you now understand and appreciate the value of Durandal and Breeze much more than if you had not seen how to do it all by hand.</p>
+
+<h3>Clarity</h3>
+<p>Clarity won’t come in a heartbeat, but rest assured that it will come. Just like 100’s of files in .NET appear manageable to you today, the amount of JavaScript won’t appear so daunting. You’ll see that many of the important patterns you know so well in .NET are still there in JavaScript. Organizing your code in .NET is slightly personal preference … it’s the same with JavaScript/HTML. You’ll find the arrangement that works for you and find your chi.</p>
+
+<p>These were awesome questions and they deserved some time in print. I hope they help you!</p>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			 
+				<li><a href="/categories.html#javascript-ref">
+					javascript <span>(69)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#spa-ref">
+					spa <span>(37)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#uncategorized-ref">
+					uncategorized <span>(150)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		  
+
+		  
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Why All Those JavaScript Libraries?&via=john_papa"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721" class="img-rounded author-image" />
+        <h4 class="section-title author-name">John Papa</h4>
+        <p class="author-bio">Evangelist on the Loose</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/events/javascript/spa/uncategorized/visual%20studio%202012/2013/03/19/spa-conversations.html" title="SPA Conversations">&larr; Previous</a></li>
+		  
+		  
+		  <li class="next"><a href="/durandal/javascript/spa/uncategorized/2013/03/29/spajs03.html" title="3 Features You Absolutely Need in a SPA">Next &rarr;</a></li>
+		  
+		</ul>
+
+		<hr>
+	</div>
+	
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'johnpapa';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+      <footer class="footer-text">
+        <hr/>
+        <p>
+        Copyright © 2015 - John Papa Blog content licensed under the Creative Commons <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a>
+        | Unless otherwise stated or granted, code samples licensed under the <a href="http://sm.mit-license.org/">MIT license</a>.
+        | Site design based on the <a href="https://github.com/dbtek/dbyll">dbyll theme</a> under the <a href="http://sm.mit-license.org/">MIT license</a>
+      </p>
+
+      </footer>
+
+    </div>
+
+    <script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
+
+    <!--Developer Media Links-->
+    <script type='text/javascript'>
+        function _dmBootstrap(file) {
+    var _dma = document.createElement('script'); _dma.type = 'text/javascript'; _dma.async = true; _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://')
+    + file;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js');
+    setTimeout(_dmFollowup, 2000);})();
+    </script>
+
+    <!--<script language="JavaScript" src="http://ad.doubleclick.net/N6839/adj/lqm.johnpapa.site/ron;kw=%2Cjohn%2Cpapa%2Cblog%2Cjohnpapa%7Bdot%7Dnet%2Cjohnpapa%2Cpappa%2Cwww%7Bdot%7Djohnpapa%7Bdot%7Dnet%2Cjon%2Cangular%2Cjhon;sz=160x600;dc_ref=http%3A%2F%2Fwww.johnpapa.net%2F;tile=1;ord=BEAAB484DA88D8D84B9DCB004E5712BE?"
+    type="text/javascript"></script>-->
+
+    <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="728x90" class="col-centered"></div>
+
+</body>
+
+</html>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'johnpapa']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+

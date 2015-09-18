@@ -1,0 +1,106 @@
+<p>Goodday,
+Am a student in Nigeria (Africa), 
+Haven follow your tutorial on Single Page Application, it straight forward and I really love the code pattern, when I run the code sample, it run without an error but when I add my own model, repository and other resources I get errors, I don’t know what am missing, this is the step I took:
+1. I create a sample model</p>
+
+<p>public class Rent
+    {
+        public int Id { get; set; }
+        public string StreetAddress { get; set; }
+        public string StreetAddress2 { get; set; }</p>
+
+<pre><code>} 2. Move to the DbContenxt to add to the DbSet public DbSet Tracks { get; set; } public DbSet Rents { get; set; }
+</code></pre>
+
+<ol>
+  <li>
+    <p>Then, The Uow
+public IRepository Tracks { get { return GetStandardRepo(); } }
+     public IRepository Rents { get { return GetStandardRepo(); } }</p>
+  </li>
+  <li>
+    <p>ICodeCamperUow</p>
+  </li>
+</ol>
+
+<p>IRepository Rooms { get; }
+IRepository Rents { get; }</p>
+
+<ol>
+  <li>
+    <p>Then, To the lookups controllers</p>
+
+    <pre><code> [ActionName("rents")]
+ public IEnumerable GetRents()
+ {
+     return Uow.Rents.GetAll();
+ }
+</code></pre>
+  </li>
+</ol>
+
+<p>The page do run but with he toastr error msg “Could not retrieve data, Please check the logs”</p>
+
+<p>When I remove all that I added, the page will run without errors.</p>
+
+<p>Please help
+<!--more-->
+AUTHOR: Akinsanya Olanrewaju
+AUTHOR EMAIL: atplerry@gmail.com
+AUTHOR URL: 
+SUBJECT: [John Papa] Connect
+IP: 197.253.6.241
+Array
+(
+    [Name] =&gt; Akinsanya Olanrewaju
+    [Email] =&gt; atplerry@gmail.com
+    [Website] =&gt; 
+    [Comment] =&gt; Goodday,
+Am a student in Nigeria (Africa), 
+Haven follow your tutorial on Single Page Application, it straight forward and I really love the code pattern, when I run the code sample, it run without an error but when I add my own model, repository and other resources I get errors, I don’t know what am missing, this is the step I took:
+1. I create a sample model</p>
+
+<p>public class Rent
+    {
+        public int Id { get; set; }
+        public string StreetAddress { get; set; }
+        public string StreetAddress2 { get; set; }</p>
+
+<pre><code>} 2. Move to the DbContenxt to add to the DbSet public DbSet Tracks { get; set; } public DbSet Rents { get; set; }
+</code></pre>
+
+<ol>
+  <li>
+    <p>Then, The Uow
+public IRepository Tracks { get { return GetStandardRepo(); } }
+     public IRepository Rents { get { return GetStandardRepo(); } }</p>
+  </li>
+  <li>
+    <p>ICodeCamperUow</p>
+  </li>
+</ol>
+
+<p>IRepository Rooms { get; }
+IRepository Rents { get; }</p>
+
+<ol>
+  <li>
+    <p>Then, To the lookups controllers</p>
+
+    <pre><code> [ActionName("rents")]
+ public IEnumerable GetRents()
+ {
+     return Uow.Rents.GetAll();
+ }
+</code></pre>
+  </li>
+</ol>
+
+<p>The page do run but with he toastr error msg “Could not retrieve data, Please check the logs”</p>
+
+<p>When I remove all that I added, the page will run without errors.</p>
+
+<p>Please help</p>
+
+<p>)</p>
+

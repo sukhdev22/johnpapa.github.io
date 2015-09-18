@@ -1,0 +1,61 @@
+<p>John,</p>
+
+<p>I love your style. I’m a really big fan of your Angular breeze courses on PluralSight. I decided to build an application using your approach and I have a question. I’m trying to get to inject a service with the config.route.js file and i’m running to a ton of issues nothing seems to work. I tried the following to no avail. Normal dependency injection while in a controller works fine.</p>
+
+<p>First attempt:</p>
+
+<pre><code>function getUserInfo() {
+    var $injector = angular.injector(['ng']);
+    var storage = $injector.get('webStorage');
+    TkprIndex = storage.get('userInfo').[0]tkprIndex;
+    return TkprIndex;
+}
+</code></pre>
+
+<p>Error: 
+Uncaught Error: [$injector:unpr] Unknown provider: webStorageProvider &lt;- webStorage</p>
+
+<p>Second attempt:</p>
+
+<pre><code>getUserInfo.$inject = [&amp;#039;webStorage&amp;#039;];
+function getUserInfo(storage) { return storage.get(&amp;#039;userInfo&amp;#039;); }
+</code></pre>
+
+<p>Error: Uncaught TypeError: Cannot read property 'get' of undefined
+<!--more-->
+AUTHOR: Siafu
+AUTHOR EMAIL: SiafuDev@gmail.com
+AUTHOR URL: 
+SUBJECT: [John Papa] Connect
+IP: 173.49.220.15
+Array
+(
+    [1_Name] =&gt; Siafu
+    [2_Email] =&gt; SiafuDev@gmail.com
+    [3_Website] =&gt; 
+    [4_Comment] =&gt; John,</p>
+
+<p>I love your style. I’m a really big fan of your Angular breeze courses on PluralSight. I decided to build an application using your approach and I have a question. I’m trying to get to inject a service with the config.route.js file and i’m running to a ton of issues nothing seems to work. I tried the following to no avail. Normal dependency injection while in a controller works fine.</p>
+
+<p>First attempt:</p>
+
+<pre><code>function getUserInfo() {
+    var $injector = angular.injector(['ng']);
+    var storage = $injector.get('webStorage');
+    TkprIndex = storage.get('userInfo').[0]tkprIndex;
+    return TkprIndex;
+}
+</code></pre>
+
+<p>Error: 
+Uncaught Error: [$injector:unpr] Unknown provider: webStorageProvider &lt;- webStorage</p>
+
+<p>Second attempt:</p>
+
+<pre><code>getUserInfo.$inject = [&amp;#039;webStorage&amp;#039;];
+function getUserInfo(storage) { return storage.get(&amp;#039;userInfo&amp;#039;); }
+</code></pre>
+
+<p>Error: Uncaught TypeError: Cannot read property 'get' of undefined
+)</p>
+

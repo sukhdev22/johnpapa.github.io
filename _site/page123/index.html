@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>dbyll</title>
+	
+	<meta name="author" content="dbyll">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/dbtek">
+				<i class="fa fa-github"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/dbtek">
+				<i class="fa fa-twitter"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="mailto:dbyll@ismaildemirbilek.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			
+			<a class="navbar-brand" href="/">
+				<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=35" class="img-circle" />
+				
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs">
+		<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=150" class="img-circle" />
+	</a>
+	<h3 class="title">
+        <a href="/"></a>
+    </h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Your stylish, minimalist theme!
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/dbtek">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/dbtek">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:dbyll@ismaildemirbilek.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://pinterest.com/asd123">
+				<i class="fa fa-pinterest fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/asd123">
+				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 col-sm-offset-3">
+		<div class="page-header">
+  <h1>dbyll </h1>
+</div>
+
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/developing-with-sql-server-2005-t-sql-code-samples.html">Developing with SQL Server 2005 - T-SQL Code Samples</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>As promised here are the main code samples I demonstrated last week at the <a href="http://www.ftponline.com/conferences/vslive/2006/toronto/default.aspx">Toronto VSLive!</a> conference for the <a href="http://www.ftponline.com/conferences/vslive/2006/toronto/default.aspx">Developing with SQL Server 2005 (T-SQL)</a> session. I will also post the code for the SQL Server 2005 XML session <a href="/blogs/john.papa/archive/2006/04/30/143748.aspx">here</a>.</p>
+<p>Topics include:</p>
+<ul> <li>Exception Handling <li>EventData <li>Triggers <li>Common Table Expressions <li>Views and Derived/Inline Tables <li>DRI Enhancements</li> <p>See the code in the zip file attachment below this post.</p>
+
+
+
+</li></li></li></li></li></ul>
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/designing-reports-with-sql-server-reporting-services-2005.html">Designing Reports with SQL Server Reporting Services 2005</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>The&nbsp;<a href="http://msdn.microsoft.com/msdnmag/issues/06/06/default.aspx">June 2006 issue of MSDN Magazine</a>&nbsp;is now posted online. My latest <a href="http://msdn.microsoft.com/msdnmag/issues/06/06/DataPoints/">Data Points</a> column dives into some of the new SQL Server Reporting Services 2005 features including some design decisions, cparameter options, multi-valued parameters, and expressions. In the next issue I&rsquo;ll continue the discussion by demoinstrating how to embed code in a report, reference existing .NET code and build charts.</p>
+<p>You can read the article <a href="http://msdn.microsoft.com/msdnmag/issues/06/06/DataPoints/">online here</a>. </p>
+<p><a href="http://msdn.microsoft.com/msdnmag/issues/06/06/"></a></p>
+<p><img alt="" src="http://msdn.microsoft.com/msdnmag/images/covers/June06coverlg.gif" border="0" />&nbsp;</p>
+<p>&nbsp;</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/data-points-feb-2007-code-will-be-online-soon.html">Data Points - Feb 2007 - Code Will Be Online Soon</a>
+  </h2>
+
+  <div>
+    
+    
+    <div class="Section1"><p class="MsoNormal">The code that can be downloaded from the MSDN Magazine web site for my<a href="http://msdn.microsoft.com/msdnmag/issues/07/02/DataPoints/default.aspx"> February 2007 Data Points article</a> is not correct. Several people have noticed this and graciously let me know about the problem. I have since sent the correct code to the MSDN Magazine crew and they assure me the correct code will be made available in the download from their site as soon as possible. I apologize for the inconvenience.<span style="font-size: 10pt; color: navy; font-family: 'Tahoma','sans-serif'"></span></p><br /><br /><p class="MsoNormal">UPDATE: For some reason, when I post the ZIP file to the codebetter site, it gets corrupted. So instead, here is a <a href="http://www.7papa7.com/dloads/MSDN%202007%2002%20Code.zip">link where you can download the code.zip file</a>.</p><p class="MsoNormal">&nbsp;</p><p class="MsoNormal">&nbsp;</p></div>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/data-bound-applications-with-ado-net-and-custom-objects.html">Data Bound Applications with ADO.NET and Custom Objects</a>
+  </h2>
+
+  <div>
+    
+    
+    <p class="MsoNormal" style="margin: 0in 0in 0pt"><font face="Calibri" size="3">My </font><a href="http://msdn.microsoft.com/msdnmag/issues/07/02/DataPoints/default.aspx"><font face="Calibri" size="3">February 2007 Data Points column</font></a><font face="Calibri" size="3"> has been posted to the </font><a href="http://msdn.microsoft.com/msdnmag/issues/07/02"><font face="Calibri" size="3">MSDN Magazine web site</font></a><font face="Calibri" size="3">. This edition is titled &ldquo;</font><a href="http://msdn.microsoft.com/msdnmag/issues/07/02/DataPoints/default.aspx"><font face="Calibri" size="3">Data Bound Applications with ADO.NET and Custom Objects</font></a><font face="Calibri" size="3">&rdquo;.</font></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt"><font face="Calibri" size="3"></font></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt"><a href="http://msdn.microsoft.com/msdnmag/issues/07/02"><span style="color: windowtext; text-decoration: none; text-underline: none"></span></a></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt"><font face="Calibri" size="3">&nbsp;<a href="http://msdn.microsoft.com/msdnmag/issues/07/02/DataPoints/default.aspx"><img border="0" height="345" src="http://msdn.microsoft.com/msdnmag/images/covers/February07Coverlg.gif" style="width: 263px; height: 345px" width="263" /></a></font></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt"><font face="Calibri" size="3">Here is the beginning excerpt of the article on MSDN Magazine:</font></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt"><font face="Calibri" size="3"></font></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt"><font face="Calibri"><font size="3">The Windows Forms binding controls are vastly improved descendents of the data binding controls of the past. They get you going quickly and handle the redundant tasks associated with setting up forms, and you can customize and extend their behavior significantly. Data can travel in a variety of containers, including DataSets and custom class entities, and the Windows</font><sup><span style="font-size: 7pt">&reg;</span></sup><font size="3"> Forms binding tools allow you to bind to all of these types of objects. If you don&#39;t want to use a DataSet, you can create custom entities to be used as the data store for your application, and you can use List&lt;T&gt; and other collection types to store a set of your custom entities. These types of custom entities can easily be bound using the BindingSource and the BindingNavigator. In this column I&#39;ll demonstrate how to bind a custom list of business entities using the binding tools present in the Microsoft</font><sup><span style="font-size: 7pt">&reg;</span></sup><font size="3"> .NET Framework 2.0, and I&#39;ll do so by writing a fully functional data-driven Windows Forms application. </font></font></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt"><font face="Calibri" size="3"></font></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt"><font face="Calibri" size="3">I describe a Windows Form sample application, in particular its use of the DataGridView and the BindingSource and BindingNavigator binding controls. Then I walk through the lower tiers and demonstrate how they are architected and how the data is retrieved, persisted, accessed, and sent back to the database. All code for the sample application is included in this issue&#39;s download file.</font></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt"><font face="Calibri" size="3"></font></p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/column-expressions-datarelations-and-computations.html">Column Expressions, DataRelations, and Computations</a>
+  </h2>
+
+  <div>
+    
+    
+    <p class="MsoNormal" style="margin: 0in 0in 0pt"><font face="Calibri" size="3">The </font><a href="http://msdn.microsoft.com/msdnmag/issues/07/01/default.aspx"><font face="Calibri" size="3">January issue of MSDN Magazine</font></a><font face="Calibri" size="3"> is now online. In this issue, is </font><a href="http://msdn.microsoft.com/msdnmag/issues/07/01/DataPoints/"><font face="Calibri" size="3">my latest Data Points column</font></a><font size="3"><font face="Calibri"> titled <span style="color: black"><a href="http://msdn.microsoft.com/msdnmag/issues/07/01/DataPoints/">Column Expressions, DataRelations, and Computations</a>. &nbsp;This month&rsquo;s topic are from the mailbag and include using expression-based columns, the Compute method, SetOrdinal and DataRelations to traverse data and calculate values to address common business needs.</span></font></font></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt">&nbsp;</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt"><img height="345" src="http://msdn.microsoft.com/msdnmag/images/covers/January07Coverlg.gif" style="width: 263px; height: 345px" width="263" /></p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/cable-upload-download-speeds.html">Cable Upload/Download Speeds</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>I have been doing a lot of uploading and downloading lately and I figured I would give a shot upgrading my upload and download speeds with RoadRunner. They charged me about $20 more a month to go from 4800 kbps download and 350 kbps upload to 7600 kbps download and&nbsp;480 kbps upload. These are numbers I got after running several speed tests (before and after the switch) at both <a href="http://www.dslreports.com">www.dslreports.com</a> and <a href="http://www.speakeasy.net">www.speakeasy.net</a>. So that is a 58% faster download speed and a 37% faster upload.</p>
+<p>&nbsp;</p>
+<p>OK, sounds great so far, but let’s see if it really makes a difference when downloading a DVD image from MSDN, streaming video, uploading large images to my customers’ servers, etc. I have a feeling that even though this all sounds like a huge improvement that the reality of the “other factors” (external server’s connection speed, traffic, etc) will prevent me from realizing any noticeable gains. I sure hope I am wrong, but I figured it was time to try it out. After all, I can always cancel it after a week if it doesn’t make a difference.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/blogging-from-email-trying-out-blogmailr.html">Blogging from Email - Trying Out blogmailr</a>
+  </h2>
+
+  <div>
+    
+    
+    <div class="Section1"><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma">Writing a blog is not really that difficult (OK, I&rsquo;ve been really lazy the past few months on this). But I do find that I am often in my email client whether that is on my desktop, laptop or on my SmartPhone. So when I heard that blogmailr existed, I figured it was worth a shot &hellip; especially since it is free. Blogmailr is a tool that allows you to post a blog through email. All you do is:</span></font></p><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"></span></font></p><p class="MsoNormal" style="margin-left: 0.5in; text-indent: -0.25in"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"><span>1)<font face="Times New Roman" size="1"><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></span></span></font><font color="#000080" face="Tahoma"><span style="color: navy; font-family: Tahoma">Set up an account with blogmailr at <a href="http://www.blogmailr.com/" title="blocked::http://www.blogmailr.com/">www.blogmailr.com</a></span></font></p><p class="MsoNormal" style="margin-left: 0.5in; text-indent: -0.25in"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"><span>2)<font face="Times New Roman" size="1"><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></span></span></font><font color="#000080" face="Tahoma"><span style="color: navy; font-family: Tahoma">During the account setup, you have to specify the credentials to log into your blog so it can post to it</span></font></p><p class="MsoNormal" style="margin-left: 0.5in; text-indent: -0.25in"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"><span>3)<font face="Times New Roman" size="1"><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></span></span></font><font color="#000080" face="Tahoma"><span style="color: navy; font-family: Tahoma">Blogmailr assigns you an email address </span></font></p><p class="MsoNormal" style="margin-left: 0.5in; text-indent: -0.25in"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"><span>4)<font face="Times New Roman" size="1"><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></span></span></font><font color="#000080" face="Tahoma"><span style="color: navy; font-family: Tahoma">Enter all email addresses that you want to be allowed to submit to the blogmailr enabled blogs</span></font></p><p class="MsoNormal" style="margin-left: 0.5in; text-indent: -0.25in"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"><span>5)<font face="Times New Roman" size="1"><span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></span></span></font><font color="#000080" face="Tahoma"><span style="color: navy; font-family: Tahoma">You send an email to the assigned blogmailr email address and its contents are posted to your blog</span></font></p><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"></span></font></p><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma">It sounded simple, so I wrote this post with it to try it out and see how it handled formatted text. Above I used some bulleted numbers. Now, I will use some bullets to list some of my favorite authors:</span></font></p><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"></span></font></p><ul style="margin-top: 0in" type="disc"><li class="MsoNormal" style="color: navy"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; font-family: Tahoma">J.R.R. Tolkien</span></font> <font face="Tahoma"><span style="font-family: Tahoma"></span></font></li><li class="MsoNormal" style="color: navy"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; font-family: Tahoma">Terry Brooks</span></font> <font face="Tahoma"><span style="font-family: Tahoma"></span></font></li><li class="MsoNormal" style="color: navy"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; font-family: Tahoma">C.S. Lewis</span></font> <font face="Tahoma"><span style="font-family: Tahoma"></span></font></li></ul><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"></span></font></p><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma">And here is some code that I copied from C# in VS.NET 2005:</span></font></p><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"></span></font></p><p class="MsoNormal" style="margin-left: 0.5in"><font color="#008000" face="Tahoma" size="2"><span style="font-size: 10pt; color: green; font-family: Tahoma">// This is the Problem ID Property</span></font></p><p class="MsoNormal" style="margin-left: 0.5in"><font color="#0000ff" face="Tahoma" size="2"><span style="font-size: 10pt; font-family: Tahoma">public</span></font><font color="#000000" face="Tahoma"><span style="color: windowtext; font-family: Tahoma"> </span></font><font face="Tahoma"><span style="font-family: Tahoma">int</span></font><font color="#000000" face="Tahoma"><span style="color: windowtext; font-family: Tahoma"> ProblemID</span></font></p><p class="MsoNormal" style="margin-left: 0.5in"><font color="#000000" face="Tahoma" size="2"><span style="font-size: 10pt; color: windowtext; font-family: Tahoma">{</span></font></p><p class="MsoNormal" style="margin-left: 0.5in"><font color="#000000" face="Tahoma" size="2"><span style="font-size: 10pt; color: windowtext; font-family: Tahoma">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font><font face="Tahoma"><span style="font-family: Tahoma">get</span></font><font color="#000000" face="Tahoma"><span style="color: windowtext; font-family: Tahoma"> { </span></font><font face="Tahoma"><span style="font-family: Tahoma">return</span></font><font color="#000000" face="Tahoma"><span style="color: windowtext; font-family: Tahoma"> </span></font><font face="Tahoma"><span style="font-family: Tahoma">this</span></font><font color="#000000" face="Tahoma"><span style="color: windowtext; font-family: Tahoma">.problemID; }</span></font></p><p class="MsoNormal" style="margin-left: 0.5in"><font color="#000000" face="Tahoma" size="2"><span style="font-size: 10pt; color: windowtext; font-family: Tahoma">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font><font face="Tahoma"><span style="font-family: Tahoma">set</span></font><font color="#000000" face="Tahoma"><span style="color: windowtext; font-family: Tahoma"> { </span></font><font face="Tahoma"><span style="font-family: Tahoma">this</span></font><font color="#000000" face="Tahoma"><span style="color: windowtext; font-family: Tahoma">.problemID = </span></font><font face="Tahoma"><span style="font-family: Tahoma">value</span></font><font color="#000000" face="Tahoma"><span style="color: windowtext; font-family: Tahoma">; }</span></font></p><p class="MsoNormal" style="margin-left: 0.5in"><font color="#000000" face="Tahoma" size="2"><span style="font-size: 10pt; color: windowtext; font-family: Tahoma">}</span></font></p><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"></span></font></p><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma">If this works out, I may end
+up using it more than Word or BlogJet!</span></font></p><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"></span></font></p><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma">Oh &hellip; do not tell anyone your assigned email address. Otherwise, they will be able to post to your blog too!</span></font></p><p class="MsoNormal"><font color="#000080" face="Tahoma" size="2"><span style="font-size: 10pt; color: navy; font-family: Tahoma"></span></font></p></div>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/ado-net-2-code-samples.html">ADO.NET 2 Code Samples</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>As promised, here are the ADO.NET code samples from the <a href="http://www.vslive.com">VSLive</a> Orlando show this May. You can download them from the attached file (below).</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/accessing-net-code-from-sql-server-reporting-services-reports.html">Accessing .NET Code from SQL Server Reporting Services' Reports</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>The&nbsp;<a href="http://msdn.microsoft.com/msdnmag/issues/06/07/default.aspx">July 2007 issue of MSDN Magazine</a>&nbsp;is now posted online. My latest <a href="http://msdn.microsoft.com/msdnmag/issues/06/07/DataPoints/">Data Points</a> column discusses how to create charts, embedded code, and access existing .NET class libraries from SQL Server Reporting Services 2005’s reports.</p>
+<p>You can read the article <a href="http://msdn.microsoft.com/msdnmag/issues/06/07/DataPoints/">online here</a>. </p>
+<p><a href="http://msdn.microsoft.com/msdnmag/issues/06/06/"></a></p>
+<p>&lt;IMG alt="" src="http://msdn.microsoft.com/msdnmag/images/covers/July06coverlg.gif" border=0&gt;&nbsp;</p>
+<p>&nbsp;</p>
+<p>Its been a busy year for me with family and work. So I am taking a short break from writing but will be back in the October 2006 issue of MSDN Magazine with my Data Points column that discusses System.Transactions in .NET 2. It will build upon <a href="http://msdn.microsoft.com/msdnmag/issues/05/02/DataPoints/">my earlier article on this topic about 2 years ago </a>(during the beta phase of .NET when it was still called Whidbey and SQL Server was Yukon).</p>
+<p>&nbsp;</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/51st-msdn-magazine-article-where-has-the-time-gone.html">51st MSDN Magazine article! - Where has the time gone?</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>So I am a bit late realizing that my <a href="http://msdn.microsoft.com/msdnmag/issues/06/11/DataPoints/default.aspx">50th article</a> was published in MSDN Magazine (including its predecessors MIND [Microsoft Internet Developer] and MIND [Microsoft Interactive Developer]) last month. The article was titled <a href="http://msdn.microsoft.com/msdnmag/issues/06/11/DataPoints/default.aspx">Revisiting System.Transactions</a> and was in the November 2006 issue of MSDN Magazine. I did not realize this until today when I saw <a href="http://msdn.microsoft.com/msdnmag/issues/06/12/DataPoints/default.aspx">my 51st article</a> was published (<a href="http://msdn.microsoft.com/msdnmag/issues/06/12/DataPoints/default.aspx">RSS Feeds on a SmartPhone</a>).</p>
+<p>My first article with MIND was back in December of 1998 and I wrote every few months for them for a few years. But it was not until 2001 when I started the Data Points column ... which makes this year my 5th year authoring the column. Wow, time sure does fly!</p>
+<p>The last book I was involved in was published back in 2000 ... I stopped writing books once the kids started coming along. Wow, talk about working overtime ... when I was writing books I would put in a regular work week at my job plus another 50 hours a week on the book. It was an insane time. I remember when writing my last book my youngest daughter had colic, so she would stay up all night crying. The only way to ease her crying was to hold and sway with her. Since I was up all night writing the book, I would have her in one arm, and i would be typing on the keyboard all while swaying ... all through the night (I dedicated that book to her since she was there the whole time I wrote it). That was when&nbsp;I decided it was time to hang up the books before I missed their childhood.</p>
+<p>Anyway ... it&#39;s been a long ride for me with writing. Thank you very much for reading my thoughts all these years!</p>
+<p>&nbsp;</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+<hr/>
+
+<ul class="pager"> 
+
+  
+  <li class="previous">
+    
+    <a href="/page122">&larr; Newer</a>
+    
+  </li>
+  
+  
+  <li>
+    <span class="page_number">Page: 123 of 136</span>
+  </li>
+
+  
+  <li class="next">
+    <a href="/page124">Older &rarr;</a>
+  </li>
+  
+
+</ul>
+
+
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2015 dbyll with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'dbyll']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+

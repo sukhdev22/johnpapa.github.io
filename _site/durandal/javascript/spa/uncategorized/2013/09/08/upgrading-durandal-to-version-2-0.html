@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Upgrading to Durandal 2.0</title>
+    
+    <meta name="author" content="John Papa">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico">
+
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+    <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default visible-xs" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://github.com/johnpapa">
+                <i class="fa fa-github"></i>
+            </a>
+            
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://twitter.com/john_papa">
+                <i class="fa fa-twitter"></i>
+            </a>
+            
+            
+            <a class="navbar-brand" href="/">
+                <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=35" class="img-circle" />
+                
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/categories.html">Categories</a></li>
+                <li><a href="/tags.html">Tags</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <!-- nav-menu-dropdown -->
+    <div class="btn-group hidden-xs" id="nav-menu">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+            <li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+        </ul>
+    </div>
+
+    <div class="col-sm-4 sidebar hidden-xs hidden-sm not-mobile">
+        <!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<h1 class="text-center">John Papa</h1>
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=150" class="img-circle" />
+	</a>
+	<h3 class="title">
+		<a href="/"></a>
+	</h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Evangelist on the Loose
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/johnpapa">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		 
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/john_papa">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		 
+	</ul>
+
+	<div class="sidebar-content">
+
+		<nav id="page-nav">
+			<ul class="main-navigation list-unstyled list-inline">
+				<li><a href="/about/">About</a></li>
+				<li><a href="/articles">Articles</a></li>
+				<li><a href="/spa">SPA</a></li>
+				<li><a href="/videos">Videos</a></li>
+			</ul>
+		</nav>
+
+		<h5>Recent Posts</h5>
+		<ul class="list-unstyled">
+			
+				<li>
+					<span>16 Sep 2015</span> &raquo;
+					<a href="/angular/angular2/community/event/javascript/uncategorized/2015/09/16/angular-2-hack-night-coming-to-orlando.html">
+					Angular 2 Hack Night Coming to Orlando</a>
+				</li>
+			
+				<li>
+					<span>29 Aug 2015</span> &raquo;
+					<a href="/angular/asp.net/github/gulp/html5/javascript/pluralsight/typescript/uncategorized/visual%20studio%20code/2015/08/29/learning-visual-studio-code.html">
+					Learning Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/visual-studio-code-webinar.html">
+					Visual Studio Code Webinar</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/automatically-restarting-asp-net-on-osx-with-dnxmon.html">
+					Automatically Restarting ASP.NET on OSX with DNXMON</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/getting-started-with-asp-net-5-on-osx.html">
+					Getting Started with ASP.NET 5 on OSX</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/refactoring-with-visual-studio-code.html">
+					Refactoring with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/intellisense-witha-visual-studio-code.html">
+					Intellisense with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/git-and-preferences-in-visual-studio-code.html">
+					Git and Preferences in Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/debugging-with-visual-studio-code.html">
+					Debugging with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/visual-studio-code.html">
+					Introducing Visual Studio Code</a>
+				</li>
+			
+		</ul>
+	</div>
+
+</div>
+<!-- sidebar.html end -->
+        <div class="not-mobile row sidebar-extras">
+            <table class="col-centered">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-sm-8">
+        <div class="page-header">
+  <h1>Upgrading to Durandal 2.0 </h1>
+</div>
+	
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   September 
+	   8th,
+	   
+	   2013
+	 </span>
+	  <div class="article_body">
+	  <p>Recently I upgraded a few projects from Durandal v1.x to <a href="http://durandaljs.com/" target="_blank">Durandal 2.0</a>. I did these before there were any notes on the Durandal site for upgrading so I took a bunch of notes. I was lucky enough that the first conversion was aided with the direct help of <a href="https://twitter.com/EisenbergEffect" target="_blank">Rob Eisenberg</a>, creator of Durandal. Rob has since created a great page in the docs to help you <a href="http://durandaljs.com/documentation/Conversion-Guide/" target="_blank">convert from 1.x to 2 which you can find here</a>. But I also included all of my raw notes in this post. Rob’s is the definitive guide, but hopefully my brain dump may help some of you too :)</p>
+
+<p>Please excuse the grammar below as it was a raw brain dump over the course of an hour.</p>
+
+<h2>Structure</h2>
+<p>This section covers all of the structural changes when I moved to Durandal 2.</p>
+<h3>Library Location</h3>
+<ul>
+	<li>All files are now located in the Scripts/durandal folder</li>
+	<li>Plugins now include: dialog, history, http, observable, router, serializer, widget</li>
+	<li>Transitions are still in their own folder</li>
+</ul>
+<h3>Observable</h3>
+<p>The observable plugin takes any Plain Old JavaScript Object (POJO) and adds observability to it. Works on property by property basis. You can also use the API to subscribe, create computed properties or retrieve the underlying observable.</p>
+<h3>RequireJS Setup</h3>
+<p>Because Durandal is now moved out of the app, you need a requirejs.config setup:</p>
+<pre class="prettyprint linenums">requirejs.config({
+    paths: { 
+        'text': '../Scripts/text',
+        'durandal': '../Scripts/durandal',
+        'plugins': '../Scripts/durandal/plugins',
+        'transitions': '../Scripts/durandal/transitions'
+    }
+});
+</pre>
+<h3>RequireJS Changes</h3>
+<p>Durandal 2.x assumes no global libraries. It will ship expecting Knockout and jQuery to be defined with requirejs. The .NET templates by default will set them up as standard script libs and then register them with require as follows:</p>
+<pre class="prettyprint">
+define('jquery', function () { return jQuery; });
+define('knockout', ko);
+</pre>
+<p>No need to setup requirejs.config paths for this. Developers who wish to pipe everything through require.js now have that capability, but the default .NET starter kit will use the same approach as 1.x.</p>
+<h3>main.js</h3>
+<p>Remove from main.js <code>app.AdaptToDevice()</code></p>
+<h3>Global replaces</h3>
+<ul>
+	<li>Change paths for durandal plugins from <code>durandal/plugins/router</code> to <code>plugins/router</code></li>
+	<li>rename <code>viewAttached</code> to <code>attached</code></li>
+</ul>
+<h3>router</h3>
+<p>Durandal 2 now has its own custom router, removing the Sammy dependency.</p>
+<ul>
+	<li><code>router.visibleRoutes</code> is now <code>router.navigationModel</code></li>
+	<li><code>router.allRoutes()</code> is now <code>router.routes</code> and is just an array</li>
+	<li><code>routes</code> no longer have a <code>caption</code> nor <code>setting</code> property</li>
+	<li><code>router.navigateTo</code> is now <code>router.navigate</code></li>
+        <li>remove sammy.js and update index.html</li>
+</ul>
+<h3>route array changes</h3>
+<ul>
+	<li><code>url</code> is now renamed to <code>route</code></li>
+	<li>because I use <code>router.makeRelative()</code> I can omit the full path to the <code>moduleId</code>. So <code>moduleId: 'viewmodels/sessions',</code> becomes <code>moduleId: 'sessions'</code></li>
+	<li><code>visible</code> is now called <code>nav</code></li>
+	<li><code>name</code> is now <code>title</code></li>
+	<li>default route is now '' (empty string)</li>
+</ul>
+<h3>router parameter changes</h3>
+<p>Durandal v2.0 now passes in a parameter for each value. Query-string, if present, would be the last parameter.</p>
+
+<p>In 1.2, <code>activate</code> used to pass an object.</p>
+<pre class="prettyprint linenums">//activate = function (routeData) {
+activate = function (id, querystring) {
+    //var id = parseInt(routeData.id);
+    initLookups();
+    return datacontext.getSessionById(id, session);
+}
+</pre>
+<h3>router.replaceLocation</h3>
+<p><code>replaceLocation</code> now accepts a url and a second parameter, which is an object literal. We can pass a value for <code>replace</code> and set to true, if we want to replace the route history.</p>
+<pre class="prettyprint linenums">function goToEditView(result) {
+    var url = '#/sessiondetail/' + session().id();
+    router.navigate(url, {replace: true});
+}
+</pre>
+<h2>Lifecycle</h2>
+<h3>activate</h3>
+<p>Activate no longer needs to return a promise and is automatically called for every composed object, without the need for an activator or additional configuration. Can remove <code>return</code> from all <code>activate</code> calls. If you return a promise, it will wait til the promise is done. But if we don’t return a promise, no need to return.</p>
+<h3>binding</h3>
+<ul>
+	<li>formerly known as <code>beforeBind</code></li>
+	<li>after <code>activate</code>, and immediately before <code>ko.applyBindings</code> is called</li>
+	<li>can also return applyBindings: false</li>
+	<li>can return object with instructions</li>
+
+</ul>
+<pre class="prettyprint linenums">// only this vm's view wont be cached
+return { cacheViews: true } 
+</pre>
+<h3>bindingComplete</h3>
+<p>Fires after the binding has happened.</p>
+<h3>attached</h3>
+<p>Formerly known as <code>viewAttached</code>.</p>
+<pre class="prettyprint linenums">function attached(view, parent){ ... }
+</pre>
+<h3>compositionComplete</h3>
+<ul>
+	<li>New event (almost was called documentAttached)</li>
+	<li>Fires whenever the composition that this module is participating in is entirely done (all parents and children compositions)</li>
+	<li>Fires from child bubbling up to parent</li>
+	<li>Useful for "measurement of an element", such as after the layout has been rendered</li>
+	<li>You can also use <code>composition.addBindingHandler</code> to register (or convert) a standard binding handler into one that runs after composition completion.</li>
+</ul>
+<h3>detached</h3>
+<p>New event that fires when the view has been detached from the DOM</p>
+<h3>canDeactivate</h3>
+<p>Fires before you deactivate a viewmodel, providing an opportunity to cancel. Only present with an activator.</p>
+<h3>canActivate</h3>
+<p>Fires before you activate a viewmodel, providing an opportunity to cancel.O nly present with an activator</p>
+<h3>deactivate</h3>
+<p>Fires when a viewmodel is being deactivated. Only present with an activator.</p>
+<h3>Activator</h3>
+<p>No need to return a promise from activate anymore. You get activate without an activator now, too. Three ways to get an activator:</p>
+<ul>
+	<li>router</li>
+	<li>dialogs</li>
+	<li>create and use one your self via <code>activator.create()</code> (formerly <code>viewModel.activator()</code>)</li>
+</ul>
+<h2>Configuring Plugins</h2>
+<p>You can now configure plugins prior to <code>app.start()</code>. Some plugins want to do things at start-up, so this helps them. For example <code>app.showDialog</code> and <code>app.showMessage</code> are extended on the app module by including it in the configuration.</p>
+<pre class="prettyprint linenums">app.configurePlugins({
+    router: true,
+    dialog: true,
+    widget: {
+        kinds: ['expander']
+    }
+});
+</pre>
+<h2>Router Binding</h2>
+<p>Faster, simpler, smaller. New router supports hash change and push-state. Better support for parameterized routes, splats, querystring parameters, and optional parameters. Deep linking supports is improved with custom callbacks and child routers. Lots of events are fired and tons of extensibility. Better support for “not found” routes and custom routing conventions. No SammyJS. Built from scratch with no dependencies outside of Durandal. Split into to modules: history and router. Don’t like our router semantics? Write your own on top of history without having to muck with browser stuff.
+<code>ko.bindingHandlers.router</code> gets installed with this plugin.</p>
+<pre class="prettyprint linenums">
+<!-- ko router: 
+    {transition: 'entrance', cacheViews: true } -->
+<!-- /ko -->
+</pre>
+<p>This is the same thing, just long-hand</p>
+<pre class="prettyprint linenums">
+<!--ko compose: {
+         model: router.activeItem,
+         compositionComplete: router.compositionComplete,
+         attached: router.attached,
+         cacheViews:true,
+         transition: 'entrance'} -->
+<!--/ko-->
+</pre>
+<p>This is a wrapper around the <code>compose</code> binding and makes binding router content simple.</p>
+<h3>Child Routing</h3>
+<p>We can nest routes. See examples for details</p>
+<h3>Activate Callback</h3>
+<p>Parameters come in as a list of parameters. Query-string comes in as the last argument (if present), and is keyed (object literal)</p>
+<h3>Mapping</h3>
+<p>Pass an array of objects with route, moduleId, title, nav, hash (and any custom data you want). <code>visible</code> is now called <code>nav</code></p>
+<h4>Routing Sample</h4>
+<pre class="prettyprint linenums">define (['plugins/router'], function (router) {
+    return {
+        router: router, 
+        activate: function() {
+            router.makeRelative({moduleId: 'viewmodels'});
+
+            router.map([
+                { route: '', 
+                    moduleId: 'helloindex', 
+                    title 'Hello World', 
+                    nav: 1},
+                { route: '/bye', 
+                    moduleId: 'goodbye', 
+                    title 'See ya', 
+                    nav: 2}
+            ]);
+
+            //builds an observable model from the 
+            //mapping to bind your UI to
+            router.buildNavigationModel(); 
+
+            //sets up conventional mapping for 
+            //unrecognized routes
+            router.mapUnknownRoutes(); 
+
+            //activates the router
+            return router.activate(); 
+            // no longer needs a start module
+        }
+    }
+});
+</pre>
+<h3>Use convention</h3>
+<p><code> useConvention</code> has been replaced with <code>router.makeRelative({moduleId: 'viewmodels'});</code></p>
+<h3>unknown routes</h3>
+<pre class="prettyprint linenums">router.mapUnknownRoutes('moduleIdGoesHere'); 
+//maps unknown routes to a single module
+</pre>
+<p>Or pass it a function</p>
+<pre class="prettyprint linenums">router.mapUnknownRoutes(function(instruction){
+    // custom routing logic to implement 
+    // your own conventions. simply configure 
+    // the instruction object and the router 
+    // will handle it
+});
+</pre>
+<p>You can also define your own conventions. There will be a default (plugin config setting), but can override this.</p>
+<pre class="prettyprint linenums">router.on('router:route:before-config')
+    .then(function (config) {
+        config.moduleId = 'viewmodels/' + config.moduleId;
+});
+</pre>
+<h2>Compose</h2>
+<p>New features for the compose binding:</p>
+<h3>Inline Views</h3>
+<p>Can now compose an inline view:</p>
+<pre class="prettyprint linenums"><!-- ko compose: { 
+    model: 'viewComposition/inlineModule', 
+    mode: 'inline' } -->
+    <div>Some inlined view bound against the model.</div>
+<!-- /ko -->
+</pre>
+<h3>Templating Views</h3>
+<p>Can replace content inside of a template.</p>
+<pre class="prettyprint linenums"><!-- ko compose: { 
+    model: 'viewComposition/inlineModule', 
+    mode: 'templated' } -->
+    <div data-part="header"><h1>hello world</h1></div>
+    <div data-part="footer"><h1>goodbye</h1></div>
+<!-- /ko -->
+</pre>
+<p>Label the data-part attributes to get this, in the child views</p>
+<pre class="prettyprint linenums">// In the Child Views
+<h2 data-part="header"></h2>
+<h2 data-part="footer"></h2>
+</pre>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			 
+				<li><a href="/categories.html#durandal-ref">
+					durandal <span>(9)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#javascript-ref">
+					javascript <span>(69)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#spa-ref">
+					spa <span>(37)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#uncategorized-ref">
+					uncategorized <span>(150)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		  
+
+		  
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Upgrading to Durandal 2.0&via=john_papa"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721" class="img-rounded author-image" />
+        <h4 class="section-title author-name">John Papa</h4>
+        <p class="author-bio">Evangelist on the Loose</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/github/nuget/toastr/uncategorized/2013/09/05/toastr-2-0-0-rc-1-now-available.html" title="Toastr 2.0.0 rc 1 Now Available">&larr; Previous</a></li>
+		  
+		  
+		  <li class="next"><a href="/bower/javascript/nuget/toastr/uncategorized/2013/09/11/toastr-2-0-1-released.html" title="Toastr 2.0.1 Released">Next &rarr;</a></li>
+		  
+		</ul>
+
+		<hr>
+	</div>
+	
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'johnpapa';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+      <footer class="footer-text">
+        <hr/>
+        <p>
+        Copyright © 2015 - John Papa Blog content licensed under the Creative Commons <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a>
+        | Unless otherwise stated or granted, code samples licensed under the <a href="http://sm.mit-license.org/">MIT license</a>.
+        | Site design based on the <a href="https://github.com/dbtek/dbyll">dbyll theme</a> under the <a href="http://sm.mit-license.org/">MIT license</a>
+      </p>
+
+      </footer>
+
+    </div>
+
+    <script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
+
+    <!--Developer Media Links-->
+    <script type='text/javascript'>
+        function _dmBootstrap(file) {
+    var _dma = document.createElement('script'); _dma.type = 'text/javascript'; _dma.async = true; _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://')
+    + file;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js');
+    setTimeout(_dmFollowup, 2000);})();
+    </script>
+
+    <!--<script language="JavaScript" src="http://ad.doubleclick.net/N6839/adj/lqm.johnpapa.site/ron;kw=%2Cjohn%2Cpapa%2Cblog%2Cjohnpapa%7Bdot%7Dnet%2Cjohnpapa%2Cpappa%2Cwww%7Bdot%7Djohnpapa%7Bdot%7Dnet%2Cjon%2Cangular%2Cjhon;sz=160x600;dc_ref=http%3A%2F%2Fwww.johnpapa.net%2F;tile=1;ord=BEAAB484DA88D8D84B9DCB004E5712BE?"
+    type="text/javascript"></script>-->
+
+    <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="728x90" class="col-centered"></div>
+
+</body>
+
+</html>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'johnpapa']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+

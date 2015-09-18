@@ -1,0 +1,263 @@
+<p>Hi Mr. John,</p>
+
+<p>In 1st place let me tell you that your Puralsight courses are awesome, thank you for all your work!
+You can´t imagine how much you taught me.</p>
+
+<p>I dont know if you gonna have the time to answer this email, my doubt is rather basic, still dont know what to do.
+Basically what I´m trying is to create a Knockout dropdownlist with SQL data.
+My target was only to list books names in the dropdownlist, however until now dropdownlist appears always empty…
+I´m new to knockout and I´m getting pretty frustated with this situation.
+Any help is highly appreciated</p>
+
+<p>here is the code:</p>
+
+<p>CustomJs:</p>
+
+<p>DropDownList = function () {
+    var self = this;</p>
+
+<pre><code>self.bookz = ko.observableArray([]);
+
+$.getJSON("/books", null, function (allData) {
+           
+    self.bookz(allData.Book_Name);
+    var mappeTasks = $.map(allData, function (item) { return new Task(item) });
+    self.bookz(mappeTasks);
+</code></pre>
+
+<p>//Not sure if I need this var mappeTasks.
+    });
+};
+<strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong>___</p>
+
+<p>VIEW:</p>
+
+<p>@model KnockoutMVC.ViewModels.BooksViewModel
+@using System.Activities.Expressions;
+@using System.Web.Script.Serialization;</p>
+
+<p>@{
+    ViewBag.Title = “Details”;
+}
+@{string allData = new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(Model);}</p>
+
+<p>Details</p>
+
+<p>@section scripts {</p>
+
+<pre><code>    var booksviewModel = new DropDownList(@Html.Raw(allData));
+    ko.applyBindings(booksviewModel);
+</code></pre>
+
+<p>}</p>
+
+<p>//This ‘Book’ as optionText must be wrong</p>
+
+<hr />
+
+<p>CONTROLLER:</p>
+
+<p>public ActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Books books = db.Books.Find(id);
+            if (books == null)
+            {
+                return HttpNotFound();
+            }</p>
+
+<pre><code>        BooksViewModdel bookViewModel = new BooksViewModdel();
+        bookViewModel.BookId = books.BookId;
+        bookViewModel.Book_Name = books.Book_Name;
+
+        return View(bookViewModel);
+    }
+</code></pre>
+
+<hr />
+
+<p>BOOKSVIEWMODEL</p>
+
+<p>public class BooksViewModdel
+    {</p>
+
+<pre><code>    public int BookId { get; set; }        
+    public string Book_Name { get; set; }
+}
+</code></pre>
+
+<hr />
+
+<p>BOOKSMODEL</p>
+
+<p>public partial class Books
+    {
+        [Key]
+        public int BookId { get; set; }</p>
+
+<pre><code>    [Required]
+    [StringLength(50)]
+    public string Book_Name { get; set; }
+
+    public decimal Book_Price { get; set; }
+
+    public int? OrderId { get; set; }
+
+    public int BooksSubCategory { get; set; }
+
+    public bool? IsSelected { get; set; }
+}
+</code></pre>
+
+<hr />
+
+<p>Last Question:</p>
+
+<p>Mr. John, can you tell how to test the Generic Repository you did with Code Camper? 
+Waste several hours trying to write tests for this approach, however dueing to the complexity of this pattern(IGeneric/GenericRepo/ConcreteRepos/UnitOfWork) wasn´t successful.</p>
+
+<p>Sorry for my poor english, I hope its understandable at least.
+Keep up the good work!
+Kind Regards,
+Nuno B.
+<!--more-->
+AUTHOR: Nuno
+AUTHOR EMAIL: nbritod@gmail.com
+AUTHOR URL: 
+SUBJECT: [John Papa] Connect
+IP: 95.93.245.32
+Array
+(
+    [1_Name] =&gt; Nuno
+    [2_Email] =&gt; nbritod@gmail.com
+    [3_Website] =&gt; 
+    [4_Comment] =&gt; Hi Mr. John,</p>
+
+<p>In 1st place let me tell you that your Puralsight courses are awesome, thank you for all your work!
+You can´t imagine how much you taught me.</p>
+
+<p>I dont know if you gonna have the time to answer this email, my doubt is rather basic, still dont know what to do.
+Basically what I´m trying is to create a Knockout dropdownlist with SQL data.
+My target was only to list books names in the dropdownlist, however until now dropdownlist appears always empty…
+I´m new to knockout and I´m getting pretty frustated with this situation.
+Any help is highly appreciated</p>
+
+<p>here is the code:</p>
+
+<p>CustomJs:</p>
+
+<p>DropDownList = function () {
+    var self = this;</p>
+
+<pre><code>self.bookz = ko.observableArray([]);
+
+$.getJSON("/books", null, function (allData) {
+           
+    self.bookz(allData.Book_Name);
+    var mappeTasks = $.map(allData, function (item) { return new Task(item) });
+    self.bookz(mappeTasks);
+</code></pre>
+
+<p>//Not sure if I need this var mappeTasks.
+    });
+};
+<strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong>___</p>
+
+<p>VIEW:</p>
+
+<p>@model KnockoutMVC.ViewModels.BooksViewModel
+@using System.Activities.Expressions;
+@using System.Web.Script.Serialization;</p>
+
+<p>@{
+    ViewBag.Title = “Details”;
+}
+@{string allData = new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(Model);}</p>
+
+<p>Details</p>
+
+<p>@section scripts {</p>
+
+<pre><code>    var booksviewModel = new DropDownList(@Html.Raw(allData));
+    ko.applyBindings(booksviewModel);
+</code></pre>
+
+<p>}</p>
+
+<p>//This ‘Book’ as optionText must be wrong</p>
+
+<hr />
+
+<p>CONTROLLER:</p>
+
+<p>public ActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Books books = db.Books.Find(id);
+            if (books == null)
+            {
+                return HttpNotFound();
+            }</p>
+
+<pre><code>        BooksViewModdel bookViewModel = new BooksViewModdel();
+        bookViewModel.BookId = books.BookId;
+        bookViewModel.Book_Name = books.Book_Name;
+
+        return View(bookViewModel);
+    }
+</code></pre>
+
+<hr />
+
+<p>BOOKSVIEWMODEL</p>
+
+<p>public class BooksViewModdel
+    {</p>
+
+<pre><code>    public int BookId { get; set; }        
+    public string Book_Name { get; set; }
+}
+</code></pre>
+
+<hr />
+
+<p>BOOKSMODEL</p>
+
+<p>public partial class Books
+    {
+        [Key]
+        public int BookId { get; set; }</p>
+
+<pre><code>    [Required]
+    [StringLength(50)]
+    public string Book_Name { get; set; }
+
+    public decimal Book_Price { get; set; }
+
+    public int? OrderId { get; set; }
+
+    public int BooksSubCategory { get; set; }
+
+    public bool? IsSelected { get; set; }
+}
+</code></pre>
+
+<hr />
+
+<p>Last Question:</p>
+
+<p>Mr. John, can you tell how to test the Generic Repository you did with Code Camper? 
+Waste several hours trying to write tests for this approach, however dueing to the complexity of this pattern(IGeneric/GenericRepo/ConcreteRepos/UnitOfWork) wasn´t successful.</p>
+
+<p>Sorry for my poor english, I hope its understandable at least.
+Keep up the good work!
+Kind Regards,
+Nuno B.
+)</p>
+

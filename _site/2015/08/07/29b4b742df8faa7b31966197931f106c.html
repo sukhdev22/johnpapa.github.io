@@ -1,0 +1,79 @@
+<p>Hi John,</p>
+
+<p>I’m going through your excellent Gulp Pluralsight tutorial and have into a roadblock with gulp-filter and gulp csso.</p>
+
+<p>I have</p>
+
+<p>gulp.task(‘optimize’, [‘inject’, ‘images’, ‘fonts’], function () {
+    log(‘Optimizing the javascript, css, html’);</p>
+
+<pre><code>var assets = $.useref.assets({searchPath: './'});
+var templateCache = config.temp + config.templateCache.file;
+var cssFilter = $.filter('**/*.css');
+
+return gulp
+    .src(config.index)
+    .pipe($.plumber())
+    .pipe($.inject(gulp.src(templateCache, {read: false}), {
+        starttag: '&lt;!-- inject:templates:js --&gt;'
+    }))
+    .pipe(assets)
+    .pipe(cssFilter)
+    .pipe($.csso())
+    .pipe(cssFilter.restore())
+    .pipe(assets.restore())
+    .pipe($.useref())
+    .pipe(gulp.dest(config.build)); });
+</code></pre>
+
+<p>But it gives me a TypeError: undefined is not a function on this line: .pipe(cssFilter.restore())</p>
+
+<p>Am I doing anything wrong?</p>
+
+<p>Thank you again for a great tutorial!
+<!--more-->
+AUTHOR: Mike Williams
+AUTHOR EMAIL: mike@designmojo.com
+AUTHOR URL: 
+SUBJECT: [John Papa] Connect
+IP: 38.140.6.2
+Array
+(
+    [1_Name] =&gt; Mike Williams
+    [2_Email] =&gt; mike@designmojo.com
+    [3_Website] =&gt; 
+    [4_Comment] =&gt; Hi John,</p>
+
+<p>I’m going through your excellent Gulp Pluralsight tutorial and have into a roadblock with gulp-filter and gulp csso.</p>
+
+<p>I have</p>
+
+<p>gulp.task(‘optimize’, [‘inject’, ‘images’, ‘fonts’], function () {
+    log(‘Optimizing the javascript, css, html’);</p>
+
+<pre><code>var assets = $.useref.assets({searchPath: './'});
+var templateCache = config.temp + config.templateCache.file;
+var cssFilter = $.filter('**/*.css');
+
+return gulp
+    .src(config.index)
+    .pipe($.plumber())
+    .pipe($.inject(gulp.src(templateCache, {read: false}), {
+        starttag: '&lt;!-- inject:templates:js --&gt;'
+    }))
+    .pipe(assets)
+    .pipe(cssFilter)
+    .pipe($.csso())
+    .pipe(cssFilter.restore())
+    .pipe(assets.restore())
+    .pipe($.useref())
+    .pipe(gulp.dest(config.build)); });
+</code></pre>
+
+<p>But it gives me a TypeError: undefined is not a function on this line: .pipe(cssFilter.restore())</p>
+
+<p>Am I doing anything wrong?</p>
+
+<p>Thank you again for a great tutorial!
+)</p>
+

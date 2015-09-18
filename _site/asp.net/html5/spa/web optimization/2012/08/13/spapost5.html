@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Build Single Page Apps - Part 5 - HTML 5 and ASP.NET Web Optimization</title>
+    
+    <meta name="author" content="John Papa">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico">
+
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+    <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default visible-xs" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://github.com/johnpapa">
+                <i class="fa fa-github"></i>
+            </a>
+            
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://twitter.com/john_papa">
+                <i class="fa fa-twitter"></i>
+            </a>
+            
+            
+            <a class="navbar-brand" href="/">
+                <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=35" class="img-circle" />
+                
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/categories.html">Categories</a></li>
+                <li><a href="/tags.html">Tags</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <!-- nav-menu-dropdown -->
+    <div class="btn-group hidden-xs" id="nav-menu">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+            <li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+        </ul>
+    </div>
+
+    <div class="col-sm-4 sidebar hidden-xs hidden-sm not-mobile">
+        <!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<h1 class="text-center">John Papa</h1>
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=150" class="img-circle" />
+	</a>
+	<h3 class="title">
+		<a href="/"></a>
+	</h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Evangelist on the Loose
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/johnpapa">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		 
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/john_papa">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		 
+	</ul>
+
+	<div class="sidebar-content">
+
+		<nav id="page-nav">
+			<ul class="main-navigation list-unstyled list-inline">
+				<li><a href="/about/">About</a></li>
+				<li><a href="/articles">Articles</a></li>
+				<li><a href="/spa">SPA</a></li>
+				<li><a href="/videos">Videos</a></li>
+			</ul>
+		</nav>
+
+		<h5>Recent Posts</h5>
+		<ul class="list-unstyled">
+			
+				<li>
+					<span>16 Sep 2015</span> &raquo;
+					<a href="/angular/angular2/community/event/javascript/uncategorized/2015/09/16/angular-2-hack-night-coming-to-orlando.html">
+					Angular 2 Hack Night Coming to Orlando</a>
+				</li>
+			
+				<li>
+					<span>29 Aug 2015</span> &raquo;
+					<a href="/angular/asp.net/github/gulp/html5/javascript/pluralsight/typescript/uncategorized/visual%20studio%20code/2015/08/29/learning-visual-studio-code.html">
+					Learning Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/visual-studio-code-webinar.html">
+					Visual Studio Code Webinar</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/automatically-restarting-asp-net-on-osx-with-dnxmon.html">
+					Automatically Restarting ASP.NET on OSX with DNXMON</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/getting-started-with-asp-net-5-on-osx.html">
+					Getting Started with ASP.NET 5 on OSX</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/refactoring-with-visual-studio-code.html">
+					Refactoring with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/intellisense-witha-visual-studio-code.html">
+					Intellisense with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/git-and-preferences-in-visual-studio-code.html">
+					Git and Preferences in Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/debugging-with-visual-studio-code.html">
+					Debugging with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/visual-studio-code.html">
+					Introducing Visual Studio Code</a>
+				</li>
+			
+		</ul>
+	</div>
+
+</div>
+<!-- sidebar.html end -->
+        <div class="not-mobile row sidebar-extras">
+            <table class="col-centered">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-sm-8">
+        <div class="page-header">
+  <h1>Build Single Page Apps - Part 5 - HTML 5 and ASP.NET Web Optimization </h1>
+</div>
+	
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   August 
+	   13th,
+	   
+	   2012
+	 </span>
+	  <div class="article_body">
+	  <p>Single Page Apps (SPA) are all the rage, and while it’s exciting to talk about the JavaScript we use in the SPA, the HTML is just as important. If HTML5 tags are used, then its important to make sure that you prepare for a graceful degradation if you want older browser support. Also, the HTML shell should handle this and pull in scripts as efficiently as possible.  <p>You can read more about this and other topics in a few weeks when <a href="http://www.pluralsight.com/">Pluralsight</a> will be releasing my new course titled “Building Single Page Apps (SPA) with HTML5, ASP.NET Web API, Knockout and jQuery”. Til then, I’ve decided to journalize the creation of the course in a few posts. You can catch up on the previous posts in this series here:  <h3>More on the Code Camper SPA</h3> <p>Part 1 - <a href="http://jpapa.me/spapost1">The Story Begins (What is the Code Camper SPA?)</a></p> <p>Part 2 - <a href="http://jpapa.me/spapost2">Client Technologies</a></p> <p>Part 3 - <a href="/spapost3">Server Technologies (the Data Layer)</a></p> <p>Part 4 - <a href="http://jpapa.me/spapost4">Serving JSON with ASP.NET Web API</a></p> <p>Part 5 - <a href="http://jpapa.me/spapost5">HTML 5 and ASP.NET Web Optimization</a></p> <p>Part 6 - <a href="http://jpapa.me/spapost6">JavaScript Modules</a></p> <p>Part 7 - <a href="http://jpapa.me/spapost7">MVVM and KnockoutJS</a></p> <p>Part 8 - <a href="http://jpapa.me/spapost8">Data Services on the Client</a></p> <p>Part 9 - <a href="http://jpapa.me/spapost9">Navigation, Transitions, Storage and Messaging</a></p> <p>Part 10 - <a href="http://jpapa.me/spapost10">Saving, Change Tracking, and Commanding</a> </p> <p>Part 11 - Responsive Design and Mobility</p> <h3>HTML Best Practices </h3> <p>Staring at a blank canvas can be terrifying for developers. Come on, admit it .. as exciting as it is to start a new project, sometimes its just daunting to think “how do I get started?” The good news is that when starting with an HTML app there is help to get you going. And using best practices for HTML is actually quite simple. 2 of my favorite tools to get started are <a href="http://code.google.com/p/html5shiv/">HTML5 Shiv</a> and <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>. In my course I chose HTML5 Boilerplate and it offers these (and many more) benefits:</p> <p>1) Tips on where to put your scripts in the HTML page </p> <p>2) Mobility and responsive design help </p><pre class="csharpcode">  <span class="rem">&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;</span>
+<span class="kwrd">&lt;</span><span class="html">meta</span> <span class="attr">name</span><span class="kwrd">="viewport"</span> <span class="attr">content</span><span class="kwrd">="width=device-width"</span><span class="kwrd">&gt;</span></pre>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+font-size: small;
+color: black;
+font-family: consolas, "Courier New", courier, monospace;
+background-color: #ffffff;
+/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+background-color: #f4f4f4;
+width: 100%;
+margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+<p>3) CSS baseline for styles (check out the style.css included in the template)</p>
+<p>4) Helps make your app work well across multiple browser brands and versions with modernizr </p><pre class="csharpcode"><span class="rem">&lt;!-- All JavaScript at the bottom, except this Modernizr build.</span>
+<span class="rem">    Modernizr enables HTML5 elements &amp; feature detects </span>
+<span class="rem">    for optimal performance. Create your own custom Modernizr </span>
+<span class="rem">    build: www.modernizr.com/download/ --&gt;</span>
+<span class="kwrd">&lt;</span><span class="html">script</span> <span class="attr">src</span><span class="kwrd">="js/libs/modernizr-2.5.3.min.js"</span><span class="kwrd">&gt;&lt;/</span><span class="html">script</span><span class="kwrd">&gt;</span></pre>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+font-size: small;
+color: black;
+font-family: consolas, "Courier New", courier, monospace;
+background-color: #ffffff;
+/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+background-color: #f4f4f4;
+width: 100%;
+margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+<p>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+font-size: small;
+color: black;
+font-family: consolas, "Courier New", courier, monospace;
+background-color: #ffffff;
+/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+background-color: #f4f4f4;
+width: 100%;
+margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+5) Tips for scripts using CDNs and&nbsp; fallbacks </p><pre class="csharpcode"><span class="rem">&lt;!-- </span>
+<span class="rem">Grab Google CDN's jQuery, with a protocol relative URL; </span>
+<span class="rem">fall back to local if offline </span>
+<span class="rem">--&gt;</span>
+<span class="kwrd">&lt;</span><span class="html">script</span> <span class="attr">src</span><span class="kwrd">="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"</span><span class="kwrd">&gt;</span>
+<span class="kwrd">&lt;/</span><span class="html">script</span><span class="kwrd">&gt;</span>
+&lt;script&gt;
+window.jQuery || document.write(
+<span class="str">'&lt;script src="js/libs/jquery-1.7.1.min.js"&gt;&lt;\/script&gt;'</span>)
+<span class="kwrd">&lt;/</span><span class="html">script</span><span class="kwrd">&gt;</span></pre>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+font-size: small;
+color: black;
+font-family: consolas, "Courier New", courier, monospace;
+background-color: #ffffff;
+/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+background-color: #f4f4f4;
+width: 100%;
+margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+font-size: small;
+color: black;
+font-family: consolas, "Courier New", courier, monospace;
+background-color: #ffffff;
+/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+background-color: #f4f4f4;
+width: 100%;
+margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+<p>There is so much more in HTML5 Boilerplate and I highly recommend you check it out. Its fun to download the full version of it which includes tons of comments on what the features do. </p>
+<h3>ASP.NET Web Optimization </h3>
+<p>When building an app you may end up with a lot of JavaScript and CSS files. Some you write yourself and others you include from popular libraries like <a href="http://www.jquery.com">jQuery</a> or <a href="http://www.knockoutjs.com">Knockout</a> .&nbsp; You want to make sure you get those scripts and CSS to your browser as quickly and efficiently as possible. That’s where bundling and minification can make a huge impact. </p>
+<p>The good news here is that there are many options, there is one backed right into the latest version of ASP.NET called <a href="http://nuget.org/packages/microsoft.aspnet.web.optimization">ASP.NET Web Optimization (available on NuGet)</a>. With this tool you can bundle your JavaScript (or CSS) into a few bundles. So instead of the browser making 40 requests for 40 files (if that is what you have), you could have the browser request 2 files (your bundles). Bundling is simply concatenating your files together.</p>
+<p><a href="/wp-content/uploads/media/Windows-Live-Writer/3a1473c0c097_13F8F/image_6.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto; padding-top: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/media/Windows-Live-Writer/3a1473c0c097_13F8F/image_thumb_2.png" width="420" height="417" /></a></p>
+<p>The other half of this equation is minifying your files, which cuts out whitespace and does some other tricks to shorten the contents of the files. In some cases these can greatly reduce the file size and thus make the request take a lot less time to get to the browser. Once the scripts are optimized, you can bring them to the browser via a regular script tag reference or through ASP/NET’s special Styles.Render and Scripts.Render syntax as follows:</p><pre class="csharpcode">@Styles.Render(<span class="str">"~/Content/mycss"</span>)
+@Scripts.Render( <span class="str">"~/bundles/myjs"</span> )</pre>
+<p>These are just a few of the feature of ASP.NET Web Optimization. You can see more about this feature in my course, as I use it to create a few key bundles for my scripts and CSS. </p>
+<p>Next up I’ll explain some tips to kick off the SPA with JavaScript.</p>
+
+</p></p>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			 
+				<li><a href="/categories.html#asp.net-ref">
+					asp.net <span>(10)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#html5-ref">
+					html5 <span>(14)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#spa-ref">
+					spa <span>(37)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#web optimization-ref">
+					web optimization <span>(1)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		  
+
+		  
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Build Single Page Apps - Part 5 - HTML 5 and ASP.NET Web Optimization&via=john_papa"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721" class="img-rounded author-image" />
+        <h4 class="section-title author-name">John Papa</h4>
+        <p class="author-bio">Evangelist on the Loose</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/asp.net/entity%20framework/json/patterns/pluralsight/spa/webapi/2012/08/06/spapost4.html" title="Building Single Page Apps with HTML5, Knockout, jQuery, and Web API - Part 4 - Serving JSON with ASP.NET Web API">&larr; Previous</a></li>
+		  
+		  
+		  <li class="next"><a href="/visual%20studio%202012/windows%208/2012/08/15/windows-8-and-visual-studio-2012-now-available.html" title="Windows 8 and Visual Studio 2012 Now Available">Next &rarr;</a></li>
+		  
+		</ul>
+
+		<hr>
+	</div>
+	
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'johnpapa';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+      <footer class="footer-text">
+        <hr/>
+        <p>
+        Copyright © 2015 - John Papa Blog content licensed under the Creative Commons <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a>
+        | Unless otherwise stated or granted, code samples licensed under the <a href="http://sm.mit-license.org/">MIT license</a>.
+        | Site design based on the <a href="https://github.com/dbtek/dbyll">dbyll theme</a> under the <a href="http://sm.mit-license.org/">MIT license</a>
+      </p>
+
+      </footer>
+
+    </div>
+
+    <script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
+
+    <!--Developer Media Links-->
+    <script type='text/javascript'>
+        function _dmBootstrap(file) {
+    var _dma = document.createElement('script'); _dma.type = 'text/javascript'; _dma.async = true; _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://')
+    + file;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js');
+    setTimeout(_dmFollowup, 2000);})();
+    </script>
+
+    <!--<script language="JavaScript" src="http://ad.doubleclick.net/N6839/adj/lqm.johnpapa.site/ron;kw=%2Cjohn%2Cpapa%2Cblog%2Cjohnpapa%7Bdot%7Dnet%2Cjohnpapa%2Cpappa%2Cwww%7Bdot%7Djohnpapa%7Bdot%7Dnet%2Cjon%2Cangular%2Cjhon;sz=160x600;dc_ref=http%3A%2F%2Fwww.johnpapa.net%2F;tile=1;ord=BEAAB484DA88D8D84B9DCB004E5712BE?"
+    type="text/javascript"></script>-->
+
+    <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="728x90" class="col-centered"></div>
+
+</body>
+
+</html>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'johnpapa']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+

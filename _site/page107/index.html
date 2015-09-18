@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>dbyll</title>
+	
+	<meta name="author" content="dbyll">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/dbtek">
+				<i class="fa fa-github"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/dbtek">
+				<i class="fa fa-twitter"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="mailto:dbyll@ismaildemirbilek.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			
+			<a class="navbar-brand" href="/">
+				<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=35" class="img-circle" />
+				
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs">
+		<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=150" class="img-circle" />
+	</a>
+	<h3 class="title">
+        <a href="/"></a>
+    </h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Your stylish, minimalist theme!
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/dbtek">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/dbtek">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:dbyll@ismaildemirbilek.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://pinterest.com/asd123">
+				<i class="fa fa-pinterest fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/asd123">
+				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 col-sm-offset-3">
+		<div class="page-header">
+  <h1>dbyll </h1>
+</div>
+
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    August
+    11th,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/08/11/visual-studio-2008-service-pack-1-is-on-msdn-today.html">Visual Studio 2008 Service Pack 1 Is on MSDN Today</a>
+  </h2>
+
+  <div>
+    
+    
+    <p></p>
+<p>After some minor delays, Visual Studio 2008 Service Pack 1 is available from MSDN downloads today. It’s just under a gig download, but its only 1 file (I loathe those multi file downloads). Transferring fast for me for a first day release (1100KB/sec) … not sure why with all the competition I expected to hit on the line. Estimated at &lt; 10 minutes total.</p>
+<p><a href="http://msdn.microsoft.com/en-us/vstudio/cc533448.aspx">Get it while its hot!</a> </p>
+<p><strong>UPDATE: Wow, It went up to 1700kb/sec on average for my download. </strong></p>
+<p><strong><font color="#ff0000">UPDATE 2:</font></strong> There is a nice list of what is include din the service pack on the MSDN site <a href="http://msdn.microsoft.com/en-us/vstudio/products/cc533447.aspx">found here</a>. Here is a quick synopsis:</p>
+<p><strong>WPF and visual designer improvements</strong></p>
+<p><strong>ADO.NET Entity Framework goes live</strong></p>
+<p><strong>ADO.NET Data Services goes live</strong></p>
+<p><strong>Visual Studio 2008 SP1 delivers: </strong></p>
+<ul>   <li>Improved WPF designers </li>    <li>SQL Server 2008 support </li>    <li>ADO.NET Entity Designer </li>    <li>Visual Basic and Visual C++ components and tools (including an MFC-based Office 2007 style ‘Ribbon’) </li>    <li>Visual Studio Team System Team Foundation Server (TFS) addresses customer feedback on version control usability and performance, email integration with work item tracking and full support for hosting on SQL Server 2008 </li>    <li>Richer JavaScript support, enhanced AJAX and data tools, and Web site deployment improvements </li> </ul>
+<p><strong>The .NET Framework 3.5 SP1 delivers:</strong></p>
+<ul>   <li>Performance increases between 20-45% for WPF-based applications – without having to change any code </li>    <li>WCF improvements that give developers more control over the way they access data and services </li>    <li>Streamlined installation experience for client applications </li>    <li>Improvements in the area of data platform, such as the ADO.NET Entity Framework, ADO.NET Data Services and support for SQL Server 2008’s new features </li> </ul>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/visual-studio-2008-service-pack-1-is-on-msdn-today/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/visual-studio-2008-service-pack-1-is-on-msdn-today/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" alt="DotNetKicks Image" border="0/" /></a></div>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript">var dzone_url = '/all/visual-studio-2008-service-pack-1-is-on-msdn-today/';</script><script type="text/javascript">var dzone_title = 'Visual Studio 2008 Service Pack 1 Is on MSDN Today';</script><script type="text/javascript">var dzone_blurb = 'Visual Studio 2008 Service Pack 1 Is on MSDN Today';</script><script type="text/javascript">var dzone_style = '1';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    August
+    10th,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/08/10/silvester-is-on-my-home-page.html">Silvester is on my Home Page</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="http://www.silverlightshow.net/items/Silvester-A-Silverlight-Twitter-Widget.aspx"><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilvesterisonmyHomePage_11B0F/image_2.png"><img title="image" style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="356" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilvesterisonmyHomePage_11B0F/image_thumb.png" width="297" align="right" border="0" /></a>Silvester</a> is a tool that I ran across on <a href="http://www.silverlightshow.net/Profile.aspx?userId=da53489a-6e89-4819-b763-9d435b8dcf68">Emil Stoychev’s</a> site. It is a simple UI for showing the latest tweets from a Twitter account in a Silverlight 2 beta 2 widget. You simply copy some HTML to your site, change the Twitter account name, and its off and running. </p>
+<p>&#160;</p>
+<p>The explanation of the widget and some examples of how the code works can be <a href="http://www.silverlightshow.net/items/Silvester-A-Silverlight-Twitter-Widget.aspx">found on this post</a>.</p>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/silvester-is-on-my-home-page/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/silvester-is-on-my-home-page/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" alt="DotNetKicks Image" border="0/" /></a></div>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript">var dzone_url = '/all/silvester-is-on-my-home-page/';</script><script type="text/javascript">var dzone_title = 'Silvester is on my Home Page';</script><script type="text/javascript">var dzone_blurb = 'Silvester is on my Home Page';</script><script type="text/javascript">var dzone_style = '1';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    August
+    10th,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/08/10/adventures-with-the-live-search-web-service.html">Adventures with the Live Search Web Service</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>I was writing a chapter of my book <a href="http://www.amazon.com/Data-Services-Silverlight-John-Papa/dp/0596523092/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1218389224&amp;sr=8-1">Data Services with Silverlight 2</a> last night about using SOAP, <a href="http://www.amazon.com/Data-Services-Silverlight-John-Papa/dp/0596523092/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1218389224&amp;sr=8-1"><img title="book2" height="252" alt="book2" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/DataServiceswithSilverlight2NewNameSameB_B190/book2_3.png" width="192" align="right" border="0" /></a>ASMX, and WCF web services from Silverlight and I decided ot put a small section in it regarding how to hit the Live Search web service. Creating your own services is great but there is an increasing number of web services available to everyone from sites like Live Search, Flickr, Amazon, EBay, Yahoo, and more. These services allow you to tap into their vast API’s and build off of them for your own purposes. This really opens the doors to what can be done on the web since we don’t have to recreate the wheel in many cases.</p>
+<p>So i decided to include a brief example of using some of the services in my book. Last night I wrote about using Live Search There is some decent documentation about how to hook into the service, reference it, invoke it, ways to tweak the queries, and what the results will look like. You can browse through the following sites to find some good information:</p>
+<ul>   <li><a href="http://msdn.microsoft.com/en-us/library/aa905676.aspx">Live Search SDK</a></li>    <ul>     <li>This is a good starting point of the MSDN documentation for Live Search</li>   </ul>    <li><a href="http://msdn.microsoft.com/en-us/library/bb266187.aspx">Getting Started with the API</a></li>    <ul>     <li>Shows how to acquire an AppID for using Live Search. This is the personal key for your usage.</li>   </ul>    <li><a href="http://msdn.microsoft.com/en-us/library/bb266180.aspx">API Reference</a></li>    <ul>     <li>Shows all of the classes that are exposed by the service. Pretty cool stuff in here and very extensive.</li>   </ul>    <li><a href="http://msdn.microsoft.com/en-us/library/bb251808.aspx">Example</a></li>    <ul>     <li>There are some less than stellar examples of using Live Search. This is the one downpoint IMO. The samples are OK, and there are comments that explain what is going on. But there is so much to querying to Live Search service that this can be daunting. The examples are OK, but they could use some serious improvement.</li>   </ul> </ul>
+<p>I’m having a blast going through some services and hooking them into Silverlight applications for my book and for some upcoming conferences at <a href="http://vslive.com/2008/newyork/default.aspx">VSLive NYC</a>, <a href="http://www.devconnections.com/">DevConnections in Las Vegas</a>, and <a href="http://vslive.com/2008/dallas/">VSLive in Dallas</a>. </p>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/adventures-with-the-live-search-web-service/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/adventures-with-the-live-search-web-service/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" alt="DotNetKicks Image" border="0/" /></a></div>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript">var dzone_url = '/all/adventures-with-the-live-search-web-service/';</script><script type="text/javascript">var dzone_title = 'Adventures with the Live Search Web Service';</script><script type="text/javascript">var dzone_blurb = 'Adventures with the Live Search Web Service';</script><script type="text/javascript">var dzone_style = '1';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    August
+    6th,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/08/06/dzone-plugin-for-windows-live-writer-on-codeplex.html">DZone Plugin for Windows Live Writer on CodePlex</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="/all/source-is-on-codeplex-for-windows-live-writer-plugin-for-dotnetkicks/">Earlier today I posted</a> the <a href="http://www.codeplex.com/wlwplugin4dnk">DotNetKicks plugin for Windows Live Writer</a> up on CodePlex including all of its source. Just now I created a <a href="http://www.codeplex.com/wlwplugin4dzone">CodePlex project for the DZone PlugIn for Windows Live Writer</a>, too. I uploaded all of the source code and the latest binary as well.</p>
+<p>Here are some links to some posts I made that <a href="/all/dzone-plugin-for-windows-live-writer/">explain the DZone PlugIn</a> and one to <a href="/all/using-the-dotnetkicks-plugin-for-live-writer/">explain the DotNetKicks PlugIn</a>.</p>
+<p>Enjoy!</p>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/dzone-plugin-for-windows-live-writer-on-codeplex/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/dzone-plugin-for-windows-live-writer-on-codeplex/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" alt="DotNetKicks Image" border="0/" /></a></div>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript">var dzone_url = '/all/dzone-plugin-for-windows-live-writer-on-codeplex/';</script><script type="text/javascript">var dzone_title = 'DZone Plugin for Windows Live Writer on CodePlex';</script><script type="text/javascript">var dzone_blurb = 'DZone Plugin for Windows Live Writer on CodePlex';</script><script type="text/javascript">var dzone_style = '1';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    August
+    6th,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/08/06/source-is-on-codeplex-for-windows-live-writer-plugin-for-dotnetkicks.html">Source is on CodePlex for Windows Live Writer PlugIn for DotNetKicks</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>I finally got around to putting the source code in the CodePlex repository. If you are interested in the source or just the binaries, feel free to check it out at <a title="http://www.codeplex.com/wlwplugin4dnk" href="http://www.codeplex.com/wlwplugin4dnk">http://www.codeplex.com/wlwplugin4dnk</a>. There is a new version up there, too … v 1.0.0.2. Very minor changes. </p>
+<p>I’ll be adding a few features to it as time permits, and I will be creating a project for the DZone plugin on CodePlex, too … as soon as I get a free moment :)</p>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/source-is-on-codeplex-for-windows-live-writer-plugin-for-dotnetkicks/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/source-is-on-codeplex-for-windows-live-writer-plugin-for-dotnetkicks/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" alt="DotNetKicks Image" border="0/" /></a></div>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript">var dzone_url = '/all/source-is-on-codeplex-for-windows-live-writer-plugin-for-dotnetkicks/';</script><script type="text/javascript">var dzone_title = 'Source is on CodePlex for Windows Live Writer PlugIn for DotNetKicks';</script><script type="text/javascript">var dzone_blurb = 'Source is on CodePlex for Windows Live Writer PlugIn for DotNetKicks';</script><script type="text/javascript">var dzone_style = '1';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    August
+    6th,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/08/06/download-the-northwindef-database.html">Download the NorthwindEF Database</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>I have presented a lot of demonstrations using the EFNorthwind database over the past year or so. This is the database that is used in the Entity Framework samples. Its simply just a minor variation of the infamous Northwind database. I have had a lot of requests in that time to send a link to the EFNorthwind database and of course the link has changed on the main site so I decided to simply post a link on my site for this database. </p>
+<p>So if you have read one of my blog posts on EF, read one of <a href="http://msdn2.microsoft.com/en-us/magazine/cc159469.aspx">my articles in MSDN Magazine</a>, <a href="http://www.simple-talk.com/author/john-papa/">Simple-Talk.com</a>, or attended one of my presentations <a href="/wp-content/uploads/files/downloads/NorthwindEF Database.rar">here is a link to the NorthwindEF database</a>. Enjoy!</p>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/download-the-efnorthwind-database/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/download-the-efnorthwind-database/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" border="0/" /></a></div>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript">var dzone_url = '/all/download-the-efnorthwind-database/';</script><script type="text/javascript">var dzone_title = 'Download the NorthwindEF Database';</script><script type="text/javascript">var dzone_blurb = 'Download the NorthwindEF Database';</script><script type="text/javascript">var dzone_style = '1';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    August
+    5th,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/08/05/how-many-iphone-3g-restores-must-i-endure.html">How Many iPhone 3G Restores Must I Endure?</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>Seriously. This is a major problem with the iPhone 3G and its software. I had to endure 2 restores already in the first two weeks I had it. Luckily it backs everything up on iTunes so at least i did not lose anything other than my time. (Hmph ... my time ... each restore took well over an hour!)</p>
+<p>I have been traveling a lot lately and I had not had a chance to synch my iPhone. It was working great the past 2 weeks since the last restore. I decided to synch it back up with my computer tonight to get some new music and movies and it offered to install the new iPhone 2.0.1 OS. I said sure, go for it. It said great ... now I'll proceed to screw up your iPhone! Seriously ... it started to install the new OS update and it never completed (at least I don;t think it did). After about an hour of waiting for it to reboot, I decided to manually reboot it (holding both buttons down for 6 seconds or so). It restarted and told me that all I could do was restore. Sigh.</p>
+<p>Don't get me wrong, I love my iPhone 3G. Its been great so far except for the short lived battery life. I can deal with a few hiccups, after all I used to use Windows Mobile a lot so I know about hiccups :-) But Windows Mobile NEVER EVER died to the point of needing an OS reinstall. Not once in 3 years of using it. IPhone has done it 3 times in 4 weeks on me.</p>
+<p>Apple ... it's time to fix these issues and quickly.</p>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><a href="http://www.dotnetkicks.com/kick/?url=/all/how-many-iphone-3g-restores-must-i-endure/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=/all/how-many-iphone-3g-restores-must-i-endure/&amp;bgcolor=0080C0&amp;fgcolor=FFFFFF&amp;border=000000&amp;cbgcolor=D4E1ED&amp;cfgcolor=000000" border="0/" /></a></div>
+<div class="wlWriterHeaderFooter" style="text-align:left; margin:0px; padding:4px 4px 4px 4px;"><script type="text/javascript">var dzone_url = '/all/how-many-iphone-3g-restores-must-i-endure/';</script><script type="text/javascript">var dzone_title = 'How Many iPhone 3G Restores Must I Endure?';</script><script type="text/javascript">var dzone_blurb = 'How Many iPhone 3G Restores Must I Endure?';</script><script type="text/javascript">var dzone_style = '1';</script><script language="javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> </div>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    July
+    31st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/07/31/vmware-s-fusion.html">VMWare's Fusion</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>That bad place must have frozen over. Why? Because I bought a MacBook Pro. Never thought I would do it, but recent events made it actually very viable for me. First, intel based MacBooks make Vista an option. Second, iPhone development requires some sort of Mac OS, which I could have gotten a mini I guess. I plan on creating some iPhone apps, some for fun and some for business, so the Mac made a lot of sense here. Third, <a href="http://vmware.com/products/fusion/">VMWare's Fusion</a> product makes is possible to take a virtual machine image of Vista (or XP or several other OS's) and use them on a Mac. Fusion is what made me think that I could try using the MacBook for .NET development. yes, I could use Bootcamp to have dual boots on the Mac and another options is to wipe Leopard from the Mac and install a fresh Vista OS, but I wanted to keep Leopard around. I am pretty curious about the OS and I do need it for the iPhone development.</p>
+<p>So Fusion came to the forefront. I looked into it and found that they have a feature called Unity which allows you run the Vista applications in congruence with the Mac OS. Its interesting ... basically it becomes a windowless virtual machine where I am running Leopard with some of its apps and the virtual machine for my Vista instance is running as well. So I can have Leopard apps and my apps running side by side (not within a VM window). For example, right now I am running Windows Live Writer in my virtual machine and FireFox in my Mac side by side. </p>
+<p>Fusion has several features which I am evaluating and I will be blogging about. There is also a new beta for Fusion v2 beta 2 that just came out. I will be looking at the beta too, but for now I am only running Fusion v1.</p>
+<p><a href="http://vmware.com/products/converter/">VMWare's Converter</a> program is another great tool as it allowed me to grab an image of my laptop and make a VM image from it. So I am running an image of my Thinkpad laptop on my MacBook Pro. Pretty cool indeed! Thought it did take 4 hours to create the image (gulp).</p>
+<p>I'll post more as things unfold, but for now its looking very promising. Fusion is fast as heck and Vista is development is super fast running under it. I do notice a few issues that are annoying including some weird phantom windows that appear when I use a VM in Fusion. Once I get some more mileage under my belt with this I will post about these and discuss some options. </p>
+<p>And the MacBook pro? My only gripe so far is the damned keyboard translation. I love a lot about this laptop. But going to the next word, previous word, HOME, END, and other keyboard shortcuts don't always work properly, and it gets worse under Fusion. This is a major headache so far and I hope its just a learning curve for me. For example, I hit &lt;CMD&gt; + &lt;LEFT ARROW&gt; and it should go to the previous word's first letter. It works sometimes but other times it keeps going back to about 20 previous words. Like I held the keys down. Ugh. I need keyboard navigation so I have to figure this out. </p>
+<p>This is a full screen image of my Visa VM running on my MacBook pro under VMWare's Fusion using the Unity feature. (Click on it to see the larger image). Notice the Leopard dock on the left and VMWare Fusion on the top while Windows Live Writer is running ... all in Unity.</p>
+<p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/VMWaresFusion_94A7/image_2.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="359" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/VMWaresFusion_94A7/image_thumb.png" width="574" border="0" /></a> </p>
+<p>Photos and reviews to come .....</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    July
+    24th,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/07/24/where-do-i-put-converters-in-my-silverlight-2-book.html">Where Do I Put Converters in my Silverlight 2 Book?</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>I just finished another chapter in my Data Services with Silverlight 2 book. And its another chapter without discussing converters. Specifically I mean classes that implement the IValueConverter interface and its Convert and ConvertBack methods.This is a fairly simple concept and it relates directly to dealing with data in XAML based applications including Silverlight 2. I've talked about a lot of situations so far where I could have injected converters, however each time I try to do so it takes away from the point of the current context of the chapter I am writing. So I end up pulling the converters out and saying "I'll get to them later". Well, its 4 chapters later now. I have about 7 pages that talk about converters and no home for them. </p>
+<p>I am determined to find a place where they fit! I refuse to just throw them in a chapter because I want the book to read smoothly and focus on a topic at a time. Technical books often suffer the syndrome of presenting way too much information in one shot. I battle this problem every time I sit down to write an article or in this case my book. When several topics are introduced all at once .... or worse when 1 topic is being discussed and several other new topics are just thrown in and not discussed at all .... it makes it difficult on the reader to follow.</p>
+<p>So my new goal is to find a home for converters in my book. I imagine I will find a home in one of the chapters I already wrote once I find a smoother way to work them back in.</p>
+<p><img title="book2" height="484" alt="book2" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/DataServiceswithSilverlight2NewNameSameB_B190/book2_3.png" width="369" border="0" /></p>
+<p>I have 5 weeks left to write 5 chapters. (The book will be available in December 2008 by O'Reilly) Yep, I am a little bit behind ... but I am loving how the book is turning out. The rough list of topics includes, but not limited to:</p>
+<ul> <li>tons of information on binding with Silverlight</li> <li>notifications from interfaces</li> <li>converters </li> <li>invoking wcf</li> <li>cross domain policies</li> <li>invoking REST services</li> <li>writing your own REST services</li> <li>Astoria</li> <li>Receiving JSON and using LINQ to JSON</li> <li>Receiving POX using LINQ to XML</li> <li>Pulling LINQ to SQL and the Entity Framework entities into Silverlight 2 applications</li></ul>
+<p>This is the first rough list I have posted about my book. We've tried to keep it close to the vest since I was constantly changing chapter numbers and moving content around. But now I think we have settled on what is in the book (at least 80% of it). there are some topics I want to dive into but at some point I certainly will have to send it all to be published or it never will make it to print! The book will be about 250 pages ... pretty short. The goal is to focus on these specific topics. So far its working out great.</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    July
+    22nd,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/07/22/return-a-list-lt-t-gt-or-a-observablecollection-lt-t-gt.html">Return a List<T> or a ObservableCollection<T></a>
+  </h2>
+
+  <div>
+    
+    
+    <p>It's crazy generic method time! Here is a method I created for fun that either returns a List&lt;T&gt; or a ObservableCollection&lt;T&gt;, depending on what you pass in via generic parameters. It creates a list of Product entity instances with some fake data.</p>
+<p>The L stands for the type of ICollection you want to create and return. For example a List&lt;T&gt; or a ObservableColleciton&lt;T&gt;. The P stands for a Product class type. This could be replaced with any type of entity, just replace the condition of where : Product with the entity type of your choice.</p>
+<p>You can call it using this code:</p>
+<div class="csharpcode"><pre class="alt">List&lt;Product&gt;  productList = CreateProductList&lt;List&lt;Product&gt;, Product&gt;();</pre></div>
+<div class="csharpcode">&nbsp;</div>
+<div class="csharpcode">or</div>
+<div class="csharpcode">&nbsp;</div>
+<div class="csharpcode"><pre class="alt"><p>ObservableCollection&lt;Product&gt; productOC = </p><blockquote><p>           CreateProductList&lt;ObservableCollection&lt;Product&gt;, Product&gt;();</p></blockquote></pre></div>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+font-size: small;
+color: black;
+font-family: consolas, "Courier New", courier, monospace;
+background-color: #ffffff;
+/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+background-color: #f4f4f4;
+width: 100%;
+margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+
+<div class="csharpcode">&nbsp;</div>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+font-size: small;
+color: black;
+font-family: consolas, "Courier New", courier, monospace;
+background-color: #ffffff;
+/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+background-color: #f4f4f4;
+width: 100%;
+margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+
+<p>Its just for fun ... so enjoy.</p>
+<div class="csharpcode"><pre class="alt"><span class="lnum">   1:  </span><span class="kwrd">private</span> L CreateProductList&lt;L, P&gt;()</pre><pre><span class="lnum">   2:  </span>    <span class="kwrd">where</span> P : Product, <span class="kwrd">new</span>()</pre><pre class="alt"><span class="lnum">   3:  </span>    <span class="kwrd">where</span> L : ICollection&lt;P&gt;, <span class="kwrd">new</span>()</pre><pre><span class="lnum">   4:  </span>{</pre><pre class="alt"><span class="lnum">   5:  </span>    L products = <span class="kwrd">new</span> L</pre><pre><span class="lnum">   6:  </span>{</pre><pre class="alt"><span class="lnum">   7:  </span>    <span class="kwrd">new</span> P</pre><pre><span class="lnum">   8:  </span>        {</pre><pre class="alt"><span class="lnum">   9:  </span>            ProductId = 70,</pre><pre><span class="lnum">  10:  </span>            ProductName = <span class="str">"Outback Lager"</span>,</pre><pre class="alt"><span class="lnum">  11:  </span>            QuantityPerUnit = <span class="str">"24 - 355 ml bottles"</span>,</pre><pre><span class="lnum">  12:  </span>            UnitsInStock = 15,</pre><pre class="alt"><span class="lnum">  13:  </span>            UnitPrice = 15,</pre><pre><span class="lnum">  14:  </span>            UnitsOnOrder = 10,</pre><pre class="alt"><span class="lnum">  15:  </span>            ReorderLevel = 30,</pre><pre><span class="lnum">  16:  </span>            Discontinued = <span class="kwrd">false</span></pre><pre class="alt"><span class="lnum">  17:  </span>        },</pre><pre><span class="lnum">  18:  </span>    <span class="kwrd">new</span> P</pre><pre class="alt"><span class="lnum">  19:  </span>        {</pre><pre><span class="lnum">  20:  </span>            ProductId = 71,</pre><pre class="alt"><span class="lnum">  21:  </span>            ProductName = <span class="str">"Flotemysost"</span>,</pre><pre><span class="lnum">  22:  </span>            QuantityPerUnit = <span class="str">"10 - 500 g pkgs."</span>,</pre><pre class="alt"><span class="lnum">  23:  </span>            UnitsInStock = 25,</pre><pre><span class="lnum">  24:  </span>            UnitPrice = (<span class="kwrd">decimal</span>)21.5,</pre><pre class="alt"><span class="lnum">  25:  </span>            UnitsOnOrder = 0,</pre><pre><span class="lnum">  26:  </span>            ReorderLevel = 0,</pre><pre class="alt"><span class="lnum">  27:  </span>            Discontinued = <span class="kwrd">false</span></pre><pre><span class="lnum">  28:  </span>        },</pre><pre class="alt"><span class="lnum">  29:  </span>    <span class="kwrd">new</span> P</pre><pre><span class="lnum">  30:  </span>        {</pre><pre class="alt"><span class="lnum">  31:  </span>            ProductId = 35,</pre><pre><span class="lnum">  32:  </span>            ProductName = <span class="str">"Steeleye Stout"</span>,</pre><pre class="alt"><span class="lnum">  33:  </span>            QuantityPerUnit = <span class="str">"24 - 12 oz bottles"</span>,</pre><pre><span class="lnum">  34:  </span>            UnitsInStock = 20,</pre><pre class="alt"><span class="lnum">  35:  </span>            UnitPrice = (<span class="kwrd">decimal</span>)18,</pre><pre><span class="lnum">  36:  </span>            UnitsOnOrder = 0,</pre><pre class="alt"><span class="lnum">  37:  </span>            ReorderLevel = 15,</pre><pre><span class="lnum">  38:  </span>            Discontinued = <span class="kwrd">false</span></pre><pre class="alt"><span class="lnum">  39:  </span>        },</pre><pre><span class="lnum">  40:  </span>    <span class="kwrd">new</span> P</pre><pre class="alt"><span class="lnum">  41:  </span>        {</pre><pre><span class="lnum">  42:  </span>            ProductId = 53,</pre><pre class="alt"><span class="lnum">  43:  </span>            ProductName = <span class="str">"Perth Pasties"</span>,</pre><pre><span class="lnum">  44:  </span>            QuantityPerUnit = <span class="str">"48 pieces"</span>,</pre><pre class="alt"><span class="lnum">  45:  </span>            UnitsInStock = 0,</pre><pre><span class="lnum">  46:  </span>            UnitPrice = (<span class="kwrd">decimal</span>)32.80,</pre><pre class="alt"><span class="lnum">  47:  </span>            UnitsOnOrder = 0,</pre><pre><span class="lnum">  48:  </span>            ReorderLevel = 0,</pre><pre class="alt"><span class="lnum">  49:  </span>            Discontinued = <span class="kwrd">true</span>,</pre><pre><span class="lnum">  50:  </span>            DiscontinuedDate = <span class="kwrd">new</span> DateTime(1996, 7, 4)</pre><pre class="alt"><span class="lnum">  51:  </span>        }</pre><pre><span class="lnum">  52:  </span>};</pre><pre class="alt"><span class="lnum">  53:  </span>    <span class="kwrd">return</span> products;</pre><pre><span class="lnum">  54:  </span>}</pre></div>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+font-size: small;
+color: black;
+font-family: consolas, "Courier New", courier, monospace;
+background-color: #ffffff;
+/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+background-color: #f4f4f4;
+width: 100%;
+margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+
+
+    
+    
+  </div>
+
+</article>
+
+<hr/>
+
+<ul class="pager"> 
+
+  
+  <li class="previous">
+    
+    <a href="/page106">&larr; Newer</a>
+    
+  </li>
+  
+  
+  <li>
+    <span class="page_number">Page: 107 of 136</span>
+  </li>
+
+  
+  <li class="next">
+    <a href="/page108">Older &rarr;</a>
+  </li>
+  
+
+</ul>
+
+
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2015 dbyll with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'dbyll']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+

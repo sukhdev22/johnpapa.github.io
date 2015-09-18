@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>John Papa</description>
+		<link>/</link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Angular 2 Hack Night Coming to Orlando</title>
+				<description>&lt;p&gt;Want to learn &lt;a href=&quot;http://angular.io&quot;&gt;Angular 2&lt;/a&gt; from the beginning? Join me and many fellow developers at the Orlando Angular 2 hack Night in Orlando! How about if we make this free?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/09/angular-shield-150x150.png&quot; alt=&quot;angular-shield&quot; width=&quot;150&quot; height=&quot;150&quot; class=&quot;alignleft size-thumbnail wp-image-63061&quot; /&gt; I’ll be there along with some members of the Angular team (both in person and over a Google Hangout), and many local community leaders, to help you code. We’ll have several categories for the hack night with judging at the end of the evening. Our sponsors have been generous to help us get some great prizes (hint, one is a tablet) for the best hacks! Look to some upcoming posts to learn more about the hack categories and some of the prizes.&lt;/p&gt;
+
+&lt;h3&gt;Registration&lt;/h3&gt;
+
+&lt;p&gt;Space is limited and registration opens this Friday September 18th at 12 noon EDT. Keep an eye on this blog and follow me on twitter &lt;a href=&quot;http://twitter.com/john_papa&quot;&gt;@john_papa&lt;/a&gt; for alerts. We’re expecting to sell out and space is limited … so please only sign up if you plan to attend.&lt;/p&gt;
+
+&lt;p&gt;Come hack with us using ES5, ES2015, or TypeScript along with Angular 2. I’ll be using TypeScript and Angular inside of Visual Studio Code. Join us live tweeting at &lt;a href=&quot;https://twitter.com/hashtag/TryAngular2?src=hash&quot;&gt;#TryAngular2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Event&lt;/h3&gt;
+
+&lt;p&gt;Date: October 6th
+Time: 6pm - 10:30pm
+Location: To be Revealed Soon&lt;/p&gt;
+
+&lt;p&gt;This event is made possible by some awesome community sponsors:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://angular.io&quot;&gt;Angular Team&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://cloudspace.com&quot;&gt;CloudSpace&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://codeschool.com&quot;&gt;Code School&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://conceptainc.com&quot;&gt;Concepta&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://typescriptlang.org&quot;&gt;Microsoft &amp;amp; TypeScript&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://nebbiatech.com/&quot;&gt;Nebbia&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://sonobi.com/&quot;&gt;Sonobi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not to mention the volunteer work form these great community groups and their leaders:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://onetug.org&quot;&gt;ONETUG&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.meetup.com/OrlandoJS/&quot;&gt;Orlando JS&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.meetup.com/OrlandoPHP&quot;&gt;Orlando PHP Group&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.meetup.com/University-JavaScript/&quot;&gt;University JS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Agenda&lt;/h3&gt;
+
+&lt;p&gt;6pm - 7pm - Networking and time to get help getting Node, NPM, and clone the github repos&lt;/p&gt;
+
+&lt;p&gt;7pm - 7:10 pm - Welcome - John Papa, Tobias Bosch (Hangout) and Jeremy Elbourn&lt;/p&gt;
+
+&lt;p&gt;7:10 - 7:45 pm - Angular 2 Getting Started presentation - John Papa&lt;/p&gt;
+
+&lt;p&gt;7:45 - 9:45 pm - Hack time&lt;/p&gt;
+
+&lt;p&gt;9:45 pm - 10:00 pm - submit hacks, and join the Google Hangout on mute to get ready to present&lt;/p&gt;
+
+&lt;p&gt;10:00 pm - Present your hacks and judging&lt;/p&gt;
+
+&lt;h3&gt;Special Thanks&lt;/h3&gt;
+
+&lt;p&gt;I could not have pulled this together without the volunteer help of some awesome Orlando community leaders. In no particular order:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Esteban Garcia&lt;/li&gt;
+    &lt;li&gt;Shayne Boyer&lt;/li&gt;
+    &lt;li&gt;Chris Martin&lt;/li&gt;
+    &lt;li&gt;Sergio Cruz&lt;/li&gt;
+    &lt;li&gt;Bruno Genaro&lt;/li&gt;
+    &lt;li&gt;Katelyn MacKenzie&lt;/li&gt;
+    &lt;li&gt;Alyssa Nicoll &lt;/li&gt;
+    &lt;li&gt;Brian Hall&lt;/li&gt;
+    &lt;li&gt;Jeremy Privett&lt;/li&gt;
+    &lt;li&gt;Carlos Souza&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And to my fellow Angular friends for helping provide ideas and feedback from previous hack nights they have hosted:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Dan Wahlin&lt;/li&gt;
+    &lt;li&gt;Ward Bell&lt;/li&gt;
+    &lt;li&gt;Lukas Ruebbelke&lt;/li&gt;
+    &lt;li&gt;Aaron Frost&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And special thanks to the Angular Team for all the support in hosting this event including Brad Green, Igor Minor, Naomi Black, Tobias Bosch, Jeff Cross, and Jeremy Elbourn!&lt;/p&gt;
+</description>
+				<pubDate>Wed, 16 Sep 2015 04:17:00 -0400</pubDate>
+				<link>/angular/angular2/community/event/javascript/uncategorized/2015/09/16/angular-2-hack-night-coming-to-orlando.html</link>
+				<guid isPermaLink="true">/angular/angular2/community/event/javascript/uncategorized/2015/09/16/angular-2-hack-night-coming-to-orlando.html</guid>
+			</item>
+		
+			<item>
+				<title>Learning Visual Studio Code</title>
+				<description>&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-60771&quot; src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/vscode-icon-sm.png&quot; alt=&quot;vscode-icon-sm&quot; width=&quot;80&quot; height=&quot;80&quot; /&gt; Do you develop with Angular, JavaScript, TypeScript, Docker, Python, Gulp, or ASP.NET? Do you work on a Mac OSX, Linux, or Windows? Today’s developers work with a variety of languages and platforms, so a good tool is super important. I use an editor for most of my development and have tried Brackets, Atom, Sublime and others, but since the preview of Visual Studio Code (aka Code) was released I’ve been using it increasingly as my go-to editor.&lt;/p&gt;
+
+&lt;p&gt;I’m excited to announce that you can now watch and learn with my &lt;a href=&quot;http://jpapa.me/vscodecourse&quot;&gt;Visual Studio Code course&lt;/a&gt; on Pluralsight, released this week.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jpapa.me/vscodecourse&quot;&gt;&lt;img class=&quot;aligncenter size-large wp-image-60891&quot; src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/vsc-600x344.png&quot; alt=&quot;vsc&quot; width=&quot;600&quot; height=&quot;344&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Visual Studio Code is an editor. It is not Visual Studio and it is not intended to be. Code sits side by side in your tool belt. There is a huge difference and different purpose for an editor vs an IDE (Integrated Development Environment). Editors are lightweight, fast, efficient and tend to be very keyboard centric. They target the vast majority of your daily developer workflow. IDE’s tend to have a lot of wizards, panels, buttons, connections to other services and tools, and be a staple of the “integrated” developer workflow. Both are great and both have a co-existent purpose.&lt;/p&gt;
+
+&lt;p&gt;Whether you are on a Mac or Windows and into Angular, TypeScript, JavaScript, Node.js and/or C#/ASP.NET there’s something here for you! Visual Studio Code is a fast and lightweight cross-platform code editor for writing modern web and cloud applications. This course shows you how to debug, refactor, peek and find references, get intellisense and autocomplete, use the multi-cursor, run task automation using Gulp or Grunt, and work in a variety of languages and platforms like node.js, ASP.Net, JavaScript, and TypeScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;aligncenter size-large wp-image-61451&quot; src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/05/vslayout-600x344.png&quot; alt=&quot;vslayout&quot; width=&quot;600&quot; height=&quot;344&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;other-web-courses&quot;&gt; Other Web Courses&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://jpapa.me/gulpps&quot;&gt;JavaScript Task Automation with Gulp.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jpapa.me/ngclean&quot;&gt;Angular Patterns: Clean Code&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jpapa.me/typescriptcourse&quot;&gt;TypeScript&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&amp;nbsp;
+
+&lt;h2&gt;More Reading Visual Studio Code Series&lt;/h2&gt;
+
+If you are interested in Visual Studio Code you can check out my earlier blog post series:
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/visual-studio-code&quot;&gt;Introducing Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/getting-started-with-visual-studio-code&quot;&gt;Getting Started with Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/intellisense-witha-visual-studio-code&quot;&gt;Intellisense&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/refactoring-with-visual-studio-code&quot;&gt;Refactoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/debugging-with-visual-studio-code&quot;&gt;Debugging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/git-and-preferences-in-visual-studio-code&quot;&gt;Git Integration and Preferences&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+</description>
+				<pubDate>Sat, 29 Aug 2015 15:32:00 -0400</pubDate>
+				<link>/angular/asp.net/github/gulp/html5/javascript/pluralsight/typescript/uncategorized/visual%20studio%20code/2015/08/29/learning-visual-studio-code.html</link>
+				<guid isPermaLink="true">/angular/asp.net/github/gulp/html5/javascript/pluralsight/typescript/uncategorized/visual%20studio%20code/2015/08/29/learning-visual-studio-code.html</guid>
+			</item>
+		
+			<item>
+				<title>Visual Studio Code Webinar</title>
+				<description>&lt;p&gt;Mac OSX, Linux, or Windows … pick your OS! I recently co-presented the launch of Visual Studio Code (aka Code) at //Build with Erich Gamma and Chris Diaz, and &lt;a href=&quot;http://jpapa.me/psvscodewebinar&quot;&gt;on May 26th, 2015 at 10 PT you can join me for a live presentation of Code as a cross-platform editor followed by an interactive Q&amp;amp;A&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jpapa.me/psvscodewebinar&quot;&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/05/ps-vs-code-600x206.png&quot; alt=&quot;ps-vs-code&quot; width=&quot;600&quot; height=&quot;206&quot; class=&quot;aligncenter size-large wp-image-61431&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Whether you are on a Mac or Windows and into Angular, TypeScript, JavaScript, Node.js and/or C#/ASP.NET there’s something here for you! Just some of the topics discussed include getting started, editing, refactoring, debugging, running tasks, and what’s coming down the road.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/05/vslayout-600x344.png&quot; alt=&quot;vslayout&quot; width=&quot;600&quot; height=&quot;344&quot; class=&quot;aligncenter size-large wp-image-61451&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Visual Studio Code Series&lt;/h2&gt;
+
+&lt;p&gt;If you are interested in Visual Studio Code you can check out my earlier blog post series:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/visual-studio-code&quot;&gt;Introducing Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/getting-started-with-visual-studio-code&quot;&gt;Getting Started with Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/intellisense-witha-visual-studio-code&quot;&gt;Intellisense&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/refactoring-with-visual-studio-code&quot;&gt;Refactoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/debugging-with-visual-studio-code&quot;&gt;Debugging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/git-and-preferences-in-visual-studio-code&quot;&gt;Git Integration and Preferences&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+				<pubDate>Sat, 23 May 2015 21:23:00 -0400</pubDate>
+				<link>/uncategorized/2015/05/23/visual-studio-code-webinar.html</link>
+				<guid isPermaLink="true">/uncategorized/2015/05/23/visual-studio-code-webinar.html</guid>
+			</item>
+		
+			<item>
+				<title>Automatically Restarting ASP.NET on OSX with DNXMON</title>
+				<description>&lt;p&gt;Write some code, see it run, refactor the code, see it run, refactor … you get the idea. This is what I do all day long. Notice I didn’t say “write code, refactor, stop server, start server, write code …”. Why? Because I prefer my server to detect the code changes and auto-restart. This works great in Node.js with nodemon, so this post shows one option to do that for ASP.NET on OSX.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  Learn how to &lt;a href=&quot;http://www.johnpapa.net/getting-started-with-asp-net-5-on-osx/&quot;&gt;get started with ASP.NET 5 on OSX here&lt;/a&gt;
+  Add this script to your &lt;code&gt;~/.bash_profile&lt;/code&gt;. Then when you type &lt;code&gt;dnxmon . kestrel&lt;/code&gt; your ASP.NET app will start and watch the cs and json files. When they change, dnx will restart.
+&lt;/blockquote&gt;
+
+&lt;p&gt;I expect something more elegant to come in time from the ASP.NET team (there is a kmon in the works, using the old name of dnx). But for now, this makes it easy to speed up my development process.&lt;/p&gt;
+
+&lt;h3&gt;dnxmon&lt;/h3&gt;
+
+&lt;p&gt;Run dnx server continuously with nodemon watching for changes to cs or json files&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;dnxmon() {
+    # Run dnx server continuously with nodemon 
+    # watching for changes to cs or json files
+    # Usage:
+    #   dnxmon &amp;lt;directory&amp;gt; &amp;lt;command&amp;gt;
+    # dnxmon (applies the defaults: current directory and the &quot;web&quot; command)
+
+    dnxmonFn() {
+        nodemon --ext &quot;cs,json&quot; --exec &quot;dnx $1 $2&quot;
+    }
+
+    if [[ $# -eq 0 ]]
+    then
+        echo &quot;running default ...&quot;
+        echo &quot;nodemon --ext &quot;cs,json&quot; --exec &quot;dnx . kestrel&quot;&quot;
+        dnxmonFn . kestrel
+    else
+        if [[ $# -eq 2 ]]
+        then
+            echo &quot;nodemon --ext &quot;cs,json&quot; --exec &quot;dnx $1 $2&quot;&quot;
+            dnxmonFn $1 $2
+        else
+            echo &quot;must supply directory and command,&quot;
+            echo &quot;such as dnxmon . kestrel&quot;
+        fi
+    fi
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+				<pubDate>Sat, 23 May 2015 18:15:00 -0400</pubDate>
+				<link>/uncategorized/2015/05/23/automatically-restarting-asp-net-on-osx-with-dnxmon.html</link>
+				<guid isPermaLink="true">/uncategorized/2015/05/23/automatically-restarting-asp-net-on-osx-with-dnxmon.html</guid>
+			</item>
+		
+			<item>
+				<title>Getting Started with ASP.NET 5 on OSX</title>
+				<description>&lt;p&gt;ASP.NET 5 is something special. We can build cross platform Web apps using .NET Core that run on OSX, Linux and Windows. But how do you get started on OSX? This post shows how quickly you can get up and running.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  Dan Wahlin, Ward Bell and I are hosting an ASP.NET 5 workshop at &lt;a href=&quot;https://anglebrackets.org/&quot;&gt;DevIntersections / Anglebrackets in Las Vegas&lt;/a&gt; in Novemxber. Use promo code PAPA to get $50 off the event and come visit us. Registration will open in early June.
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here are some commands you should get familiar with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;dnvm&lt;/strong&gt; is the .NET version manager. You&#39;ll run this occasionally to update your versions&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;dnu&lt;/strong&gt; is the .NET package updater. This can update nuget packages and can also help update npm and bower packages via &lt;code&gt;project.json&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;dnx&lt;/strong&gt; is the .NET execution runtime. You&#39;ll use this to run your app&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;First, start with getting the tools you need so you can run ASP.NET. The first step is to install homebrew, which is like Walmart for OSX. Homebrew makes it easy to download and install ton of great software libraries and tools. We&#39;ll use this to install and setup ASP.NET.
+
+&lt;ol&gt;
+&lt;li&gt;Install &lt;a href=&quot;http://brew.sh/&quot;&gt;homebrew&lt;/a&gt; by entering this at a terminal
+
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Use homebrew to get ASP.NET
+
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;brew tap aspnet/dnx
+brew update
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Add the following to the &lt;code&gt;~/.bash_profile&lt;/code&gt; or &lt;code&gt;~/.bashrc&lt;/code&gt; file. This makes it easy to use dnvm.
+
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;source dnvm.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Use homebrew to get the .NET version manager (dnvm) and upgrade the dnvm to the latest version
+
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;brew install dnvm
+dnvm upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+And now you have ASP.NET 5!
+
+&lt;h2&gt;File New Project&lt;/h2&gt;
+
+Creating a new project is easy with Yeoman. This is my preferred way to scaffold new projects on Mac or Windows. No more file new for me in the IDE!
+
+There is a generator that the ASP.NET team helps curate named &lt;a href=&quot;https://github.com/OmniSharp/generator-aspnet&quot;&gt;generator-aspnet&lt;/a&gt;. This is a good starting place, though I and many others will also be creating generators too.
+
+&lt;ol&gt;
+&lt;li&gt;Install yo and gulp. You will use yo to run the generator and gulp to help automate tasks.
+
+&lt;pre&gt;&lt;code&gt;npm install -g yo gulp
+npm install -g generator-aspnet
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Install the ASP.NET generator and run it with the gulp option. This generators a project using gulp, instead of grunt.
+
+&lt;pre&gt;&lt;code&gt;yo aspnet --gulp
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Choose your project type. Web API Application, Empty Web, Console, or MVC Web App.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;run the app
+
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;dnx . kestrel
+&lt;/code&gt;&lt;/pre&gt;
+
+
+When you modify the packages list in &lt;code&gt;project.json&lt;/code&gt; you should run &lt;code&gt;dnu restore&lt;/code&gt; to get the latest ones.
+
+Enjoy!
+&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sat, 23 May 2015 18:03:00 -0400</pubDate>
+				<link>/uncategorized/2015/05/23/getting-started-with-asp-net-5-on-osx.html</link>
+				<guid isPermaLink="true">/uncategorized/2015/05/23/getting-started-with-asp-net-5-on-osx.html</guid>
+			</item>
+		
+			<item>
+				<title>Refactoring with Visual Studio Code</title>
+				<description>&lt;p&gt;Visual Studio Code has some awesome refactoring features. Here are some of my favorites.&lt;/p&gt;
+
+&lt;h2&gt;Visual Studio Code Series&lt;/h2&gt;
+
+&lt;p&gt;Follow this series to learn more about what you can do with Visual Studio Code!&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/visual-studio-code&quot;&gt;Introducing Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/getting-started-with-visual-studio-code&quot;&gt;Getting Started with Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/intellisense-witha-visual-studio-code&quot;&gt;Intellisense&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/refactoring-with-visual-studio-code&quot;&gt;Refactoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/debugging-with-visual-studio-code&quot;&gt;Debugging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/git-and-preferences-in-visual-studio-code&quot;&gt;Git Integration and Preferences&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Move Line Up / Down&lt;/h2&gt;
+
+&lt;p&gt;VSCode will move a line up when you use &lt;code&gt;OPT+UPARROW&lt;/code&gt; or down when you use &lt;code&gt;OPT+DOWNARROW&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Go to Next Error or Warning&lt;/h2&gt;
+
+&lt;p&gt;When you have multiple errors or warnings, you can visit each of them in the current file using the Go to Next Error or Warning. Press &lt;code&gt;F8&lt;/code&gt; and you will see the first error or warning. Press &lt;code&gt;F8&lt;/code&gt; again and you will see the next one.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/goto-marker.png&quot; alt=&quot;go to marker&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Go to Definition&lt;/h2&gt;
+
+&lt;p&gt;When you are looking at your code and you want to find where a function or variable is defined, you can press &lt;code&gt;F12&lt;/code&gt; to navigate to the definition. This works in the same file or to another file when using TypeScript.&lt;/p&gt;
+
+&lt;h2&gt;Peek at Definition&lt;/h2&gt;
+
+&lt;p&gt;This is like the &lt;a href=&quot;go-to-definition&quot;&gt;Go to Definition&lt;/a&gt; except instead of navigating to the definition a window appears showing you a peek of the definition. Seeing is believing, so check this out below, using &lt;code&gt;OPTION F12&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/peek1.png&quot; alt=&quot;peek1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can edit either file in this mode. If you want to navigate to the file, click on the file name in the header of the peek view. You can exit this mode and close the peek by clicking &lt;code&gt;ESC&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Find All References&lt;/h2&gt;
+
+&lt;p&gt;VSCode help you find all references of a variable, everywhere it can be determined that it is being used, with &lt;code&gt;SHIFT F12&lt;/code&gt;. This works incredibly well with TypeScript. VSCode uses TypeScript to figure out how to find those references. As such, this feature works less great in JavaScript.&lt;/p&gt;
+
+&lt;p&gt;This is helpful when refactoring so you can find all of the places a function or property may be used before refactoring.&lt;/p&gt;
+
+&lt;p&gt;Notice that the files are displayed to the right. You can click on these to see each references.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/far.png&quot; alt=&quot;far&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Change All Occurrences&lt;/h2&gt;
+
+&lt;p&gt;Put your cursor in a variable or function and click &lt;code&gt;CMD+F2&lt;/code&gt; then begin typing. This will find all occurrences in the open file and change them as you type, which is ideal for local refactoring.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/change-occurences.png&quot; alt=&quot;change-occurrences.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Multi-Cursor&lt;/h2&gt;
+
+&lt;p&gt;Click + &lt;code&gt;OPTION&lt;/code&gt; in your code. Then find another place in code and repeat, and repeat, and repeat. Now you have multiple cursors in the file and you can edit all of them at once!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/multicursor1.png&quot; alt=&quot;multicursor1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I love this, but I really want to also be able to do this through search via keyboard so I can find all instances of a phrase and then edit.&lt;/p&gt;
+
+&lt;h2&gt;Rename symbols in all files ( &lt;code&gt;F2&lt;/code&gt; )&lt;/h2&gt;
+
+&lt;p&gt;Sometimes you want to rename in 1 file, and other times you want to rename across multiple files. For example, you may want to rename a publicly accessible function on an Angular service and have everywhere that uses it get updated.&lt;/p&gt;
+
+&lt;p&gt;First put your cursor on the member and click &lt;code&gt;F2&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/rename1.png&quot; alt=&quot;rename1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then type the new name and hit the &lt;code&gt;Enter&lt;/code&gt; key. This will rename all of the occurrences in every file in your project.&lt;/p&gt;
+
+&lt;p&gt;This shows the newly renamed &lt;code&gt;getThePeople&lt;/code&gt; method in the &lt;code&gt;dataservice.ts&lt;/code&gt; file.
+&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/rename2.png&quot; alt=&quot;rename2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This shows the newly renamed &lt;code&gt;getThePeople&lt;/code&gt; method in the &lt;code&gt;dashboard.controller.ts&lt;/code&gt; file.
+&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/rename3.png&quot; alt=&quot;rename3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Format Code&lt;/h2&gt;
+
+&lt;p&gt;VSCode makes it easy to format your code with the appropriate indentation and alignment through it’s Format Code command. Just select the code block you want to format, use &lt;code&gt;CMD+SHIFT+P&lt;/code&gt; to open the command palette, and type &lt;code&gt;format code&lt;/code&gt;. You can also type part of the command as it will do partial matching.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 29 Apr 2015 18:34:00 -0400</pubDate>
+				<link>/uncategorized/2015/04/29/refactoring-with-visual-studio-code.html</link>
+				<guid isPermaLink="true">/uncategorized/2015/04/29/refactoring-with-visual-studio-code.html</guid>
+			</item>
+		
+			<item>
+				<title>Intellisense with Visual Studio Code</title>
+				<description>&lt;p&gt;Visual Studio Code provides excellent intellisense for JavaScript, TypeScript, and C#. Whether you are running ASP.NET 5 or node or client side code, you’ll see a new level of intellisense here.&lt;/p&gt;
+
+&lt;p&gt;You can also hit &lt;code&gt;CTRL+SPACE&lt;/code&gt; and get intellisense.&lt;/p&gt;
+
+&lt;p&gt;If you hover over a variable VSCode shows the signature of a function or the type of a variable, if it can be determined.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/hover.png&quot; alt=&quot;hover&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Visual Studio Code Series&lt;/h2&gt;
+
+&lt;p&gt;Follow this series to learn more about what you can do with Visual Studio Code!&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/visual-studio-code&quot;&gt;Introducing Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/getting-started-with-visual-studio-code&quot;&gt;Getting Started with Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/intellisense-witha-visual-studio-code&quot;&gt;Intellisense&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/refactoring-with-visual-studio-code&quot;&gt;Refactoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/debugging-with-visual-studio-code&quot;&gt;Debugging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/git-and-preferences-in-visual-studio-code&quot;&gt;Git Integration and Preferences&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;JavaScript Intellisense&lt;/h2&gt;
+
+&lt;p&gt;Out of the box we get basic intellisense for what the editor can determine on its own about the JavaScript code. VSCode will tell you a function’s signature or what variables are available in scope.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/js-hint1.png&quot; alt=&quot;js-hint1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When working in node.js VSCode provides intellisense across all of your JavaScript modules (the ones you write).&lt;/p&gt;
+
+&lt;h3&gt;Quick Fix&lt;/h3&gt;
+
+&lt;p&gt;Now let’s assume you want intellisense for the JavaScript libraries or node modules you use on the client or server. Perhaps you are using Angular and you want intellisense on it. Notice the green squiggly line under &lt;code&gt;angular&lt;/code&gt;? Put your cursor on it then click the light bulb ( or &lt;code&gt;CMD+.&lt;/code&gt; ) and choose &lt;code&gt;Add /// reference to angularjs/angular.d.ts&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/js-hint2.png&quot; alt=&quot;js-hint2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;VSCode will go and get the typings definition file for Angular and add it to your project, reference it in the file and you instantly have intellisense for Angular! (VSCode grabs the typings files from the Definately Typed repository.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/js-hint3.png&quot; alt=&quot;js-hint3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can now repeat this by adding jQuery code to a file. Put the cursor on the &lt;code&gt;$&lt;/code&gt;, click &lt;code&gt;CMD+.&lt;/code&gt;, and pull down the typings file. Now we have jQuery intellisense, too.&lt;/p&gt;
+
+&lt;h3&gt;Consolidating into a tsd.d.ts&lt;/h3&gt;
+
+&lt;p&gt;Do you see the 2 &lt;code&gt;///&lt;/code&gt; references and how the can accumulate? You can make a single &lt;code&gt;tsd.d.ts&lt;/code&gt; with the npm package named &lt;code&gt;tsd&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;npm install tsd -g
+# cd to your project folder
+tsd query -r -o -a install angular jquery
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This produces a &lt;code&gt;tsd.d.ts&lt;/code&gt; file which you can reference in your JavaScript files to get intellisense. Now you have 1 place to put all of you typings for JavaScript projects.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  I think the story for this will get even better too, since VSCode uses TypeScript under the covers for its tooling.
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Additional Hints&lt;/h3&gt;
+
+&lt;p&gt;If you try to create a type in a JavaScript file, VSCode will warn you that it is not valid.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/js-hint4.png&quot; alt=&quot;js-hint4&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;TypeScript Intellisense&lt;/h2&gt;
+
+&lt;p&gt;The intellisense and editor experience is top notch when using TypeScript. VSCode provides intellisense across multiple files because TypeScript understands the &lt;code&gt;import&lt;/code&gt; statement.&lt;/p&gt;
+
+&lt;p&gt;VSCode provides intellisense for third party libraries, if you include the typings &lt;code&gt;*.d.ts&lt;/code&gt; files. This works the same as it does with JavaScript files. You can use the &lt;a href=&quot;#quick-fix&quot;&gt;Quick Fix&lt;/a&gt; feature to add a typing automatically.&lt;/p&gt;
+
+&lt;h2&gt;JSON Intellisense&lt;/h2&gt;
+
+&lt;p&gt;Intellisense works in well known JSON files too, including &lt;code&gt;package.json&lt;/code&gt; and &lt;code&gt;bower.json&lt;/code&gt;. It uses schema information and looks up values to find likely matches, where possible.&lt;/p&gt;
+
+&lt;p&gt;Here you can see it finding all npm packages that match &lt;code&gt;gulp&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/jsonintellisense1.png&quot; alt=&quot;jsonintellisense1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you can see it finding the most appropriate versions and showing a message about what the versions mean.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/jsonintellisense2.png&quot; alt=&quot;jsonintellisense2.png&quot; /&gt;&lt;/p&gt;
+</description>
+				<pubDate>Wed, 29 Apr 2015 18:34:00 -0400</pubDate>
+				<link>/uncategorized/2015/04/29/intellisense-witha-visual-studio-code.html</link>
+				<guid isPermaLink="true">/uncategorized/2015/04/29/intellisense-witha-visual-studio-code.html</guid>
+			</item>
+		
+			<item>
+				<title>Git and Preferences in Visual Studio Code</title>
+				<description>&lt;p&gt;Visual Studio Code has a good symbiosis with allowing you to customize the editor through styling, preferences, keyboard mappings, tasks, and more. Here are some examples of how to get started.&lt;/p&gt;
+
+&lt;h2&gt;Visual Studio Code Series&lt;/h2&gt;
+
+&lt;p&gt;Follow this series to learn more about what you can do with Visual Studio Code!&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/visual-studio-code&quot;&gt;Introducing Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/getting-started-with-visual-studio-code&quot;&gt;Getting Started with Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/intellisense-witha-visual-studio-code&quot;&gt;Intellisense&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/refactoring-with-visual-studio-code&quot;&gt;Refactoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/debugging-with-visual-studio-code&quot;&gt;Debugging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/git-and-preferences-in-visual-studio-code&quot;&gt;Git Integration and Preferences&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Git Integration&lt;/h2&gt;
+
+&lt;p&gt;VSCode integrates well with git. When you make changes to your files you see red and green indicators in the left hand gutter of the editor. These markers show the changes you just made at those locations. Red indicates removed lines, green indicates added lines, and blue indicates changed lines.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/git0.png&quot; alt=&quot;git0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can then click the git icon in the sidebar and see all of the changes. From here you can clean them (revert) one by one or as a group. You can also commit them all, add a commit message, and even push them right to the remote git repository.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/git1.png&quot; alt=&quot;git1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you click on the file in the git view, VSCode will show you a side by side of the current state of the file as compared to its previous state.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/git2.png&quot; alt=&quot;git2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Preferences&lt;/h2&gt;
+
+&lt;p&gt;You can adjust the setting sin VSCode by visiting the preferences and then overriding the default values with your own settings. You can access VSCode’s preferences by either using the menu or via &lt;code&gt;CMD+,&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/preferencesmenu.png&quot; alt=&quot;preferences menu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you open preferences you open 2 files. The default settings (which are read only) and the &lt;code&gt;settings.json&lt;/code&gt; file, where you can adjust your own preferences.&lt;/p&gt;
+
+&lt;p&gt;Simply add your settings to the object in the &lt;code&gt;settings.json&lt;/code&gt; and VSCode will use those instead of the defaults. These are stored in the &lt;code&gt;.settings&lt;/code&gt; folder. I like push this file in github with my source control.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/preferences.png&quot; alt=&quot;preferences&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Styling&lt;/h2&gt;
+
+&lt;p&gt;Light or dark theme? Zooming in? VSCode can do that too. I expect more to come when the rumored extensions are opened.&lt;/p&gt;
+
+&lt;p&gt;You can zoom in on the entire code window using &lt;code&gt;CMD++&lt;/code&gt; or &lt;code&gt;CMD+-&lt;/code&gt;, same as a browser.&lt;/p&gt;
+
+&lt;p&gt;You can swap between the light and dark themes from the menu &lt;code&gt;View&lt;/code&gt; then &lt;code&gt;Theme&lt;/code&gt; then &lt;code&gt;Light Theme&lt;/code&gt; or &lt;code&gt;Dark Theme&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/theme-light.png&quot; alt=&quot;theme-light&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/theme-dark.png&quot; alt=&quot;theme-dark&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Keyboard Mapping&lt;/h2&gt;
+
+&lt;p&gt;You can override the keyboard mappings for VSCode, too. These are exposed in a &lt;code&gt;keyboard.json&lt;/code&gt; file and can be accessed via the &lt;code&gt;Code&lt;/code&gt; menu and then selecting &lt;code&gt;Preferences&lt;/code&gt; and &lt;code&gt;Keyboard Shortcuts&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/keyboardmenu.png&quot; alt=&quot;keyboard menu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will see 2 files again: 1 for the default keybindings and 1 for the overrides (&lt;code&gt;keybindings.json&lt;/code&gt;). Unmapped actions appear as comments at the bottom of the default list of key bindings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/keybindings.png&quot; alt=&quot;keyboardbindings&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While in the keybindings you will enjoy intellisense and auto completion.&lt;/p&gt;
+
+&lt;p&gt;Be sure not to set 2 key combinations to the same action.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 29 Apr 2015 18:34:00 -0400</pubDate>
+				<link>/uncategorized/2015/04/29/git-and-preferences-in-visual-studio-code.html</link>
+				<guid isPermaLink="true">/uncategorized/2015/04/29/git-and-preferences-in-visual-studio-code.html</guid>
+			</item>
+		
+			<item>
+				<title>Debugging with Visual Studio Code</title>
+				<description>&lt;p&gt;There are various ways you can debug server side code with VSCode. You may have a simple node server to crank up. Perhaps you use TypeScript and need to compile it to JavaScript before starting the server. You may also be using task automation with gulp or grunt and want to start the server and then attach VSCode’s debugger to it.&lt;/p&gt;
+
+&lt;h2&gt;Visual Studio Code Series&lt;/h2&gt;
+
+&lt;p&gt;Follow this series to learn more about what you can do with Visual Studio Code!&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/visual-studio-code&quot;&gt;Introducing Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/getting-started-with-visual-studio-code&quot;&gt;Getting Started with Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/intellisense-witha-visual-studio-code&quot;&gt;Intellisense&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/refactoring-with-visual-studio-code&quot;&gt;Refactoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/debugging-with-visual-studio-code&quot;&gt;Debugging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/git-and-preferences-in-visual-studio-code&quot;&gt;Git Integration and Preferences&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Debugging JavaScript&lt;/h3&gt;
+
+&lt;p&gt;You can debug server side JavaScript in right in VSCode. Just create a debug launch task and go. First, click on the debug icon in the sidebar or &lt;code&gt;CMD+SHIFT+D&lt;/code&gt;. Then click on the gear icon next to the debug button in the upper left. This opens the debug configuration settings (in &lt;code&gt;.settings/launch.json&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/js-debug0.png&quot; alt=&quot;js-debug0.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you can define a launch configuration for debugging. Notice the type is set to node and the &lt;code&gt;program to start&lt;/code&gt; is set to &lt;code&gt;/src/server/app.js&lt;/code&gt; (choose your path accordingly). It will also stop upon entry, so you can debug on the first entry point to the &lt;code&gt;app.js&lt;/code&gt;. This is important when you want to see how the node server is being started.&lt;/p&gt;
+
+&lt;p&gt;Once the debug configuration is established you can choose your configuration form the dropdown and click the green button, or alternatively press &lt;code&gt;F5&lt;/code&gt; to begin debugging.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/js-debug1.png&quot; alt=&quot;js-debug1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The node server will start and stop at the first line of code in &lt;code&gt;app.js&lt;/code&gt;. You can then set watchers, breakpoints (or disable them), see the call stack, or examine local variables.&lt;/p&gt;
+
+&lt;h3&gt;Debugging Menu Options&lt;/h3&gt;
+
+&lt;p&gt;You can also step through the code using the debug menu in the top middle of VSCode.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/js-debug2.png&quot; alt=&quot;js-debug2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The buttons have keyboard mappings for:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;F5&lt;/code&gt; continue&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;F10&lt;/code&gt; step over&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;F11&lt;/code&gt; step into&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SHIFT+F11&lt;/code&gt; step out&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SHIFT+F5&lt;/code&gt; stop&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  I often will set breakpoints in my routes and then go use the app in the browser. When the route is hit, the browser will wait and VSCode will show the breakpoint. This workflow is ideal for debugging calls between the browser and the server.
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Debugging TypeScript&lt;/h3&gt;
+
+&lt;p&gt;Debugging TypeScript is just as easy as JavaScript.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go to the debug configurations ( &lt;code&gt;CMD+SHIFT+P&lt;/code&gt; and type &lt;code&gt;debug config&lt;/code&gt; )  &lt;/li&gt;
+&lt;li&gt;Set the &lt;code&gt;program to start&lt;/code&gt; to &lt;code&gt;/src/server/app.ts&lt;/code&gt; (or whatever your path is)&lt;/li&gt;
+&lt;li&gt;Run the &lt;code&gt;Launch app.ts&lt;/code&gt; configuration &lt;/li&gt;
+&lt;li&gt;Set a breakpoint in &lt;code&gt;app.ts&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  Update: TypeScript debugging is now added in 0.3.0
+  
+  Update: Always clear your breakpoints, then attach, then add breakpoints. This is a bug and has been reported.
+&lt;/blockquote&gt;
+
+&lt;p&gt;Enjoy debugging!&lt;/p&gt;
+</description>
+				<pubDate>Wed, 29 Apr 2015 18:34:00 -0400</pubDate>
+				<link>/uncategorized/2015/04/29/debugging-with-visual-studio-code.html</link>
+				<guid isPermaLink="true">/uncategorized/2015/04/29/debugging-with-visual-studio-code.html</guid>
+			</item>
+		
+			<item>
+				<title>Introducing Visual Studio Code</title>
+				<description>&lt;p&gt;Today is a pretty darn, amazing, fantastical, uber-awesome-astical-game-changing day for Web developers. Microsoft, known for its great tooling, has entered the tooling story for cross platform developers with &lt;a href=&quot;http://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Microsoft announced the launch of Visual Studio Code, a lightweight cross-platform code editor for writing modern web and cloud applications that will run on OS X, Linux and Windows at the //Build developer conference. Visual Studio Code is still officially in preview, but you can now &lt;a href=&quot;http://code.visualstudio.com/&quot;&gt;download it here for OSX, Linux and Windows&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also follow Visual Studio Code on Twitter at &lt;a href=&quot;http://twitter.com/code&quot;&gt;@code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  I&#39;ll be working on a course for Pluralsight on Visual Studio Code coming soon!
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you want to see the video demo from //Build you can view it here. 
+&lt;a href=&quot;http://channel9.msdn.com/Events/Build/2015/3-680&quot;&gt;Visual Studio Code: A Deep Dive on the Redefined Code Editor for OS X, Linux and Windows&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;//channel9.msdn.com/Events/Build/2015/3-680/player&quot; width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Visual Studio Code&lt;/h2&gt;
+
+&lt;p&gt;Visual Studio Code (VSCode) is a lightweight, super fast, cross platform development tool for building Web applications. It works well with both Node and ASP.NET v5.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/vscode-icon-sm.png&quot; alt=&quot;Visual Studio Code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.johnpapa.net/wp-content/uploads/2015/04/vsc.png&quot; alt=&quot;Visual Studio Code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From their download page they describe Visual Studio Code succinctly as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  Code focused development, evolved
+&lt;/blockquote&gt;
+
+&lt;p&gt;I like and agree with that statement. They go on to say the following:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  Visual Studio Code is a free, modern cross-platform tool for building today&#39;s cloud and web applications
+&lt;/blockquote&gt;
+
+&lt;p&gt;That’s it in a nutshell. It’s fast editing experience is similar to what you get with brackets, Sublime and Atom while it’s debugging and integration experience is similar to what you get with WebStorm or Visual Studio. I consider it more along the lines of an &lt;a href=&quot;http://johnpapa.net/web-dev-with-editors-and-ides&quot;&gt;editor than an IDE&lt;/a&gt;, personally. But it really does fit somewhere in between, grabbing the best of both worlds.&lt;/p&gt;
+
+&lt;p&gt;I like VSCode because its super fast and provides some rich development features (code completion, navigation, deployment, debugging, git, task running).&lt;/p&gt;
+
+&lt;p&gt;More from the docs:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  It is a new class of tool, one which combines the speed of today&#39;s editors with rich code authoring and debugging, without the complexity that a full IDE can sometimes present to developers. While it focuses on the core edit-compile-debug cycle, it goes beyond those basic editor scenarios by providing helpful code completion, navigation, code understanding, refactoring, diagnostics, and deployment.
+&lt;/blockquote&gt;
+
+&lt;p&gt;VSCode is folder and file based. You can open a folder and work on its files. No project file. No solution file. Just grab the code folder and go. When there is a project context, such as with ASP.NET 5, and you open a folder (with an ASP.NET 5 project), VSCode detects the project context.&lt;/p&gt;
+
+&lt;h2&gt;Installing&lt;/h2&gt;
+
+&lt;p&gt;Read the docs and see the links below for more details on the prerequisites and how to install and get up and running with VSCode.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.visualstudio.com&quot;&gt;Get started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.visualstudio.com/Download&quot;&gt;Download Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Diving In&lt;/h2&gt;
+
+&lt;p&gt;Follow this series to learn more about what you can do with Visual Studio Code!&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/visual-studio-code&quot;&gt;Introducing Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/getting-started-with-visual-studio-code&quot;&gt;Getting Started with Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/intellisense-witha-visual-studio-code&quot;&gt;Intellisense&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/refactoring-with-visual-studio-code&quot;&gt;Refactoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/debugging-with-visual-studio-code&quot;&gt;Debugging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnpapa.net/git-and-preferences-in-visual-studio-code&quot;&gt;Git Integration and Preferences&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;See it in Action&lt;/h2&gt;
+
+&lt;p&gt;Thursday April 30 Chris Dias, Erich Gamma and I will be presenting Visual Studio Code at //Build. &lt;a href=&quot;http://www.buildwindows.com/&quot;&gt;You can check our presentation of Visual Studio Code out at the live stream at the Build web site&lt;/a&gt; or a &lt;a href=&quot;http://channel9.msdn.com/Events/Build/2015/3-680&quot;&gt;direct link here&lt;/a&gt;. For those at Build, it is April 30, 2015 from 3:30PM to 4:30PM Day 2 Hall 1A 3-680.&lt;/p&gt;
+
+&lt;h2&gt;What&#39;s an Editor? an IDE?&lt;/h2&gt;
+
+&lt;p&gt;Ah, great question. But better questions might be why does this matter to me? Do you need to choose 1 tool? I explored this a bit in &lt;a href=&quot;http://johnpapa.net/web-dev-with-editors-and-ides&quot;&gt;this post here about editors and IDEs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;What I Like&lt;/h2&gt;
+
+&lt;p&gt;Pretty much the entire direction makes me incredibly productive. I’ve been using early builds for a few weeks and I’m highly productive with it already. Are there bumps? Sure, but the engineering team behind Visual Studio Code have been amazing at course correcting (they use agile iterations) super fast.&lt;/p&gt;
+
+&lt;p&gt;These posts outline a ton of features, but I though I’d list my top features that I am enjoying.&lt;/p&gt;
+
+&lt;h3&gt;Top Features&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Fast - I love how fast this tool is. It opens fast. I can edit fast. I can debug fast. I can navigate fast ... have I said it&#39;s fast?&lt;/li&gt;
+&lt;li&gt;Debugging - awesome, fast, and easy debugging of server side JavaScript and and C#&lt;/li&gt;
+&lt;li&gt;Intellisense - C#, TypeScript and even for JavaScript and JSON ... not to mention autocomplete and hints&lt;/li&gt;
+&lt;li&gt;Git integration - super helpful to be able to integrate with git, show diffs, stage, commit, clean&lt;/li&gt;
+&lt;li&gt;Refactoring - tons of features that make refactoring easy and fast&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Awesome Runner ups …&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Task running - I can run gulp and other tasks directly from VSCode&lt;/li&gt;
+&lt;li&gt;Autosave - love it!&lt;/li&gt;
+&lt;li&gt;Go to symbol, file, task, whatever! - VSCode makes it a keystroke away to find anything you want to do&lt;/li&gt;
+&lt;li&gt;Customization - I can customize key bindings, tasks, editor settings - pretty much everything&lt;/li&gt;
+&lt;li&gt;Quick Fix - Learn &lt;code&gt;CMD+.&lt;/code&gt; ... when you see a light bulb, VSCode is giving you a hint that you can refactor this, and it will offer suggestions on how!&lt;/li&gt;
+&lt;li&gt;Multi instance - I can open many instances and toggle between different projects&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What I Miss Most&lt;/h2&gt;
+
+&lt;p&gt;Extensions … oh those extensions. Missing a feature? Let the community create it. But even better, open the doors to companies to create awesome extensions for VSCode that can improve integration with other tools. This feature would put it over the top. I assume this is coming. In fact, I expect it to be there.&lt;/p&gt;
+
+&lt;p&gt;Yes this is just one feature that is missing, but its a huge feature as it opens the doors to tons of other features.&lt;/p&gt;
+
+&lt;h2&gt;Credit&lt;/h2&gt;
+
+&lt;p&gt;The innovative and creative thinkers at Microsoft have really come through here. I’d be mremiss if I did not mention some of the great people who turned words into action, and made it possible to deliver Visual Studio Code working on OSX, Linux and Windows. Scott Guthrie and Scott Hunter, as the thought leaders behind ASP.NET 5 and it’s much publciized cross platform approach paved the way. Erich Gamma and Chris Dias turned the idea of a cross platform top of the line development into reality.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 29 Apr 2015 18:30:00 -0400</pubDate>
+				<link>/uncategorized/2015/04/29/visual-studio-code.html</link>
+				<guid isPermaLink="true">/uncategorized/2015/04/29/visual-studio-code.html</guid>
+			</item>
+		
+	</channel>
+</rss>

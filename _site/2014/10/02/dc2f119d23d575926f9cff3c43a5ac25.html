@@ -1,0 +1,60 @@
+<p>John,</p>
+
+<p>Have you ever seen something like this when dealing with minifiction?  I’m having to write my controller function for my directive with an inject like this.  Otherwise it blows up when I try to minify.</p>
+
+<pre><code>    return {
+        priority: 1244444,
+        restrict: 'EA',
+        templateUrl: '/App/Modules/ExperianWidgets/Widgets/EcsActivityTimeline/Templates/ecsActivityTimelineTml.html',
+        replace: true,
+        scope: {
+            size: '=',
+            data: '=',
+        },
+        link: link,
+        controller: ['$scope', contfunc],
+    };
+
+    function contfunc($scope) {
+        $scope.scrollDataSource = {
+            get: function(index, count, success) {
+                return dataSourceGet($scope, index, count, success);
+            },
+            revision: function () {
+                return $scope.sanitized.data;
+            },
+        };
+    } &lt;!--more--&gt; AUTHOR: Matt Kruczek AUTHOR EMAIL: matthew.kruczek@tallan.com AUTHOR URL:  SUBJECT: [John Papa] Connect IP: 184.177.44.10 Array (
+[1_Name] =&amp;gt; Matt Kruczek
+[2_Email] =&amp;gt; matthew.kruczek@tallan.com
+[3_Website] =&amp;gt; 
+[4_Comment] =&amp;gt; John,
+</code></pre>
+
+<p>Have you ever seen something like this when dealing with minifiction?  I’m having to write my controller function for my directive with an inject like this.  Otherwise it blows up when I try to minify.</p>
+
+<pre><code>    return {
+        priority: 1244444,
+        restrict: 'EA',
+        templateUrl: '/App/Modules/ExperianWidgets/Widgets/EcsActivityTimeline/Templates/ecsActivityTimelineTml.html',
+        replace: true,
+        scope: {
+            size: '=',
+            data: '=',
+        },
+        link: link,
+        controller: ['$scope', contfunc],
+    };
+
+    function contfunc($scope) {
+        $scope.scrollDataSource = {
+            get: function(index, count, success) {
+                return dataSourceGet($scope, index, count, success);
+            },
+            revision: function () {
+                return $scope.sanitized.data;
+            },
+        };
+    } )
+</code></pre>
+

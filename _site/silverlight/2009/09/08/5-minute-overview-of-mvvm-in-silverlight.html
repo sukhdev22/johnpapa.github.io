@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>5 Minute Overview of MVVM in Silverlight</title>
+    
+    <meta name="author" content="John Papa">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico">
+
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+    <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default visible-xs" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://github.com/johnpapa">
+                <i class="fa fa-github"></i>
+            </a>
+            
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://twitter.com/john_papa">
+                <i class="fa fa-twitter"></i>
+            </a>
+            
+            
+            <a class="navbar-brand" href="/">
+                <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=35" class="img-circle" />
+                
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/categories.html">Categories</a></li>
+                <li><a href="/tags.html">Tags</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <!-- nav-menu-dropdown -->
+    <div class="btn-group hidden-xs" id="nav-menu">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+            <li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+        </ul>
+    </div>
+
+    <div class="col-sm-4 sidebar hidden-xs hidden-sm not-mobile">
+        <!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<h1 class="text-center">John Papa</h1>
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=150" class="img-circle" />
+	</a>
+	<h3 class="title">
+		<a href="/"></a>
+	</h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Evangelist on the Loose
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/johnpapa">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		 
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/john_papa">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		 
+	</ul>
+
+	<div class="sidebar-content">
+
+		<nav id="page-nav">
+			<ul class="main-navigation list-unstyled list-inline">
+				<li><a href="/about/">About</a></li>
+				<li><a href="/articles">Articles</a></li>
+				<li><a href="/spa">SPA</a></li>
+				<li><a href="/videos">Videos</a></li>
+			</ul>
+		</nav>
+
+		<h5>Recent Posts</h5>
+		<ul class="list-unstyled">
+			
+				<li>
+					<span>16 Sep 2015</span> &raquo;
+					<a href="/angular/angular2/community/event/javascript/uncategorized/2015/09/16/angular-2-hack-night-coming-to-orlando.html">
+					Angular 2 Hack Night Coming to Orlando</a>
+				</li>
+			
+				<li>
+					<span>29 Aug 2015</span> &raquo;
+					<a href="/angular/asp.net/github/gulp/html5/javascript/pluralsight/typescript/uncategorized/visual%20studio%20code/2015/08/29/learning-visual-studio-code.html">
+					Learning Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/visual-studio-code-webinar.html">
+					Visual Studio Code Webinar</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/automatically-restarting-asp-net-on-osx-with-dnxmon.html">
+					Automatically Restarting ASP.NET on OSX with DNXMON</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/getting-started-with-asp-net-5-on-osx.html">
+					Getting Started with ASP.NET 5 on OSX</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/refactoring-with-visual-studio-code.html">
+					Refactoring with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/intellisense-witha-visual-studio-code.html">
+					Intellisense with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/git-and-preferences-in-visual-studio-code.html">
+					Git and Preferences in Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/debugging-with-visual-studio-code.html">
+					Debugging with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/visual-studio-code.html">
+					Introducing Visual Studio Code</a>
+				</li>
+			
+		</ul>
+	</div>
+
+</div>
+<!-- sidebar.html end -->
+        <div class="not-mobile row sidebar-extras">
+            <table class="col-centered">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-sm-8">
+        <div class="page-header">
+  <h1>5 Minute Overview of MVVM in Silverlight </h1>
+</div>
+	
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   September 
+	   8th,
+	   
+	   2009
+	 </span>
+	  <div class="article_body">
+	  <p>Model-View-ViewModel (better known by its super hero alias of MVVM ) is a great pattern to use with Silverlight and WPF. Here is my 5 minute perspective on MVVM (yep, it took me 5 minutes to spit this out too, so please be kind on any typos :-) )</p>
+<p>One of the things that can be frustrating with any pattern is the immediate assumption that many articles have that everyone knows what MVVM means. This post is intended to be a <strong>short, quick, and hopefully easy explanation of MVVM</strong>. Another interesting aspect of MVVM is that you can find many ways of actually using MVVM. I will point out some of the differing opinions as I move along. Not all of them, but a few just to give you an idea of what you might see out there. This post assumes the technology is Silverlight or WPF.</p>
+<p>This explanation is intended to give an overview on the roles of View, Model and ViewModel. The graphic at the bottom shows the basic association between the MVVM triad. There are different ways to handle some aspects of MVVM. But the element between them all is the singular purpose behind the View, the Model, and the ViewModel.</p>
+<p>In a future post I will explain in more detail how I implement MVVM, why I chose the way I do it, and some of the pros and cons.</p>
+<p><strong><font size="4">Why?</font></strong></p>
+<p>1 reason MVVM works really well with XAML based applications is because of the powerful XAML binding features. This allows the View (the presentation of to the user) to be separated from the data and the logic. The View can be designed in Expression Blend while the ViewModel can be developed in Visual Studio .NET. It allows for the presentation to be separated very easily. This is just 1 reason, albeit a powerful one.</p>
+<p><strong><font size="4">View</font></strong></p>
+<p>A View is a class that represents the user interface that the user will see. In Silverlight this is the MainPage.xaml or Page.xaml class, for example. The View contains the visual controls that will be shown to the user and can also contain animations, navigation aspects, themes, and other interactive features for the purpose of the visual presentation. In Silverlight and WPF the View also contains binding extensions that identify the data points that will be presented to the user (embedded in XAML). The bindings point to the names of the data point properties, but do not have awareness of where those properties are nor where they come from. The bindings are activated when the View’s DataContext is set to a class that contains the source for the bindings.</p>
+<blockquote>   <p>Differing Opinions:</p>    <p>Some people create a View and assign it a source for its data right in the View. This can be done by creating a resource in the XAML that points to a ViewModel. I prefer to associate my View and ViewModel separate from each other so they are not coupled. however it is very common to see the ViewModel created inside the View as a resource. Either way is good. Creating it inside the View is easier and can allow for more fun when using Blend. Associating the ViewModel and the View through another class is looser and can allow for more DI and testability. Again, both are good and prominent in the wild.</p> </blockquote>
+<p>&#160;</p>
+<p><strong><font size="4">Model</font></strong></p>
+<p>A class that represents data points describing a specific entity.&#160; For example, a Customer class with properties such as CompanyName and CustomerId. The Model can contains child Model’s too, like any object graph. So a Customer Model can contain a property named Orders which is a set of Order Models. The Model’s purpose is to represent the data points and it has no knowledge of where it will be presented to a user nor how it will be presented. It’s single responsibility is to represent the data points.</p>
+<blockquote>   <p>Differring opinions:</p>    <p>Some people create the Model and give it awareness of where it comes from. <strong>I</strong> <strong>do not </strong>take this approach as I like to keep the Model ignorant of this and loosely coupled from where it comes form. However to offer up one different way to handle this it could help to discuss this at a high level. Some make the Model also have awareness of how to load and save itself (persistence awareness). For example, this could mean it knows how to call a web service to do this. Again, I do not do this. Rather I prefer to make that saving and loading of a Model happen in another class which has the single responsibility of handling these aspects. </p> </blockquote>
+<p><strong><font size="4">ViewModel</font></strong></p>
+<p>The ViewModel is the glue between the View and the outside world. The ViewModel is what the View is bound to. The View’s DataContext is set to an instance of a ViewModel class. This is where all of the bindings declared in the View’s XAML The ViewModel contains the Model, so it has all of the data points needed in many cases right there. The ViewModel also can declare public properties for Commands (ways to invoke actions from the View to the ViewModel) and other properties that can be bound to the View. </p>
+<blockquote>   <p>Differing Opinions:</p>    <p>In my architecture, my ViewModel classes make calls to another class that handles filling the Model(s) contained within the ViewModel. Some other ways of doing this are to simply have the ViewModel go get the data himself. Again, I lean towards keeping my classes focused on a single responsibility so my examples generally do not do that. Instead, I have a class that is in charge of hitting a web service to go and get my data and fill my Model for my ViewModel.</p> </blockquote>
+<p>&#160;</p>
+<p><em><strong>Common Picture of the MVVM Triad</strong></em></p>
+<p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/5MinuteOverviewofMVVMinSilverlight_8012/image7.png"><img style="border-bottom: 0px; border-left: 0px; display: block; float: none; margin-left: auto; border-top: 0px; margin-right: auto; border-right: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/5MinuteOverviewofMVVMinSilverlight_8012/image7_thumb.png" width="517" height="449" /></a></p>
+<p>&#160;</p>
+<p>I hope this helps!</p>
+
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			 
+				<li><a href="/categories.html#silverlight-ref">
+					silverlight <span>(284)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		  
+
+		  
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=5 Minute Overview of MVVM in Silverlight&via=john_papa"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721" class="img-rounded author-image" />
+        <h4 class="section-title author-name">John Papa</h4>
+        <p class="author-bio">Evangelist on the Loose</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/silverlight/2009/09/08/silverlight-firestarter-ndash-watch-it-live-online-or-in-person.html" title="Silverlight Firestarter – Watch it Live Online or in Person">&larr; Previous</a></li>
+		  
+		  
+		  <li class="next"><a href="/silverlight/2009/09/08/prism-mvvm-behaviors-blend-ndash-lakeland-fl-user-group.html" title="Prism, MVVM, Behaviors, Blend – Lakeland, FL User Group">Next &rarr;</a></li>
+		  
+		</ul>
+
+		<hr>
+	</div>
+	
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'johnpapa';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+      <footer class="footer-text">
+        <hr/>
+        <p>
+        Copyright © 2015 - John Papa Blog content licensed under the Creative Commons <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a>
+        | Unless otherwise stated or granted, code samples licensed under the <a href="http://sm.mit-license.org/">MIT license</a>.
+        | Site design based on the <a href="https://github.com/dbtek/dbyll">dbyll theme</a> under the <a href="http://sm.mit-license.org/">MIT license</a>
+      </p>
+
+      </footer>
+
+    </div>
+
+    <script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
+
+    <!--Developer Media Links-->
+    <script type='text/javascript'>
+        function _dmBootstrap(file) {
+    var _dma = document.createElement('script'); _dma.type = 'text/javascript'; _dma.async = true; _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://')
+    + file;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js');
+    setTimeout(_dmFollowup, 2000);})();
+    </script>
+
+    <!--<script language="JavaScript" src="http://ad.doubleclick.net/N6839/adj/lqm.johnpapa.site/ron;kw=%2Cjohn%2Cpapa%2Cblog%2Cjohnpapa%7Bdot%7Dnet%2Cjohnpapa%2Cpappa%2Cwww%7Bdot%7Djohnpapa%7Bdot%7Dnet%2Cjon%2Cangular%2Cjhon;sz=160x600;dc_ref=http%3A%2F%2Fwww.johnpapa.net%2F;tile=1;ord=BEAAB484DA88D8D84B9DCB004E5712BE?"
+    type="text/javascript"></script>-->
+
+    <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="728x90" class="col-centered"></div>
+
+</body>
+
+</html>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'johnpapa']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+

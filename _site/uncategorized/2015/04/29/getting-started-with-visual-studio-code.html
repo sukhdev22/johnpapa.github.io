@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Getting Started with Visual Studio Code</title>
+    
+    <meta name="author" content="John Papa">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico">
+
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+    <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default visible-xs" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://github.com/johnpapa">
+                <i class="fa fa-github"></i>
+            </a>
+            
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://twitter.com/john_papa">
+                <i class="fa fa-twitter"></i>
+            </a>
+            
+            
+            <a class="navbar-brand" href="/">
+                <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=35" class="img-circle" />
+                
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/categories.html">Categories</a></li>
+                <li><a href="/tags.html">Tags</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <!-- nav-menu-dropdown -->
+    <div class="btn-group hidden-xs" id="nav-menu">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+            <li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+        </ul>
+    </div>
+
+    <div class="col-sm-4 sidebar hidden-xs hidden-sm not-mobile">
+        <!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<h1 class="text-center">John Papa</h1>
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=150" class="img-circle" />
+	</a>
+	<h3 class="title">
+		<a href="/"></a>
+	</h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Evangelist on the Loose
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/johnpapa">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		 
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/john_papa">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		 
+	</ul>
+
+	<div class="sidebar-content">
+
+		<nav id="page-nav">
+			<ul class="main-navigation list-unstyled list-inline">
+				<li><a href="/about/">About</a></li>
+				<li><a href="/articles">Articles</a></li>
+				<li><a href="/spa">SPA</a></li>
+				<li><a href="/videos">Videos</a></li>
+			</ul>
+		</nav>
+
+		<h5>Recent Posts</h5>
+		<ul class="list-unstyled">
+			
+				<li>
+					<span>16 Sep 2015</span> &raquo;
+					<a href="/angular/angular2/community/event/javascript/uncategorized/2015/09/16/angular-2-hack-night-coming-to-orlando.html">
+					Angular 2 Hack Night Coming to Orlando</a>
+				</li>
+			
+				<li>
+					<span>29 Aug 2015</span> &raquo;
+					<a href="/angular/asp.net/github/gulp/html5/javascript/pluralsight/typescript/uncategorized/visual%20studio%20code/2015/08/29/learning-visual-studio-code.html">
+					Learning Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/visual-studio-code-webinar.html">
+					Visual Studio Code Webinar</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/automatically-restarting-asp-net-on-osx-with-dnxmon.html">
+					Automatically Restarting ASP.NET on OSX with DNXMON</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/getting-started-with-asp-net-5-on-osx.html">
+					Getting Started with ASP.NET 5 on OSX</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/refactoring-with-visual-studio-code.html">
+					Refactoring with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/intellisense-witha-visual-studio-code.html">
+					Intellisense with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/git-and-preferences-in-visual-studio-code.html">
+					Git and Preferences in Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/debugging-with-visual-studio-code.html">
+					Debugging with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/visual-studio-code.html">
+					Introducing Visual Studio Code</a>
+				</li>
+			
+		</ul>
+	</div>
+
+</div>
+<!-- sidebar.html end -->
+        <div class="not-mobile row sidebar-extras">
+            <table class="col-centered">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-sm-8">
+        <div class="page-header">
+  <h1>Getting Started with Visual Studio Code </h1>
+</div>
+	
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   April 
+	   29th,
+	   
+	   2015
+	 </span>
+	  <div class="article_body">
+	  <p>When playing with VSCode, it may be helpful to start with a project. Grab your own or use Hot Towel to generate. You can <a href="https://github.com/johnpapa/generator-hottowel#prerequisites">install Hot Towel and generate a project quickly using these instructions</a>.</p>
+
+<h2>Visual Studio Code Series</h2>
+
+<p>Follow this series to learn more about what you can do with Visual Studio Code!</p>
+
+<ol>
+<li><a href="http://johnpapa.net/visual-studio-code">Introducing Visual Studio Code</a></li>
+<li><a href="http://johnpapa.net/getting-started-with-visual-studio-code">Getting Started with Visual Studio Code</a></li>
+<li><a href="http://johnpapa.net/intellisense-witha-visual-studio-code">Intellisense</a></li>
+<li><a href="http://johnpapa.net/refactoring-with-visual-studio-code">Refactoring</a></li>
+<li><a href="http://johnpapa.net/debugging-with-visual-studio-code">Debugging</a></li>
+<li><a href="http://johnpapa.net/git-and-preferences-in-visual-studio-code">Git Integration and Preferences</a></li>
+</ol>
+
+<h2>Quick Access</h2>
+
+<p>I find myself looking for a file, a variable, a function, a git command, or a task quite often. Especially when I do not know exactly where it is. VSCode provides quick access to these through quick access palettes and commands.</p>
+
+<h3>Command Palette</h3>
+
+<p><code>CMD+SHIFT+P</code> opens the command palette. You can type what you are looking for and perform that action easily. No need to remember menu items or where that button may be hiding. Want to change your theme? Configure debugging? Open keyboard mapping preferences? Run tasks? Open a new console/terminal? This is the place. It’s also a great place to just scroll through the entire list of available commands.</p>
+
+<blockquote>
+  The name "Palette" and the idea is inspired by Sublime Text, which made this an immensely popular and useful feature.
+</blockquote>
+
+<p><code>CMD+SHIFT+P</code> is the most helpful keystroke you’ll use in Visual Studio Code.  It also shows the keyboard mapping for each command.</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/cmdp.png" alt="CMD+P" /></p>
+
+<blockquote>
+  Notice that you can delete the <code>&gt;</code> and you are at the Navigate to File or Symbol palette. This is a nice feature so you can move between the various palettes easily.
+</blockquote>
+
+<h3>Navigate to File</h3>
+
+<p><code>CMD+P</code> opens the generic command palette where you can search for any file or symbol in one place. You can also see recently opened files.</p>
+
+<p><strong>UPDATE: The 0.2.0 release on 05.29.2015 this was remapped from CMD+O to CMD+P</strong></p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/cmdo.png" alt="CMD+O" /></p>
+
+<h3>Palettes ?</h3>
+
+<p>Are you sensing a theme here? There are a few palettes to remember. But the good news here is that if you forget which command does what, you can always type <code>?</code> to see the various ways you can find and navigate to what you want. Type <code>CMD+P</code> and then <code>?</code> to see a list.</p>
+
+<p>You can also access this by <code>CMD+SHIFT+P</code> then delete the <code>&gt;</code>.</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/palettes.png" alt="palettes" /></p>
+
+<h3>Go to Symbol</h3>
+
+<p><code>CMD+SHIFT+O</code> opens the Go to Symbol palette. The <code>@</code> prefix tells VSCode that you are searching for a symbol. You can then search for a local variable or function.</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/gotosymbol1.png" alt="CMD+SHIFT+O" /></p>
+
+<p>You can also access this by <code>CMD+SHIFT+P</code> then delete the <code>&gt;</code> and type <code>@</code>.</p>
+
+<p>VSCode is context aware when showing the symbols. This means it makes it easy to search for contextually appropriate symbols in various types of files. When in TypeScript, JavaScript or C# you can navigate to symbols. When in CSS, LESS or SASS you can navigate to rules. When in JSON files, you can navigate to arrays or objects. When in special files such as <code>keybindings.json</code>, you can navigate to the assigned key bindings (due to the awareness of a JSON schema).</p>
+
+<h3>Go to Symbol by Category</h3>
+
+<p><code>CMD+SHIFT+O</code> opens the Go to Symbol palette, and typing an additional <code>:</code> allows you to search by category.</p>
+
+<p>This is context sensitive so in code it may categorize by property or function.</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/gotosymbol2.png" alt="symbol in code" /></p>
+
+<p>While in json it may search by array, object or string.</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/gotosymbol3.png" alt="symbol in json" /></p>
+
+<h3>Open Symbol by Name</h3>
+
+<p><code>CMD+P</code> and type <code>#</code> so find a symbol by its name.</p>
+
+<p>This is context sensitive so in code it may categorize by property or function. For example, you can search for a symbol across your entire project. It searches the beginning of each symbol and it is clever enough to search by the changes in camel case (as shown below).</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/symbolsearch.png" alt="symbol by name" /></p>
+
+<h3>Show Errors or Warnings</h3>
+
+<p><code>CMD+SHIFT+M</code> then type <code>!</code> shows all of the current warnings or errors in the Error palette. You can also open the Error palette by clicking on the error and warnings counter in the status bar.</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/warnings.png" alt="warnings" /></p>
+
+<h3>Help for Commands</h3>
+
+<p><code>CMD+P</code> then type <code>?</code> shows all of the types of global and editor commands you can run.</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/question.png" alt="question" /></p>
+
+<blockquote>
+  We'll take a look at the git and task commands later in this post.
+</blockquote>
+
+<h2>Editor</h2>
+
+<h3>New Instances</h3>
+
+<p>I often want multiple instances of a tool open to work with different projects. VSCode makes this easy. Simply type <code>CMD+SHIFT+N</code> and a new instance of VSCode is opened.Here is show 2 instances (shrunken down a bit) with 2 different projects.</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/instances.png" alt="instances" /></p>
+
+<h3>New File</h3>
+
+<p>The simple <code>CMD+N</code> opens a new file. From here you can save, name it,  and keep on rolling.</p>
+
+<h3>Autosave</h3>
+
+<p>Tired of losing changes? Or are you like me where you hit <code>CMD+S</code> all day long? VSCode let’s you enable automatic saving of files through a menu option. Me? I turned this on and never looked back.</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/autosave.png" alt="autosave" /></p>
+
+<p>If you enable auto save and you have watchers on your files, those watchers will execute every time you change a file.</p>
+
+<p>If you disable auto save and you make changes to a file, you will see dots next to the files in the Working Files list.</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/dirtyfiles.png" alt="dirtyfiles" /></p>
+
+<h3>Split the Editor</h3>
+
+<p><code>CMD+\</code> will split the editor. This is great for opening and viewing multiple files side by side. Especially helpful for markdown and markdown preview. Even more helpful when transpiling LESS to CSS or TypeScript to JavaScript.</p>
+
+<p><img src="http://www.johnpapa.net/wp-content/uploads/2015/04/sidebyside.png" alt="sidebyside" /></p>
+
+<p>You can also open the sidebar from <code>CMD+P</code> using the two rectangle icon. Or you can hold the <code>CMD</code> and click with the mouse on the file in the File Explorer to open it in a new side panel.</p>
+
+<p>VSCode allows you to have up to 3 code panels open in the editor.</p>
+
+<h3>Toggle Sidebar</h3>
+
+<p><code>CMD+B</code> will toggle the sidebar to be shown or hidden. This is great when you need more real estate on your screen.</p>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			 
+				<li><a href="/categories.html#uncategorized-ref">
+					uncategorized <span>(150)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		  
+
+		  
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Getting Started with Visual Studio Code&via=john_papa"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721" class="img-rounded author-image" />
+        <h4 class="section-title author-name">John Papa</h4>
+        <p class="author-bio">Evangelist on the Loose</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/uncategorized/2015/04/26/web-dev-with-editors-and-ides.html" title="Web Dev with Editors and IDEs">&larr; Previous</a></li>
+		  
+		  
+		  <li class="next"><a href="/uncategorized/2015/04/29/visual-studio-code.html" title="Introducing Visual Studio Code">Next &rarr;</a></li>
+		  
+		</ul>
+
+		<hr>
+	</div>
+	
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'johnpapa';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+      <footer class="footer-text">
+        <hr/>
+        <p>
+        Copyright © 2015 - John Papa Blog content licensed under the Creative Commons <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a>
+        | Unless otherwise stated or granted, code samples licensed under the <a href="http://sm.mit-license.org/">MIT license</a>.
+        | Site design based on the <a href="https://github.com/dbtek/dbyll">dbyll theme</a> under the <a href="http://sm.mit-license.org/">MIT license</a>
+      </p>
+
+      </footer>
+
+    </div>
+
+    <script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
+
+    <!--Developer Media Links-->
+    <script type='text/javascript'>
+        function _dmBootstrap(file) {
+    var _dma = document.createElement('script'); _dma.type = 'text/javascript'; _dma.async = true; _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://')
+    + file;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js');
+    setTimeout(_dmFollowup, 2000);})();
+    </script>
+
+    <!--<script language="JavaScript" src="http://ad.doubleclick.net/N6839/adj/lqm.johnpapa.site/ron;kw=%2Cjohn%2Cpapa%2Cblog%2Cjohnpapa%7Bdot%7Dnet%2Cjohnpapa%2Cpappa%2Cwww%7Bdot%7Djohnpapa%7Bdot%7Dnet%2Cjon%2Cangular%2Cjhon;sz=160x600;dc_ref=http%3A%2F%2Fwww.johnpapa.net%2F;tile=1;ord=BEAAB484DA88D8D84B9DCB004E5712BE?"
+    type="text/javascript"></script>-->
+
+    <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="728x90" class="col-centered"></div>
+
+</body>
+
+</html>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'johnpapa']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+

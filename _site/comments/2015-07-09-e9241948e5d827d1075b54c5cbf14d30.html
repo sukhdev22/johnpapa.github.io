@@ -1,0 +1,29 @@
+<p>Hi John,
+I have a hierarchical data model and created a client-side interface for editing using MVC &amp; knockout.js. I want to give the user the ability to cancel his changes so I don’t want to immediately save deletes of child objects to the server. Essentially, I’d like to post back the entire model to the server but I’m not sure how to handle deletes of child objects. (I am using Entity Framework on the server-side.) For example, if my model was Orders with Order Line details: when the user edits an order, he can add/edit/delete order lines. Knockout tracks the changes. When the entire Order is posted back to the server, it contains any new order lines and all edited order lines, but the deleted ones have been deleted. Should I post a separate list of deleted Order Lines? Or, perhaps I should get all existing Order Lines for that order from the db, loop through, and whichever ones don’t exist in the set of Order Lines that was passed in from the client should be deleted.</p>
+
+<p>I would appreciate your recommendation and any links to examples that you could send me.</p>
+
+<p>Thank you!</p>
+
+<p>Taibe Juni
+<!--more-->
+AUTHOR: Taibe Juni
+AUTHOR EMAIL: tjuni2@gmail.com
+AUTHOR URL: 
+SUBJECT: [John Papa] Connect
+IP: 24.188.32.159
+Array
+(
+    [1_Name] =&gt; Taibe Juni
+    [2_Email] =&gt; tjuni2@gmail.com
+    [3_Website] =&gt; 
+    [4_Comment] =&gt; Hi John,
+I have a hierarchical data model and created a client-side interface for editing using MVC &amp; knockout.js. I want to give the user the ability to cancel his changes so I don’t want to immediately save deletes of child objects to the server. Essentially, I’d like to post back the entire model to the server but I’m not sure how to handle deletes of child objects. (I am using Entity Framework on the server-side.) For example, if my model was Orders with Order Line details: when the user edits an order, he can add/edit/delete order lines. Knockout tracks the changes. When the entire Order is posted back to the server, it contains any new order lines and all edited order lines, but the deleted ones have been deleted. Should I post a separate list of deleted Order Lines? Or, perhaps I should get all existing Order Lines for that order from the db, loop through, and whichever ones don’t exist in the set of Order Lines that was passed in from the client should be deleted.</p>
+
+<p>I would appreciate your recommendation and any links to examples that you could send me.</p>
+
+<p>Thank you!</p>
+
+<p>Taibe Juni
+)</p>
+

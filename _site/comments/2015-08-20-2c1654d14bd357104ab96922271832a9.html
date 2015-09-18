@@ -1,0 +1,47 @@
+<p>Hello !</p>
+
+<p>First, thank you for the nice coding style guide. I’ve read it and I am currently trying to adapt my code to fit it. However, I am facing an issue that I am not sure of how to best solve it.</p>
+
+<p>I have heavy controllers managing lots of data and configuration objects (the web app is complex and I cannot remove this intrinsic complexity from my views). To get cleaner code, I am moving the logic from controllers to services. The problem is that most methods that were in the controllers are now in services, but they still need to manage the whole data (one action involves many objects), and I am wondering how to access this data (that is currently in the vm of the controller) from the service.</p>
+
+<p>I see a few solutions to address this issue, but none of them convinces me really:
+1. Passing lots of arguments to my services functions.
+2. Passing the vm to the services functions.
+3. Passing the vm to the service once, store it in the service and use it in the functions without passing it everytime.
+4. Having some “data service” that would store the data used by the controller and the service (but this raises new issues such as how to inject this data in the vm without losing the references).</p>
+
+<p>I would greatly appreciate if you could explain your opinion on this and give me insights on how to achieve what I want to do ! :)</p>
+
+<p>Thanks in advance and have a great day !</p>
+
+<p>Sven
+<!--more-->
+AUTHOR: Sven Reber
+AUTHOR EMAIL: svreber@gmail.com
+AUTHOR URL: 
+SUBJECT: [John Papa] Connect
+IP: 83.173.214.74
+Array
+(
+    [1_Name] =&gt; Sven Reber
+    [2_Email] =&gt; svreber@gmail.com
+    [3_Website] =&gt; 
+    [4_Comment] =&gt; Hello !</p>
+
+<p>First, thank you for the nice coding style guide. I’ve read it and I am currently trying to adapt my code to fit it. However, I am facing an issue that I am not sure of how to best solve it.</p>
+
+<p>I have heavy controllers managing lots of data and configuration objects (the web app is complex and I cannot remove this intrinsic complexity from my views). To get cleaner code, I am moving the logic from controllers to services. The problem is that most methods that were in the controllers are now in services, but they still need to manage the whole data (one action involves many objects), and I am wondering how to access this data (that is currently in the vm of the controller) from the service.</p>
+
+<p>I see a few solutions to address this issue, but none of them convinces me really:
+1. Passing lots of arguments to my services functions.
+2. Passing the vm to the services functions.
+3. Passing the vm to the service once, store it in the service and use it in the functions without passing it everytime.
+4. Having some “data service” that would store the data used by the controller and the service (but this raises new issues such as how to inject this data in the vm without losing the references).</p>
+
+<p>I would greatly appreciate if you could explain your opinion on this and give me insights on how to achieve what I want to do ! :)</p>
+
+<p>Thanks in advance and have a great day !</p>
+
+<p>Sven
+)</p>
+

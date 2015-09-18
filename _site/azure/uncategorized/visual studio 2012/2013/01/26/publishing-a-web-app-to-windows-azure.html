@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Publishing a Web App to Windows Azure</title>
+    
+    <meta name="author" content="John Papa">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico">
+
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+    <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default visible-xs" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://github.com/johnpapa">
+                <i class="fa fa-github"></i>
+            </a>
+            
+            
+            <a type="button" class="navbar-toggle nav-link" href="http://twitter.com/john_papa">
+                <i class="fa fa-twitter"></i>
+            </a>
+            
+            
+            <a class="navbar-brand" href="/">
+                <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=35" class="img-circle" />
+                
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/categories.html">Categories</a></li>
+                <li><a href="/tags.html">Tags</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <!-- nav-menu-dropdown -->
+    <div class="btn-group hidden-xs" id="nav-menu">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+            <li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+        </ul>
+    </div>
+
+    <div class="col-sm-4 sidebar hidden-xs hidden-sm not-mobile">
+        <!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<h1 class="text-center">John Papa</h1>
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721?s=150" class="img-circle" />
+	</a>
+	<h3 class="title">
+		<a href="/"></a>
+	</h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Evangelist on the Loose
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/johnpapa">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		 
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/john_papa">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		 
+	</ul>
+
+	<div class="sidebar-content">
+
+		<nav id="page-nav">
+			<ul class="main-navigation list-unstyled list-inline">
+				<li><a href="/about/">About</a></li>
+				<li><a href="/articles">Articles</a></li>
+				<li><a href="/spa">SPA</a></li>
+				<li><a href="/videos">Videos</a></li>
+			</ul>
+		</nav>
+
+		<h5>Recent Posts</h5>
+		<ul class="list-unstyled">
+			
+				<li>
+					<span>16 Sep 2015</span> &raquo;
+					<a href="/angular/angular2/community/event/javascript/uncategorized/2015/09/16/angular-2-hack-night-coming-to-orlando.html">
+					Angular 2 Hack Night Coming to Orlando</a>
+				</li>
+			
+				<li>
+					<span>29 Aug 2015</span> &raquo;
+					<a href="/angular/asp.net/github/gulp/html5/javascript/pluralsight/typescript/uncategorized/visual%20studio%20code/2015/08/29/learning-visual-studio-code.html">
+					Learning Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/visual-studio-code-webinar.html">
+					Visual Studio Code Webinar</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/automatically-restarting-asp-net-on-osx-with-dnxmon.html">
+					Automatically Restarting ASP.NET on OSX with DNXMON</a>
+				</li>
+			
+				<li>
+					<span>23 May 2015</span> &raquo;
+					<a href="/uncategorized/2015/05/23/getting-started-with-asp-net-5-on-osx.html">
+					Getting Started with ASP.NET 5 on OSX</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/refactoring-with-visual-studio-code.html">
+					Refactoring with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/intellisense-witha-visual-studio-code.html">
+					Intellisense with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/git-and-preferences-in-visual-studio-code.html">
+					Git and Preferences in Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/debugging-with-visual-studio-code.html">
+					Debugging with Visual Studio Code</a>
+				</li>
+			
+				<li>
+					<span>29 Apr 2015</span> &raquo;
+					<a href="/uncategorized/2015/04/29/visual-studio-code.html">
+					Introducing Visual Studio Code</a>
+				</li>
+			
+		</ul>
+	</div>
+
+</div>
+<!-- sidebar.html end -->
+        <div class="not-mobile row sidebar-extras">
+            <table class="col-centered">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-sm-8">
+        <div class="page-header">
+  <h1>Publishing a Web App to Windows Azure </h1>
+</div>
+	
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   January 
+	   26th,
+	   
+	   2013
+	 </span>
+	  <div class="article_body">
+	  <p>Often I like to test my web apps in a real website. For me, Windows Azure is ideally suited for this. I can spin up a site as needed, publish my demo, test it on a variety of devices, and tear it down when I am done. the best part is that it only takes a few moments to learn how to do this. What do you need? Just install Visual Studio 2012 and open a Windows Azure account and you are all set. In this post I’ll tell you how to set up an Azure website, how to publish to Azure, and offer several tips in case you run into issues along the way.</p>
+
+<p><a href="http://www.johnpapa.net/publishing-a-web-app-to-windows-azure/1-25-2013-11-04-02-pm/" rel="attachment wp-att-14321"><img src="http://www.johnpapa.net/wp-content/uploads/2013/01/1-25-2013-11-04-02-PM.png" alt="1-25-2013 11-04-02 PM" width="580" height="213" class="aligncenter size-full wp-image-14321" /></a></p>
+
+<h2>At a Glance</h2>
+<p>In the Windows Azure Portal</p>
+<ul><li>Sign up for an account with Windows Azure</li>
+<li>Create a New Web Site</li>
+<li>Download the publishing profile file</li></ul>
+
+<p>In Visual Studio 2012</p>
+<ul><li>Ensure all NuGet packages are installed</li>
+<li>Build your solution</li>
+<li>Publish your solution</li></ul>
+
+<h2>Create a Windows Azure Web Site</h2>
+<p>The first step is to <a href="http://www.windowsazure.com/" target="_blank">sign up and create an account with Windows Azure</a>. Depending on what programs you are participating in you may qualify for different options. I’ll assume that you have signed up or can figure that out on your own. The next step is to create a web site in Azure. I don’t require a lot of resources for testing my apps, so when I create web sites for this purpose I just choose the smallest/cheapest options available. That is what I will go through here.</p>
+
+<p><a href="https://manage.windowsazure.com" target="_blank">Go to your Windows Azure portal</a> and select the plus sign in the bottom left hand corner.
+<a href="http://www.johnpapa.net/publishing-a-web-app-to-windows-azure/azure-new-site/" rel="attachment wp-att-14181"><img src="http://www.johnpapa.net/wp-content/uploads/2013/01/azure-new-site.png" alt="azure-new site" width="600" height="485" class="aligncenter size-full wp-image-14181" /></a></p>
+
+<p>Then choose the Web Site option, and the Quick Create option. From here, it will ask you to type in the url you want. It automatically places you in the azurewebsites.net domain. (You can reconfigure  this later if you want to use a domain that you own.) I typed in papademonstration so I get papademonstration.azurewebsites.net. I trust you will pick something far shorter :)</p>
+
+<p><a href="http://www.johnpapa.net/publishing-a-web-app-to-windows-azure/azure-quick-create/" rel="attachment wp-att-14211"><img src="http://www.johnpapa.net/wp-content/uploads/2013/01/azure-quick-create.png" alt="azure-quick create" width="550" height="170" class="aligncenter size-full wp-image-14211" /></a></p>
+
+<p>In my experience, it will take anywhere from 30 seconds to a few minutes to spin up the new site. When using the Quick Create you get a very simple setup. You can configure your domain name, whether you want to share a virtual server or get a reserved server, how many cores, instances, memory and so on. For this post, I’m just focusing on the simple route where you want to spin up a site so you can test your app, and for that the Quick Create is all I’ll need.</p>
+
+<h2>Publishing Profile</h2>
+<p>Next you are going to want to know how to connect Visual Studio to Azure so you can publish your project to it. For this you will need the publishing profile. Once the web site’s status says <code>running</code> instead of <code>creating ...</code>, click on the name of the web site in the Azure portal. You will then see the dashboard for that new site. On the right you will see a section titled <code>quick glance</code>. From here you can click the link to <code>download publish profile</code>.</p>
+
+<p><a href="http://www.johnpapa.net/publishing-a-web-app-to-windows-azure/azure-dashboard/" rel="attachment wp-att-14241"><img src="http://www.johnpapa.net/wp-content/uploads/2013/01/azure-dashboard.png" alt="azure-dashboard" width="308" height="274" class="aligncenter size-full wp-image-14241" /></a></p>
+
+<p>This will download the profile to your computer. It is a text file and if you open it you can see it contains sensitive information about connecting to your site.</p>
+
+<h2>Publish in Visual Studio</h2>
+<p>Next, go to Visual Studio 2012 and open your project. Be sure that all of the NuGet packages are installed properly and that you have just re-built the solution successfully.</p>
+
+<blockquote>Tip: I have found that the publishing process goes much smoother when you build immediately prior to publishing.</blockquote>
+
+<p>While the project is selected, go to the Visual Studio 2012 menu and select Build and Publish.</p>
+
+<p><a href="http://www.johnpapa.net/publishing-a-web-app-to-windows-azure/publish/" rel="attachment wp-att-14251"><img src="http://www.johnpapa.net/wp-content/uploads/2013/01/publish.png" alt="publish" width="419" height="321" class="aligncenter size-full wp-image-14251" /></a></p>
+
+<p>You will see a dialog that allows you to import a profile. Click the import button and locate the publish profile you recently downloaded for your new web site. This is how you tell Visual Studio 2012 where to send your code. Then click the <code>next</code> button. I recommend clicking the <code>Validation Connection</code> button on the Connection dialog, just to verify it can communicate with the web site. Then click the <code>next</code> button and you will see the settings dialog, where you can choose which configuration to publish (release, debug, etc). Then click the <code>next</code> button again and yu will see the preview dialog. I recommend always coming to this dialog and click the <code>Start Preview</code> button. Sometime you will see “Preview Failed (click here for details)”. Often the error message it reveals is obtuse, so I simply close this, save any changes to the profile, clean and rebuild the solution and try again. It often works after that.</p>
+
+<blockquote>Tip: Don't be scared if you see a message that says "Web.config not found". I think there must be a random strange error message generator that kicks in when the preview fails. I just ignore those messages as they rarely make sense and rebuild the solution. The messages might as well say "pigs are flying out your window" for all the help they are.</blockquote>
+
+<p>Once you get a clean preview, you can click the <code>publish</code> button. All files are then sent up to the web site and it will open a browser and hopefully you will see your app!</p>
+
+<h2>Avoiding Gremlins</h2>
+<p>If you are like me, then you likely won’t hit the happy path each time your publish. It’s common for me to forget something and have to try again. Here are some more tips I have learned along the way that may help you if you read this far. If you didn’t, well, then, I might as well do a dance since you aren’t reading this far anyway. :)</p>
+<h5>Rebuild</h5>
+<p>Always rebuild right before you publish. Yes, i said it a few times in here, but it’s very important to staving off gremlins.</p>
+<h5>Include Files</h5>
+<p>Remember to include files in your Visual Studio 2012 project that you want published. If you don’t you can always FTP them later.</p>
+<h5>Restart Web Site</h5>
+<p>If you have problems publishing to your web site, go to the portal and restart the site. It takes about 5 seconds for me.</p>
+<h5>FTP</h5>
+<p>If you have problems publishing on top of existing files, consider FTP’ing to your site and clearing it manually. I had to do this once or twice myself.</p>
+<h5>Miss a File?</h5>
+<p>If a file did not get sent up to your web site, you can always FTP it.</p>
+<h5>keep It Secret, Keep it Safe</h5>
+<p>Your FTP credentials are in the publish profile (you may want to make sure you protect that file).</p>
+<h5>SQL Server CE</h5>
+<p>If you publish a SQL Server CE file (an *.sdf) for use with EntityFramework, make sure you have the <a href="http://nuget.org/packages/EntityFramework.SqlServerCompact/4.3.6" target="_blank">EntityFramework.SqlServerCompact</a> NuGet package installed before you publish. Otherwise you may see errors trying to connect to the database.</p>
+<h5>What's the Real Error?</h5>
+<p>If you see obtuse error messages, turn off customErrors in web.config to reveal the real error message (then be sure to undo this later).</p>
+<pre class="prettyprint linenums">
+<configuration>
+    <system.web>
+        <customerrors mode="Off" />
+    </system.web>
+</configuration>
+</pre>
+<h5>Tear it Down
+If you want to tear down your site, simply select your web site in the Azure portal and select the <code>delete</code> icon in the bottom menu. You can always spin a new one up later.
+</h5>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			 
+				<li><a href="/categories.html#azure-ref">
+					azure <span>(4)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#uncategorized-ref">
+					uncategorized <span>(150)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#visual studio 2012-ref">
+					visual studio 2012 <span>(12)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		  
+
+		  
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Publishing a Web App to Windows Azure&via=john_papa"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="http://www.gravatar.com/avatar/0d3794fe37746ea54926ca6878712721" class="img-rounded author-image" />
+        <h4 class="section-title author-name">John Papa</h4>
+        <p class="author-bio">Evangelist on the Loose</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/course/javascript/pluralsight/ravioli/typescript/uncategorized/2013/01/21/typescriptpost4.html" title="TypeScript Modules - Part 4">&larr; Previous</a></li>
+		  
+		  
+		  <li class="next"><a href="/events/uncategorized/2013/02/10/awesome-lineup-for-april-2012-devintersections.html" title="Awesome Lineup for April 2013 DevIntersections">Next &rarr;</a></li>
+		  
+		</ul>
+
+		<hr>
+	</div>
+	
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'johnpapa';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+      <footer class="footer-text">
+        <hr/>
+        <p>
+        Copyright © 2015 - John Papa Blog content licensed under the Creative Commons <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a>
+        | Unless otherwise stated or granted, code samples licensed under the <a href="http://sm.mit-license.org/">MIT license</a>.
+        | Site design based on the <a href="https://github.com/dbtek/dbyll">dbyll theme</a> under the <a href="http://sm.mit-license.org/">MIT license</a>
+      </p>
+
+      </footer>
+
+    </div>
+
+    <script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
+
+    <!--Developer Media Links-->
+    <script type='text/javascript'>
+        function _dmBootstrap(file) {
+    var _dma = document.createElement('script'); _dma.type = 'text/javascript'; _dma.async = true; _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://')
+    + file;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined') _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js');
+    setTimeout(_dmFollowup, 2000);})();
+    </script>
+
+    <!--<script language="JavaScript" src="http://ad.doubleclick.net/N6839/adj/lqm.johnpapa.site/ron;kw=%2Cjohn%2Cpapa%2Cblog%2Cjohnpapa%7Bdot%7Dnet%2Cjohnpapa%2Cpappa%2Cwww%7Bdot%7Djohnpapa%7Bdot%7Dnet%2Cjon%2Cangular%2Cjhon;sz=160x600;dc_ref=http%3A%2F%2Fwww.johnpapa.net%2F;tile=1;ord=BEAAB484DA88D8D84B9DCB004E5712BE?"
+    type="text/javascript"></script>-->
+
+    <div data-type="ad" data-publisher="lqm.johnpapa.site" data-zone="ron" data-format="728x90" class="col-centered"></div>
+
+</body>
+
+</html>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'johnpapa']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+

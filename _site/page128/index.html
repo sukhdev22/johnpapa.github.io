@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>dbyll</title>
+	
+	<meta name="author" content="dbyll">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/dbtek">
+				<i class="fa fa-github"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/dbtek">
+				<i class="fa fa-twitter"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="mailto:dbyll@ismaildemirbilek.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			
+			<a class="navbar-brand" href="/">
+				<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=35" class="img-circle" />
+				
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs">
+		<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=150" class="img-circle" />
+	</a>
+	<h3 class="title">
+        <a href="/"></a>
+    </h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Your stylish, minimalist theme!
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/dbtek">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/dbtek">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:dbyll@ismaildemirbilek.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://pinterest.com/asd123">
+				<i class="fa fa-pinterest fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/asd123">
+				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 col-sm-offset-3">
+		<div class="page-header">
+  <h1>dbyll </h1>
+</div>
+
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/substring-in-an-ado-net-dataset-datacolumn-expression.html">SubString in an ADO.NET DataSet - (DataColumn Expression)</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>One cool feature that I just love are the expression based columns in ADO.NET. I do not use them often but when I do find cause to use them, they are very useful. (Not to mention very cool.) One good use of expression columns in a DataSet is when you want to load a column into a DataGrid but you don't want the entire text description to appear in the column. This is often found when you have a notes, comments or some sort of very long description column that is 100 or even 8000 characters long. You likely don't want to show the entire text string because it could stretch out your grid, so&nbsp;a common way to deal with it is to only show the first X amount of characters. For example, the code sample below will create an expression&nbsp;column called "Co" and add it to the Customers DataTable. This new column will grab the first 10 characters from the CompanyName (from the same DataRow in the DataTable) and append 3 dots. So instead of showing all of the columns in a grid, you could hide the CompanyName and instead show the Co column.</p>
+<p>&nbsp;</p>
+<div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 0pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 0pt; FONT-SIZE: 8pt; BACKGROUND: white; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1pt solid; COLOR: black; PADDING-TOP: 0pt; BORDER-BOTTOM: windowtext 1pt solid; FONT-FAMILY: Courier New"><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; <span style="COLOR: blue">string</span> cnStr = <span style="COLOR: maroon">@"Data Source=mysqlserver;Initial Catalog=northwind;Integrated Security=True"</span>;</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; SqlConnection cn = <span style="COLOR: blue">new</span> SqlConnection(cnStr);</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; <span style="COLOR: blue">string</span> sql = <span style="COLOR: maroon">"SELECT CustomerID, CompanyName, City FROM Customers ORDER BY CustomerID"</span>;</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; SqlCommand cmd = <span style="COLOR: blue">new</span> SqlCommand(sql, cn);</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; SqlDataAdapter da = <span style="COLOR: blue">new</span> SqlDataAdapter(cmd);</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; DataSet ds = <span style="COLOR: blue">new</span> DataSet();</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; da.Fill(ds, <span style="COLOR: maroon">"Customers"</span>);</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; ds.Tables[<span style="COLOR: maroon">"Customers"</span>].Columns.Add(<span style="COLOR: maroon">"Co."</span>, </pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">typeof</span>(<span style="COLOR: blue">string</span>), </pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: maroon">"Substring(CompanyName, 1, 10) + '...'"</span>);</pre></div>
+<!--EndFragment-->
+<p>&nbsp;</p>
+<p>There is a WHOLE bunch more that you can do with expression based columns, but I'll leave that for later.</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/store-my-connection-string-please-configurationmanager-in-net-2-0.html">Store My Connection String Please - ConfigurationManager in .NET 2.0</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>I love the neat little features. You know, the ones that aren't earth shattering but still get you excited over the simplicity involved. To me, the .NET 2.0 Framework's <a href="http://msdn2.microsoft.com/en-us/library/2a1tyt9s.aspx">System.Configuration</a> namespace's <a href="http://msdn2.microsoft.com/en-us/library/ms134260.aspx">ConfigurationManager </a>class qualifies as one of those things. Specifically, I like the <a href="http://msdn2.microsoft.com/en-us/library/ms134275">ConfigurationManager's ConnectionString property</a>. Here is a simple example ... I can create a connection string section in my class library project's App.config file and then access the connection string through code. Yeah, there are other ways to do it but this is just cool. Its simple. Its clean.</p>
+<p>Here is a sample App.config:</p>
+<pre>&lt;FONT color=#0000ff size=2&gt;<p>&lt;?&lt;FONT color=#800000 size=2&gt;xml&lt;FONT color=#ff00ff size=2&gt; &lt;FONT color=#ff0000 size=2&gt;version&lt;FONT color=#0000ff size=2&gt;="1.0"&lt;FONT color=#ff00ff size=2&gt; &lt;FONT color=#ff0000 size=2&gt;encoding&lt;FONT color=#0000ff size=2&gt;="utf-8"&lt;FONT color=#ff00ff size=2&gt; &lt;FONT color=#0000ff size=2&gt;?&gt;</p><p>&lt;&lt;FONT color=#800000 size=2&gt;configuration&lt;FONT color=#0000ff size=2&gt;&gt;</p>&lt;FONT size=2&gt;<p>&lt;FONT color=#0000ff size=2&gt;&nbsp;&nbsp;&nbsp;&lt;&lt;FONT color=#800000 size=2&gt;connectionStrings&lt;FONT color=#0000ff size=2&gt;&gt;</p>&lt;FONT size=2&gt;<p>&lt;FONT color=#0000ff size=2&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;&lt;FONT color=#800000 size=2&gt;add&lt;FONT color=#ff00ff size=2&gt; &lt;FONT color=#ff0000 size=2&gt;name&lt;FONT color=#0000ff size=2&gt;="MyCnString"&lt;FONT color=#ff00ff size=2&gt; </p><p>&lt;FONT color=#ff0000 size=2&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;connectionString&lt;FONT color=#0000ff size=2&gt;="Data Source=legolas;Initial Catalog=Northwind;Integrated Security=True"&lt;FONT color=#ff00ff size=2&gt; </p><p>&lt;FONT color=#ff0000 size=2&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;providerName&lt;FONT color=#0000ff size=2&gt;="System.Data.SqlClient"/&gt;</p>&lt;FONT size=2&gt;<p>&lt;FONT color=#0000ff size=2&gt;&nbsp;&nbsp;&nbsp;&lt;/&lt;FONT color=#800000 size=2&gt;connectionStrings&lt;FONT color=#0000ff size=2&gt;&gt;</p><p>&lt;/&lt;FONT color=#800000 size=2&gt;configuration&lt;FONT color=#0000ff size=2&gt;&gt;</p></pre>
+<p>&nbsp;</p>
+<p>Add a reference to the System.Configuration.dll and then add a using statement like this :</p>
+<pre><p>&lt;FONT color=#0000ff size=2&gt;&nbsp;&nbsp;&nbsp;using System.Configuration;&lt;FONT color=#0000ff size=2&gt;&nbsp; </p></pre>
+<p>&nbsp;</p>
+<p>The code to grab the connection string could then look like this:&nbsp;<br /></p>
+<pre>&lt;FONT color=#0000ff size=2&gt;&nbsp;&nbsp;&nbsp;string cnString = ConfigurationManager.ConnectionStrings["MyCnString"].ConnectionString;<br />&nbsp;&nbsp;&nbsp;SqlConnection cn = new SqlConnection(cnString);</pre>
+<p><br />Again, nothing earth shattering but its nice to have a place to store your connection strings.</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/sql-server-2005-tools-where-are-you.html">SQL Server 2005 Tools Where Are You?</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>So far the VS.NET 2005 Releaes Candidate has ben a smooth ride. The install went very smooth, the app loaded with no hiccups and many of my beta 2 projects ran just fine. Of course, its still early, but I am happy so far. </p>
+<p>&lt;growl&gt;So now I want to jump into the September CTP of SQL Server 2005 via the management tools instad of just hitting the SQLExpress DB. This is where I have just about thrown the darn thing out the window! I have tried to install it 3 times now (uninstalling after each failure). It installs the DB engine, notification services, reporting services and integration services just fine ... but when it gets to the Tools it pukes. I can use the database I just can't use the nice and friendly tools to get to the database easily. I won't bore you with everything I tried but needless to say that it shouldn't be like this. Even the logs that it referred me to were emtpy.&lt;/growl&gt;</p>
+<p>Anyway, I wills till be using the SQL 2005 Sep CTP's DB engine which I must say I have been very impressed with in my brief encounters with it this past week (and in previous CTP's). Hopefully I'll figure out how to get the Tools installed. I hope you all don't run into this issue.</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/sending-email-from-a-web-page-with-asp-net-2-0-beta.html">Sending Email from a Web Page with ASP.NET 2.0 beta</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>Here is another quick example of how to send an email from a web page, this time using ASP.NET 2. (for ASP.NET 1.1, <a href="/blogs/john.papa/archive/2005/09/19/132248.aspx">click here</a>) The code for the <a href="/blogs/john.papa/archive/2005/09/19/132248.aspx">ASP.NET 1.1 technique </a>needs to be refactored to be used in ASP.NET 2.0 since the System.Web.Mail.MailMessage and System.Web.Mail.SmtpMail classes become obsolete in .NET 2. Instead, there are now the System.Net.Mail.MailMessage and System.Net.Mail.SmtpClient classes, as shown below:</p>
+<p>&nbsp;</p>
+<div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 0pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 0pt; FONT-SIZE: 10pt; BACKGROUND: white; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1pt solid; COLOR: black; PADDING-TOP: 0pt; BORDER-BOTTOM: windowtext 1pt solid; FONT-FAMILY: Courier New"> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;1</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">protected</span> <span style="COLOR: blue">void</span> btnSend_Click(<span style="COLOR: blue">object</span> sender, EventArgs e)</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;2</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: green">//Assuming the required fields have been validated using a validator ...</span></p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;4</span>&nbsp;</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; MailMessage msg = <span style="COLOR: blue">new</span> MailMessage();</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; msg.From = <span style="COLOR: blue">new</span> MailAddress(txtFrom.Text);&nbsp;&nbsp;&nbsp; <span style="COLOR: green">//you can also add a From Name for display purposes</span></p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; msg.To.Add(txtTo.Text);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="COLOR: green">//you can also add a To Name for display purposes</span></p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">if</span> (txtCc.Text.Length &gt; 0) </p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;9</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; msg.CC.Add(txtCc.Text);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="COLOR: green">//you can also add a CC Name for display purposes</span></p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;10</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">if</span> (txtBcc.Text.Length &gt; 0)</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;11</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; msg.Bcc.Add(txtBcc.Text);&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: green">//you can also add a Bcc Name for display purposes</span></p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;12</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; msg.Subject = txtSubject.Text;</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;13</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; msg.Body = txtBody.Text;</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;14</span>&nbsp;</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;15</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; SmtpClient smtp = <span style="COLOR: blue">new</span> SmtpClient(txtSMTPServer.Text);</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;16</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; smtp.Send(msg);</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;17</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; }</p></div>
+<!--EndFragment-->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/sending-email-from-a-web-page-with-asp-net-1-1.html">Sending Email from a Web Page with ASP.NET 1.1</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>Here is a quick code example of how to send an email message from a web page using ASP.NET. First, I drew up a quick and dirty web page UI.</p>
+<p>&nbsp;&lt;IMG src="/photos/jpapa/images/132245/original.aspx" border=0&gt;</p>
+<p>I added some required field validator controls for the To, From and Message fields. I also added some regular expression validator controls for all of the email address fields. It really is nice that the regular expression validator control comes with predefined expressions that you can choose form a drop down list in the property window. It offerred this expression for the email address, for example: </p>
+<p>&lt;BLOCKQUOTE dir=ltr style=”MARGIN-RIGHT: 0px”&gt; &lt;P&gt;&lt;FONT face=”Courier New” size=2&gt;ValidationExpression=”\w+([-+.]\w+)<em>@\w+([-.]\w+)</em>.\w+([-.]\w+)*”&lt;/FONT&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt; &lt;P dir=ltr style=”MARGIN-RIGHT: 0px”&gt;For those of you familiar with CDO or the good ol’ CDONTS code that was popular for sending emails with traditional VB and ASP, there is a different namespace and class structure for this purpose in ASP.NET called System.Web.Mail.It is very easy to use. This code executes when the user clicks the send button. It creates an instance of the MailMessage class and sets the basic properties. Then it sets the priority and format using the provided enumerators. You can also send attachments, too, if needed.&lt;/P&gt; &lt;DIV style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 0pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 0pt; FONT-SIZE: 10pt; BACKGROUND: white; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1pt solid; COLOR: black; PADDING-TOP: 0pt; BORDER-BOTTOM: windowtext 1pt solid; FONT-FAMILY: Courier New"&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">    1</span>         <span style="COLOR: blue">private</span> <span style="COLOR: blue">void</span> btnSend_Click(<span style="COLOR: blue">object</span> sender, System.EventArgs e)&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">    2</span>         {&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">    3</span>             MailMessage msg = <span style="COLOR: blue">new</span> MailMessage();&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">    4</span>             msg.From = txtFrom.Text;&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">    5</span>             msg.To = txtTo.Text;&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">    6</span>             msg.Cc = txtCc.Text;&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">    7</span>             msg.Bcc = txtBcc.Text;&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">    8</span>             msg.Subject = txtSubject.Text;&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">    9</span>             msg.Body = txtBody.Text;&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">   10</span>             msg.Priority = MailPriority.Normal;&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">   11</span>             msg.BodyFormat = MailFormat.Text;&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">   12</span>             SmtpMail.SmtpServer = “”; &lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">   13</span>             SmtpMail.Send(msg);&lt;/P&gt; &lt;P style="MARGIN: 0px"&gt;<span style="COLOR: teal">   14</span>         }&lt;/P&gt;&lt;/DIV&gt;<!--EndFragment--> &lt;P dir=ltr style=”MARGIN-RIGHT: 0px”&gt;Here I set the SmtpServer property to an empty string. This tells the MailMessage object to use the default mail server. SmtpServer is a static property so if you change it, every ASP.NET page that sends a message will be effected. To avoid any possible confusion, I always like to set this property explictly so I don’t have to worry about some ther page causing me a debugging heartache. You might also notice that the MailMessage class does not have a Send method. Instead, you  create an instance of the SmtpMail class and execute its Send method. The Send method can accept either a MailMessage object or the series properties that make up a message (a string for from, to, subjetc, etc.)&lt;/P&gt; &lt;P dir=ltr style=”MARGIN-RIGHT: 0px”&gt;That’s it really. There are other features and lots of creative thing that you can do with this. But for those looking just to send a simple email message this is a nice quick example.&lt;/P&gt; &lt;P dir=ltr style=”MARGIN-RIGHT: 0px”&gt;Update: If you are looking for a quick ASP.NET 2.0 example, <a href="/blogs/john.papa/archive/2005/09/19/132252.aspx">click here</a> to go to <a href="/blogs/john.papa/archive/2005/09/19/132252.aspx">http://codebetter.com/blogs/john.papa/archive/2005/09/19/132252.aspx</a>.&lt;/P&gt;</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/resharper-vs-coderush-and-refactor-pro-round-1.html">Resharper vs CodeRush and Refactor Pro - Round 1</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>I've developed .NET applications with both of these products in the past and they both have some great features that save a ton of time. It had been a while though since I last did a comparison, so I decided to put them up to the challenge once again. Here are my initial thoughts on the best pros and cons of each. They both have some great refactoring features, however they also each had some good differentiating features too. I've just started my revisit to these 2 products which I plan on comparing in real development over the next few weeks. But here is my initial thoughts on the 2 of them ...</p>
+<p>Top 3 features that <a href="http://www.jetbrains.com/resharper/">Resharper </a>has over <a href="http://www.devexpress.com/Products/NET/CodeRush/">CodeRush</a>/Refactor Pro:</p>
+<ol> <li>Analysis icon (shows code errors before you build) <strong>This is just awesome!!!</strong> <li>Find Usages (finds all usages of a class, interface, etc.) <li>Optimize "usings" (removes unnecessary using statements)</li> <p>Top&nbsp;4 features that <a href="http://www.devexpress.com/Products/NET/CodeRush/">CodeRush</a>/Refactor Pro over <a href="http://www.jetbrains.com/resharper/">Resharper</a>:</p> <ol> <li>Better templates out of the box (helps write code faster) <li>Quick Find (helps find a method, property, class or whatever very quickly) <li>Better visual enhancements (blocks the regions well, blocks code nicely, auto-highlights easily, shows code flow nicely with visual cues) <li>Use of markers</li> <p>If you could combine some of the features you would have a great product! I love <a href="http://www.jetbrains.com/resharper/">Resharper's </a>analysis tools!!! If you ahven;t seen it, try it out. What they do is check your code for compile errors and even for warnings while you type. So before you even build your code you will see an indicator that shows&nbsp;green (all is well), orange (warnings exist), or red (something is amiss). Warnings could be something like you declared a field that you never use, which is helpful for cleaning up your code. </p> <p>The Find Usages feature of <a href="http://www.jetbrains.com/resharper/">Resharper </a>is incredible, too. I recently had to work on a few major refactor jobs where I had to change about a dozen classes and every place that used them. This ended up effecting about 50 files as the application was very OO and the levels of inheritence and interface usage was deep. The Find Usages feature of <a href="http://www.jetbrains.com/resharper/">Resharper </a>made this soooooooo much easier on me. Whenever I&nbsp;changed a class I first looked up all usages of it so I could make sure I tested those paths as well. When I changed the signature for methods or constructors, it updated the usages for me! Very slick indeed.</p> <p>These 2 features of <a href="http://www.jetbrains.com/resharper/">Resharper </a>alone are just incredible, IMO.</p> <p>I do find that the templates in <a href="http://www.devexpress.com/Products/NET/CodeRush/">CodeRush </a>to be much better out of the box. Writing code with them is so much easier than without. For eaxmple, to declare a local variable&nbsp;I just type "fi[space]" and it inserts a int for me. If I type "pi[space]" it inserts the template for a full Property with get and set accessors. Very slick. There are a ton of single and multi key templates that you can use. I plan on testing them all out to see how they compare to <a href="http://www.jetbrains.com/resharper/">Resharper</a>, but so far they seem a ton better in <a href="http://www.devexpress.com/Products/NET/CodeRush/">CodeRush</a>. </p> <p>OK, maybe its trivial, but I have to admit that <a href="http://www.devexpress.com/Products/NET/CodeRush/">CodeRush </a>has some nice visual features that caught my eye right away. It makes regions look more visually disparate than with <a href="http://www.devexpress.com/Products/NET/CodeRush/">CodeRush</a>. It does this by making the region be a highlights rectangle when closed. Does it help me code? Nah, but its a nice visual feature. But I added it in this post because it maakes me wonder why other products don't offer this (or maybe they do and I am not aware). <a href="http://www.devexpress.com/Products/NET/CodeRush/">CodeRush </a>goes further by putting icons next to classes, properties, methods, interfaces, etc to help denote if they are private, public, internal or whatever. Again, another nice feature but it isn't likely to help me code faster. Where it is smarter is when you click on the icon of, say, a public class, it gives you a pull down list of other options besides "public". So you can change a class to "private" in this manner. The best visual feature may be how it shows control of flow, though. For example, if you have a return statement <a href="http://www.devexpress.com/Products/NET/CodeRush/">CodeRush </a>shows a green arrow next to the return. If you click the green arrow a graphic appears that points you to where the return statement exits the routine. Similar graphical features also exist with the continue, break and exception throwing commands. These are very slick.</p> <p>OK, so far I am still on board with <a href="http://www.jetbrains.com/resharper/">Resharper</a>. I think the featureset with <a href="http://www.devexpress.com/Products/NET/CodeRush/">CodeRush </a>is more extensive that Resharper and frankly it look a lot fancier that <a href="http://www.jetbrains.com/resharper/">Resharper</a>. But I just don't think I can live without the Find Usages and Analysis&nbsp;features of <a href="http://www.jetbrains.com/resharper/">Resharper</a>. The template features of <a href="http://www.devexpress.com/Products/NET/CodeRush/">CodeRush </a>are <strong>very </strong>appealing though. Maybe someone will create a tool that combines the best of both worlds from these products. </p> <p>Stay tuned ... I'll post more about how my experience goes with both of them.</p> <p>For me, Round 1 goes to Resharper on a 2 to 1 decision.</p>
+
+
+
+</li></li></li></ol></li></li></ol>
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/quick-datagridview-quiz.html">Quick DataGridView Quiz</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>A buddy of mine recently struggled with one of those "I can't beleive I didn't see it" issues. It went something like this ...</p>
+<p>Assuming:</p>
+<ul> <li>you have a C# Windows Form application </li> <li>a WinForm </li> <li>a DataGridView</li> <li>a button called button1</li> <li>a valid connection string</li> <li>a valid sql statement</li></ul>
+<p>What's wrong with this code, if anything?:</p>
+<div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 0pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 0pt; FONT-SIZE: 10pt; BACKGROUND: white; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1pt solid; COLOR: black; PADDING-TOP: 0pt; BORDER-BOTTOM: windowtext 1pt solid; FONT-FAMILY: Courier New"> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;1</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">private</span> <span style="COLOR: blue">void</span> button1_Click(<span style="COLOR: blue">object</span> sender, EventArgs e)</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;2</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;3</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; SqlConnection cn = <span style="COLOR: blue">new</span> SqlConnection(@"server=VSTSB2;database=northwind;integrated security=true;");</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;4</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; SqlCommand cmd = <span style="COLOR: blue">new</span> SqlCommand("select * from customers", cn);</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;5</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; SqlDataAdapter adpt = <span style="COLOR: blue">new</span> SqlDataAdapter(cmd);</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;6</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; DataSet ds = <span style="COLOR: blue">new</span> DataSet();</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;7</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; adpt.Fill(ds);</p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp;&nbsp;8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dataGridView1.DataSource = ds.Tables[0]; </p> <p style="MARGIN: 0px"><span style="COLOR: teal">&nbsp;&nbsp;&nbsp; 9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p></div>
+<p>&nbsp;</p>
+<p><!--EndFragment--></p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/looking-at-promptsql-intellisense-for-t-sql.html">Looking at PromptSQL - Intellisense for T-SQL</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>Recently <a href="/blogs/sahil.malik/archive/2005/09/11/131839.aspx">Sahil posted</a> about his use of <a href="http://www.promptsql.com">PromptSQL</a>, a relitvely inexpensive tool that provides intellisense for T-SQL. I totally agree with Sahil in that one area that has been lacking for way too long is intellisense in T-SQL. While I use enterprise manager and visual studio to cerate queries and manage my stored procedures, triggers, and functions I still enjoy cracking open an editor isntead of a designer to write and debug T-SQL. Far too often, however, I am faced with a new database on a new project and I have to rack my brain trying to figure out what the columns and the tables are called. Normally I try to print out a E/R diagram so I can post it on my wall, but sometimes that is not feasible. This is why I tried out PromptSQL.</p>
+<p>PromptSQL is $25, a nominal fee for a product like this IMO. Of course there is a trial version available for download, too. It works inside of Query Analyzer and Visual Studio.NET (in SQL files), requiring its own connection to the database for what I assume is to access the INFORMATION_SCHEMA views or the system tables. </p>
+<p>PromptSQL's options allow you to change the font and the size of the intellisense. It also allows you to manage the duration of the database connection that it maintains. Overall PromptSQL helped me with database schemas that were less familiar to me. I could see this being a valuable asset for a development team who are being assembled on a mostly constructed database. However, in databases that I have familiarty of the scehma I found PromptSQL to mostly get in the way. In these cases, I turned it off because I found that it can sometimes take a moment (a split second really) to pop up its list ... it may not sound like a lot of time but when you are typing a query quickly without pause, you don't want to be interupted (at least I don't). It could've been just on my PC that I found this slight sub second delay, so I recommend trying it&nbsp;in your situation to see how it responds. Overall, I like the tool, that is at least until Microsoft offers it as part of Visual Studio.NET (*hoping*).&nbsp;Do I give it a thumbs up? If you know your schema, you probably won't use this that much ... but if you are often in unfamilar database schemas and/or in a situation where you forget the column names of a table, PromptSQL is not a bad idea.</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/incrementing-in-net-i-vs-i.html">Incrementing in .NET (i++ vs ++i)</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>I was working with some friends on some unit testing when we recently ran across an issue that was caused by an uninteded use of an incrementor (++). It was&nbsp; quick fix but it is also something I have seen quite often, so I figured I would jot my thoughts down while it was fresh in my mind.</p>
+<p>So we've all seen the common for loop in .NET, looping a finite number of times.</p>
+<div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 0pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 0pt; FONT-SIZE: 8pt; BACKGROUND: white; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1pt solid; COLOR: black; PADDING-TOP: 0pt; BORDER-BOTTOM: windowtext 1pt solid; FONT-FAMILY: Courier New"><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">for</span> (<span style="COLOR: blue">int</span> i = 0; i &lt; 10; i++)</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Console.WriteLine(i.ToString());</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; }</pre></div>
+<p>This above example outputs a list of numbers 0 through 9. And at times we need to loop through one variable (like i in the above example) yet increment another counter variable. So we do something like the below example:</p>
+<p><!--EndFragment--></p>
+<div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 0pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 0pt; FONT-SIZE: 8pt; BACKGROUND: white; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1pt solid; COLOR: black; PADDING-TOP: 0pt; BORDER-BOTTOM: windowtext 1pt solid; FONT-FAMILY: Courier New"><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">int</span> j = 0;</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">for</span> (<span style="COLOR: blue">int</span> i = 0; i &lt; 10; i++)</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Console.WriteLine((j++).ToString());</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; }</pre></div>
+<!--EndFragment-->
+<p>Nothing wrong with this. It loops 10 times and increments j. This above snippet outputs a list of numbers 0 through 9. </p>
+<p>I recently was asked to debug some code that looked a little more like this:</p>
+<div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 0pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 0pt; FONT-SIZE: 8pt; BACKGROUND: white; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1pt solid; COLOR: black; PADDING-TOP: 0pt; BORDER-BOTTOM: windowtext 1pt solid; FONT-FAMILY: Courier New"><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">int</span> k = 0;</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">for</span> (<span style="COLOR: blue">int</span> i = 0; i &lt; 10; i++)</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Console.WriteLine((++k).ToString());</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; }</pre></div>
+<p>Again, it loops a finite number of times (10) and increments a separate counter variable (k in this case). But this time the out put is slightly different than the previous 2 examples. This code snippet outputs 1 - 10. The reason is obvious when you strip out all of the other code that was there already ... the incrementor (++) appears before the k in this example. Thus, k is incremented, then the ToString() method&nbsp;operates on it. In the previous example, j variable's value is output and THEN the incrementor (++) operates on the j variable. </p>
+<p>Not difficult to see in this case, of course. But the developer who was working on this was assured that x++ and ++x always responded the same, no matter the situation. Well, in MANY cases this is true. The above example could be modified so the incrementor preceeding or following the varialbe won't matter ... like either of these following code samples:</p>
+<div style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 0pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 0pt; FONT-SIZE: 8pt; BACKGROUND: white; PADDING-BOTTOM: 0pt; BORDER-LEFT: windowtext 1pt solid; COLOR: black; PADDING-TOP: 0pt; BORDER-BOTTOM: windowtext 1pt solid; FONT-FAMILY: Courier New"><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">int</span> x = 0;</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">for</span> (<span style="COLOR: blue">int</span> i = 0; i &lt; 10; i++)</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Console.WriteLine(x.ToString());</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; x++;</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; }</pre><pre style="MARGIN: 0px">&nbsp;</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">int</span> y = 0;</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span style="COLOR: blue">for</span> (<span style="COLOR: blue">int</span> i = 0; i &lt; 10; i++)</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Console.WriteLine(y.ToString());</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ++y;</pre><pre style="MARGIN: 0px">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; }</pre></div>
+<!--EndFragment-->
+<p>Both of these samples output 0-9 ... <strong>and both of these are much easier to read and less apt to wreak havoc than the previous inline examples</strong>.</p>
+<p>OK, I am running out of letters for examples, gotta run!</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    1st,
+    
+    2008
+  </span>
+
+  <h2>
+    <a href="/all/2008/02/01/follow-up-on-ipod-armband-and-headphones.html">Follow up on iPod Armband and Headphones</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>As <a href="/blogs/john.papa/archive/2005/06/07/64248.aspx">I posted last week</a>, I got up a new <a href="http://store.apple.com/1-800-MY-APPLE/WebObjects/AppleStore.woa/70703/wo/e27TQK9bYtLU25UWo552kIaHoMA/1.0.0.11.1.0.6.9.1.1.1.1.1.0.0.1.0">iPod mini</a> for running and light soccer drills. It was a very nice birthday / father’s day gift from my family. </p>
+<p>I bought myself some of the <a href="http://www.etymotic.com/ephp/er6i.aspx">Etymotic Research ER6i Isolator Earphones</a>&nbsp;that <a href="about:blank/blogs/sahil.malik/archive/2005/04/22/62317.aspx">Sahil </a>and <a href="about:blank/blogs/sahil.malik/archive/2005/04/22/62317.aspx#62324">Brendan </a>both recommended. They are excellent and quite&nbsp;comfortable. I&nbsp;don’t push them all the way in when I run though as I fear getting nailed by a car, bike or some other vehicle ;-) I have been very impressed so far with the headphones. If you pick some up, defiantely shop around. As I mentioned previously, I found these for $81 online. Several places had them for $93 all the way up to $149. The music does seem to sound a bit “tinny” to me in the headphones, but I am not all that sure I have found the right settings yet for the iPod. So it might just be user error on my part. I just don’t know yet.</p>
+<p>I ended up getting the &lt;SPAN class=prodMainTitle&gt;<a href="http://www.everythingipod.com/product222.tpl?command=search&amp;db=dbs/products.db&amp;eqSTORE1datarq=IPOD&amp;cart=11182033693961380&amp;eqPRONAMEdatarq=DLO%20Action%20Jacket%20mini&amp;searchSKU=w009-m2111&amp;eqAVAILdatarq=YES&amp;max=1">DLO Action Jacket mini armband</a>&nbsp;for the iPod mini. It isn;t completely sealed&nbsp;as a few areas&nbsp;would let water in. So I would not take it out in a&nbsp;steady rainfall. &nbsp;But the armband is comfortable and secure. The armband stayed on quite well through heavy running. I hid the wire inside the velcro strap attachments, so I didn’t miss not having a wire strap either.</p>
+<p>I tried the Apple armband on at a local store and it just felt like garbage. T&lt;SPAN class=prodMainTitle&gt;he <a href="http://store.apple.com/1-800-MY-APPLE/WebObjects/AppleStore.woa/70703/wo/e27TQK9bYtLU25UWo552kIaHoMA/6.0.0.11.1.0.6.9.3.19.0.1.1.1.1.0.1.0.1">XtremeMax SportWrap iPod mini armband </a>&nbsp;is an excellent choice as it is even more impervious to water than the DLO armband. However, I did not like how big the armband waswhen I tried it on. It seemed to consume my entire arm. Not being built like Arnold, it just didnt fit well on me. But if you are bigger than me (and most people are) it&nbsp;might work well for you.</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+<hr/>
+
+<ul class="pager"> 
+
+  
+  <li class="previous">
+    
+    <a href="/page127">&larr; Newer</a>
+    
+  </li>
+  
+  
+  <li>
+    <span class="page_number">Page: 128 of 136</span>
+  </li>
+
+  
+  <li class="next">
+    <a href="/page129">Older &rarr;</a>
+  </li>
+  
+
+</ul>
+
+
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2015 dbyll with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'dbyll']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+

@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>dbyll</title>
+	
+	<meta name="author" content="dbyll">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/dbtek">
+				<i class="fa fa-github"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/dbtek">
+				<i class="fa fa-twitter"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="mailto:dbyll@ismaildemirbilek.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			
+			<a class="navbar-brand" href="/">
+				<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=35" class="img-circle" />
+				
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs">
+		<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+		<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=150" class="img-circle" />
+	</a>
+	<h3 class="title">
+        <a href="/"></a>
+    </h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	Your stylish, minimalist theme!
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/dbtek">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/dbtek">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:dbyll@ismaildemirbilek.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
+	</ul>
+	<ul id="contact-list-secondary" class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://pinterest.com/asd123">
+				<i class="fa fa-pinterest fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/asd123">
+				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 col-sm-offset-3">
+		<div class="page-header">
+  <h1>dbyll </h1>
+</div>
+
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    23rd,
+    
+    2010
+  </span>
+
+  <h2>
+    <a href="/silverlight/2010/02/23/silverlight-tv-10-silverlight-hyper-video-project-with-jesse-liberty.html">Silverlight TV 10&#58; Silverlight Hyper Video Platform with Jesse Liberty</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightTVEpisode005UsingMetadatawith_C5A0/image4.png" width="152" height="70" /></a> The <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-10-Jesse-Liberty-Explains-the-Hyper-Video-Project/">latest episode of Silverlight TV is now available on Channel 10</a>! In episode 10 Jesse Liberty makes his first appearance on Silverlight TV and discusses the Silverlight Hyper Video Platform (SLHVP). Jesse is a brilliant person and a great guy to have on the show. Despite John’s attempts to make Jesse laugh, Jesse manages to shares just exactly what the SLHVP is, why it was created, and how it works.&#160; He has done a fantastic job stimulating the SLHVP with the community.</p>
+<p>You can see the episode online by <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-10-Jesse-Liberty-Explains-the-Hyper-Video-Project/">clicking this link</a> or clicking the mage below:</p>
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-10-Jesse-Liberty-Explains-the-Hyper-Video-Project/"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightTV10SilverlightHyperVideoProj_1245C/image_3.png" width="451" height="231" /></a> </p>
+<p>Follow <a href="http://www.twitter.com/SilverlightTV">@SilverlightTV</a> on Twitter for the latest updates.</p>
+<p>Silverlight TV is once again unscripted and shot in 1 take. Don’t miss this one! </p>
+<table border="1" cellspacing="0" cellpadding="5"><tbody>     <tr>       <td colspan="2">         <p align="center"><b>Key links for Silverlight TV</b></p>       </td>     </tr>      <tr>       <td width="162">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="MediumSLTVBanner" border="0" alt="MediumSLTVBanner" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/MediumSLTVBanner_3.png" width="122" height="66" /></a>&#160;</p>       </td>        <td width="306">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/">Watch Silverlight TV Shows on Channel 9</a></p>          <p>Watch shows and catch the latest news in our Silverlight TV blog</p>       </td>     </tr>      <tr>       <td width="162">         <p>&#160;</p>          <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="RSS" border="0" alt="RSS" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_thumb.png" width="36" height="36" /></a></p>       </td>        <td width="306">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/RSS/">Subscribe to the RSS feed for the show itself</a></p>          <p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/zune/">Subscribe to the show on your Zune</a></p>          <p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/ipod/">Subscribe to the show for your iPod</a></p>       </td>     </tr>      <tr>       <td width="162">         <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="SilverlightTV_Bug" border="0" alt="SilverlightTV_Bug" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_thumb.png" width="64" height="64" /></a></p>       </td>        <td width="306">         <p>Follow <a href="http://www.twitter.com/SilverlightTV">@SilverlightTV</a> on Twitter for updates, alerts for new shows, and to submit comments and feedback.</p>       </td>     </tr>   </tbody></table>
+<p></p>
+<p></p>
+<p>If you have not watched the previous episodes of Silverlight TV, you can catch them here.</p>
+<ul>   <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-9-MIX-10K-Challenge/">SL TV 9: MIX 10K Challenge</a></li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-8-Inside-Look-at-the-Code-for-the-Silverlight-for-Facebook-App/">SL TV 8: Silverlight Client for Facebook</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-7-When-and-Where-to-use-MEF/">SL TV 7: When and Where to use MEF</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-6-Creating-Custom-Pre-Loaders/">SL TV 6: Creating Customer Pre-Loaders</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-5-Using-Metadata-with-MEF/">SL TV 5: Using Metadata with MEF</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-4-3-Steps-to-MEF-Export-Import-Compose/">SL TV 4: 3 Steps to MEF – Export, Import, Compose</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-3-Multi-Touch-101-with-Silverlight/">SL TV 3: Multi-Touch 101 with Silverlight</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-2-Perspectives-on-Flash-and-Silverlight/">SL TV 2: Perspectives on Flash and Silverlight</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Out-of-Browser-in-Silverlight-4-Silverlight-TV-Episode-1/">SL TV 1: The Joys of Trusted Out-of-Browser Applications in Silverlight 4</a> </li> </ul>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    22nd,
+    
+    2010
+  </span>
+
+  <h2>
+    <a href="/silverlight/2010/02/22/5-simple-steps-to-commanding-in-silverlight.html">5 Simple Steps to Commanding in Silverlight</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>Implementing ICommand in your Silverlight 4 project only requires a few steps. I have had a dozens of questions about this lately so I decided to share a very simple technique to implement commanding in Silverlight 4. </p>
+<p><strong>Step 1 – Implement ICommand</strong></p>
+<p>The first step is to implement the ICommand interface with a class that will manage the commanding aspects. There are other options to do this, but here is a simplified yet powerful implementation of ICommand. </p>
+<p>The DelegatedCommand class implements ICommand’s CanExecute method, the Execute method, and the CaneExecuteChanged event. This code can be copied and used “as is”.</p>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px" id="codeSnippetWrapper">   <div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px" id="codeSnippet">     <pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum1">   1:</span> <span style="color: #0000ff">public</span> <span style="color: #0000ff">class</span> DelegateCommand : ICommand</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum2">   2:</span> {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum3">   3:</span>     Func&lt;<span style="color: #0000ff">object</span>, <span style="color: #0000ff">bool</span>&gt; canExecute;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum4">   4:</span>     Action&lt;<span style="color: #0000ff">object</span>&gt; executeAction;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum5">   5:</span>     <span style="color: #0000ff">bool</span> canExecuteCache;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum6">   6:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum7">   7:</span>     <span style="color: #0000ff">public</span> DelegateCommand(Action&lt;<span style="color: #0000ff">object</span>&gt; executeAction, Func&lt;<span style="color: #0000ff">object</span>, <span style="color: #0000ff">bool</span>&gt; canExecute)</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum8">   8:</span>     {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum9">   9:</span>         <span style="color: #0000ff">this</span>.executeAction = executeAction;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum10">  10:</span>         <span style="color: #0000ff">this</span>.canExecute = canExecute;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum11">  11:</span>     }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum12">  12:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum13">  13:</span>     <span style="color: #cc6633">#region</span> ICommand Members</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum14">  14:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum15">  15:</span>     <span style="color: #0000ff">public</span> <span style="color: #0000ff">bool</span> CanExecute(<span style="color: #0000ff">object</span> parameter)</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum16">  16:</span>     {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum17">  17:</span>         <span style="color: #0000ff">bool</span> temp = canExecute(parameter);</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum18">  18:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum19">  19:</span>         <span style="color: #0000ff">if</span> (canExecuteCache != temp)</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum20">  20:</span>         {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum21">  21:</span>             canExecuteCache = temp;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum22">  22:</span>             <span style="color: #0000ff">if</span> (CanExecuteChanged != <span style="color: #0000ff">null</span>)</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum23">  23:</span>             {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum24">  24:</span>                 CanExecuteChanged(<span style="color: #0000ff">this</span>, <span style="color: #0000ff">new</span> EventArgs());</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum25">  25:</span>             }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum26">  26:</span>         }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum27">  27:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum28">  28:</span>         <span style="color: #0000ff">return</span> canExecuteCache;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum29">  29:</span>     }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum30">  30:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum31">  31:</span>     <span style="color: #0000ff">public</span> <span style="color: #0000ff">event</span> EventHandler CanExecuteChanged;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum32">  32:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum33">  33:</span>     <span style="color: #0000ff">public</span> <span style="color: #0000ff">void</span> Execute(<span style="color: #0000ff">object</span> parameter)</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum34">  34:</span>     {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum35">  35:</span>         executeAction(parameter);</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum36">  36:</span>     }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum37">  37:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum38">  38:</span>     <span style="color: #cc6633">#endregion</span></pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum39">  39:</span> }</pre>
+<!--CRLF--></div>
+</div>
+<p><strong>Step 2</strong><strong> – Define the Command</strong></p>
+<p>Add a public property to your ViewModel to represent the ICommand. This property will be bound to your View through a button, generally. </p>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px" id="codeSnippetWrapper">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px" id="codeSnippet">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #0000ff">public</span> ICommand LoadProductsCommand { get; set; }</pre>
+<!--CRLF--></div>
+</div>
+<p><strong>Step 3 – Create the Command</strong></p>
+<p>In the constructor of your ViewModel, set the command property you created in step 1.</p>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px" id="codeSnippetWrapper">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px" id="codeSnippet">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">LoadProductsCommand = <span style="color: #0000ff">new</span> DelegateCommand(LoadProducts, CanLoadProducts);</pre>
+<!--CRLF--></div>
+</div>
+<p><strong>Step 4 – Create the VM </strong></p>
+<p>You must then make sure your ViewModel is accessible in your View. This is can be done in many ways. But for simplicity I am showing the ViewModel created as a static resource in the View’s XAML.</p>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px" id="codeSnippetWrapper">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px" id="codeSnippet">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">UserControl.Resources</span><span style="color: #0000ff">&gt;</span></pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">local:ProductViewModel</span> <span style="color: #ff0000">x:Key</span><span style="color: #0000ff">=&quot;vm&quot;</span><span style="color: #0000ff">/&gt;</span></pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #0000ff">&lt;/</span><span style="color: #800000">UserControl.Resources</span><span style="color: #0000ff">&gt;</span></pre>
+<!--CRLF--></div>
+</div>
+<p><strong>Step 5 – Bind the Command</strong></p>
+<p>Add a button control and bind the Command property to the command you created in the ViewModel. Then if you need to pass a parameter into the command you can bind the CommandParameter property to an element in the View. I find that I generally do not need to pass a parameter in, but I added this here as an example.</p>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px" id="codeSnippetWrapper">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px" id="codeSnippet">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">Button</span> <span style="color: #ff0000">Content</span><span style="color: #0000ff">=&quot;Load&quot;</span> <span style="color: #ff0000">Width</span><span style="color: #0000ff">=&quot;120&quot;</span></pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    <span style="color: #ff0000">Command</span><span style="color: #0000ff">=&quot;{Binding LoadProductsCommand}&quot;</span></pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    <span style="color: #ff0000">CommandParameter</span><span style="color: #0000ff">=&quot;{Binding ElementName=FilterTextBox, Path=Text}&quot;</span> <span style="color: #0000ff">/&gt;</span></pre>
+<!--CRLF--></div>
+</div>
+<p>That’s it! 5 simple steps and now you have commanding in your application.</p>
+<p><strong></strong></p>
+<p><strong>Want More …</strong></p>
+<p>I included the key code files in the post, below. No need to dive into them unless you want to grab the code as a starting point. </p>
+<p>The complete ProductViewModel code can be seen here:</p>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px" id="codeSnippetWrapper">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px" id="codeSnippet">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum1">   1:</span> <span style="color: #0000ff">public</span> <span style="color: #0000ff">class</span> ProductViewModel : ViewModelBase</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum2">   2:</span> {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum3">   3:</span>     <span style="color: #0000ff">public</span> ProductViewModel()</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum4">   4:</span>     {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum5">   5:</span>         <span style="color: #0000ff">this</span>.Products = <span style="color: #0000ff">new</span> ObservableCollection&lt;Product&gt;();</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum6">   6:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum7">   7:</span>         <span style="color: #008000">// Warning: DEMO CODE AHEAD</span></pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum8">   8:</span>         <span style="color: #008000">// Your ViewModel should not define your data for your Model :-)</span></pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum9">   9:</span>         <span style="color: #008000">// Instead, it could make a call to a service to get the data for the Model.</span></pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum10">  10:</span>         <span style="color: #0000ff">this</span>.AllProducts = <span style="color: #0000ff">new</span> ObservableCollection&lt;Product&gt;();</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum11">  11:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 1, ProductName = <span style="color: #006080">&quot;Apple&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum12">  12:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 2, ProductName = <span style="color: #006080">&quot;Orange&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum13">  13:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 3, ProductName = <span style="color: #006080">&quot;Banana&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum14">  14:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 4, ProductName = <span style="color: #006080">&quot;Pear&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum15">  15:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 5, ProductName = <span style="color: #006080">&quot;Grape&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum16">  16:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 6, ProductName = <span style="color: #006080">&quot;Grapefruit&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum17">  17:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 7, ProductName = <span style="color: #006080">&quot;Strawberry&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum18">  18:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 8, ProductName = <span style="color: #006080">&quot;Melon&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum19">  19:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 9, ProductName = <span style="color: #006080">&quot;Guava&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum20">  20:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 10, ProductName = <span style="color: #006080">&quot;Kiwi&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum21">  21:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 11, ProductName = <span style="color: #006080">&quot;Pineapple&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum22">  22:</span>         <span style="color: #0000ff">this</span>.AllProducts.Add(<span style="color: #0000ff">new</span> Product { ProductId = 12, ProductName = <span style="color: #006080">&quot;Mango&quot;</span> });</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum23">  23:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum24">  24:</span>         LoadProductsCommand = <span style="color: #0000ff">new</span> DelegateCommand(LoadProducts, CanLoadProducts);</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum25">  25:</span>     }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum26">  26:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum27">  27:</span>     <span style="color: #0000ff">private</span> <span style="color: #0000ff">void</span> LoadProducts(<span style="color: #0000ff">object</span> param)</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum28">  28:</span>     {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum29">  29:</span>         <span style="color: #0000ff">string</span> filter = param <span style="color: #0000ff">as</span> <span style="color: #0000ff">string</span> ?? <span style="color: #0000ff">string</span>.Empty;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum30">  30:</span>         <span style="color: #0000ff">this</span>.Products.Clear();</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum31">  31:</span>         var query = from p <span style="color: #0000ff">in</span> <span style="color: #0000ff">this</span>.AllProducts</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum32">  32:</span>                     <span style="color: #0000ff">where</span> p.ProductName.ToLower().StartsWith(filter.ToLower())</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum33">  33:</span>                     select p;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum34">  34:</span>         <span style="color: #0000ff">foreach</span> (var item <span style="color: #0000ff">in</span> query)</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum35">  35:</span>         {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum36">  36:</span>             <span style="color: #0000ff">this</span>.Products.Add(item);</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum37">  37:</span>         }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum38">  38:</span>     }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum39">  39:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum40">  40:</span>     <span style="color: #0000ff">private</span> <span style="color: #0000ff">bool</span> CanLoadProducts(<span style="color: #0000ff">object</span> param)</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum41">  41:</span>     {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum42">  42:</span>         <span style="color: #0000ff">return</span> <span style="color: #0000ff">true</span>;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum43">  43:</span>     }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum44">  44:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum45">  45:</span>     <span style="color: #0000ff">public</span> ICommand LoadProductsCommand { get; set; }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum46">  46:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum47">  47:</span>     <span style="color: #0000ff">public</span> ObservableCollection&lt;Product&gt; AllProducts { get; set; }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum48">  48:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum49">  49:</span>     <span style="color: #0000ff">private</span> ObservableCollection&lt;Product&gt; products;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum50">  50:</span>     <span style="color: #0000ff">public</span> ObservableCollection&lt;Product&gt; Products</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum51">  51:</span>     {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum52">  52:</span>         get</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum53">  53:</span>         {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum54">  54:</span>             <span style="color: #0000ff">return</span> products;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum55">  55:</span>         }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum56">  56:</span>         set</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum57">  57:</span>         {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum58">  58:</span>             products = <span style="color: #0000ff">value</span>;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum59">  59:</span>             <span style="color: #0000ff">this</span>.FirePropertyChanged(<span style="color: #006080">&quot;Product&quot;</span>);</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum60">  60:</span>         }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum61">  61:</span>     }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum62">  62:</span> }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum63">  63:</span>&#160; </pre>
+<!--CRLF--></div>
+</div>
+<p>Here is the ViewModelBase class. It simply contains the FirePropertyChanged event that all ViewModel classes will use in my project.</p>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px" id="codeSnippetWrapper">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px" id="codeSnippet">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum1">   1:</span> <span style="color: #0000ff">public</span> <span style="color: #0000ff">abstract</span> <span style="color: #0000ff">class</span> ViewModelBase : INotifyPropertyChanged</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum2">   2:</span> {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum3">   3:</span>     <span style="color: #0000ff">public</span> ViewModelBase()</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum4">   4:</span>     {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum5">   5:</span>     }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum6">   6:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum7">   7:</span>     <span style="color: #0000ff">public</span> <span style="color: #0000ff">event</span> PropertyChangedEventHandler PropertyChanged;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum8">   8:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum9">   9:</span>     <span style="color: #0000ff">protected</span> <span style="color: #0000ff">void</span> FirePropertyChanged(<span style="color: #0000ff">string</span> propertyname)</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum10">  10:</span>     {</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum11">  11:</span>         var handler = PropertyChanged;</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum12">  12:</span>         <span style="color: #0000ff">if</span> (handler != <span style="color: #0000ff">null</span>)</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum13">  13:</span>             handler(<span style="color: #0000ff">this</span>, <span style="color: #0000ff">new</span> PropertyChangedEventArgs(propertyname));</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum14">  14:</span>     }</pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum15">  15:</span>&#160; </pre>
+<!--CRLF-->
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060" id="lnum16">  16:</span> }</pre>
+<!--CRLF--></div>
+</div>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    18th,
+    
+    2010
+  </span>
+
+  <h2>
+    <a href="/silverlight/2010/02/18/mix-10k-challenge-winners.html">MIX 10K Challenge Winners</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightTVEpisode005UsingMetadatawith_C5A0/image4.png" width="152" height="70" /></a> The <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-9-MIX-10K-Challenge/">latest episode of Silverlight TV is now available on Channel 9</a>! In episode 9 John thwarts Adam’s futile attempt to take over Silverlight TV.&#160; No … actually John and Adam have way too much fun as the Continuum Show meets Silverlight TV as John and Adam review the highlights of the MIX 10K Challenge. They check out the winners in each category of the second annual contest, which has some great prizes. The MIX 10K Challenge Winners have been announced publicly, and are now <a href="http://mix10k.visitmix.com/">posted on the MIX 10K Challenge home page</a>.</p>
+<p>You can see the episode online by <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-9-MIX-10K-Challenge/">clicking this link</a> or clicking the mage below:</p>
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-9-MIX-10K-Challenge/"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/8ef680f6f3a3_2ABF/image_3.png" width="465" height="263" /></a> </p>
+<p>Follow <a href="http://www.twitter.com/SilverlightTV">@SilverlightTV</a> on Twitter for the latest updates.</p>
+<p>Silverlight TV is once again unscripted and shot in 1 take. Don’t miss this one! </p>
+<table border="1" cellspacing="0" cellpadding="5"><tbody>     <tr>       <td colspan="2">         <p align="center"><b>Key links for Silverlight TV</b></p>       </td>     </tr>      <tr>       <td width="162">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="MediumSLTVBanner" border="0" alt="MediumSLTVBanner" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/MediumSLTVBanner_3.png" width="122" height="66" /></a>&#160;</p>       </td>        <td width="306">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/">Watch Silverlight TV Shows on Channel 9</a></p>          <p>Watch shows and catch the latest news in our Silverlight TV blog</p>       </td>     </tr>      <tr>       <td width="162">         <p>&#160;</p>          <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="RSS" border="0" alt="RSS" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_thumb.png" width="36" height="36" /></a></p>       </td>        <td width="306">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/RSS/">Subscribe to the RSS feed for the show itself</a></p>          <p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/zune/">Subscribe to the show on your Zune</a></p>          <p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/ipod/">Subscribe to the show for your iPod</a></p>       </td>     </tr>      <tr>       <td width="162">         <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="SilverlightTV_Bug" border="0" alt="SilverlightTV_Bug" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_thumb.png" width="64" height="64" /></a></p>       </td>        <td width="306">         <p>Follow <a href="http://www.twitter.com/SilverlightTV">@SilverlightTV</a> on Twitter for updates, alerts for new shows, and to submit comments and feedback.</p>       </td>     </tr>   </tbody></table>
+<p></p>
+<p></p>
+<p>If you have not watched the previous episodes of Silverlight TV, you can catch them here.</p>
+<ul>   <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-8-Inside-Look-at-the-Code-for-the-Silverlight-for-Facebook-App/">SL TV 8: Silverlight Client for Facebook</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-7-When-and-Where-to-use-MEF/">SL TV 7: When and Where to use MEF</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-6-Creating-Custom-Pre-Loaders/">SL TV 6: Creating Customer Pre-Loaders</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-5-Using-Metadata-with-MEF/">SL TV 5: Using Metadata with MEF</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-4-3-Steps-to-MEF-Export-Import-Compose/">SL TV 4: 3 Steps to MEF – Export, Import, Compose</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-3-Multi-Touch-101-with-Silverlight/">SL TV 3: Multi-Touch 101 with Silverlight</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-2-Perspectives-on-Flash-and-Silverlight/">SL TV 2: Perspectives on Flash and Silverlight</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Out-of-Browser-in-Silverlight-4-Silverlight-TV-Episode-1/">SL TV 1: The Joys of Trusted Out-of-Browser Applications in Silverlight 4</a> </li> </ul>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    18th,
+    
+    2010
+  </span>
+
+  <h2>
+    <a href="/silverlight/2010/02/18/prepping-for-silverlight-bootcamp-at-mix10.html">Prepping for Silverlight Bootcamp at MIX10</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>In just under a month <a href="http://live.visitmix.com/">MIX10</a> will kick off with a day of workshops. One of these workshops is a <a href="http://live.visitmix.com/MIX10/Sessions/WKSP05">Silverlight Bootcamp</a> that both I and <a href="http://mtaulty.com/CommunityServer/blogs/mike_taultys_blog/default.aspx">Mike Taulty</a> will be presenting at. Mike is a fantastic presenter and has some great content on Silverlight. I can’t wait to share the podium with him!</p>
+<p>If you have yet to <a href="http://live.visitmix.com/MIX10/Sessions/WKSP05">register for MIX or for our workshop</a>, you can sign up here. The workshop is filling fast … perhaps because I’ll be giving away some cool new <a href="http://channel9.msdn.com/shows/SilverlightTV/">Silverlight TV</a> t-shirts at the bootcamp. ;-)</p>
+<p>Mike and I hope to see you there! </p>
+<p><a href="http://live.visitmix.com/"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/PreppingforSilverlightBootcampatMIX10_14F92/image_3.png" width="258" height="138" /></a></p>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    15th,
+    
+    2010
+  </span>
+
+  <h2>
+    <a href="/silverlight/2010/02/15/silverlightsl-tv-8-silverlight-client-for-facebook.html">SL TV 8&#58; Silverlight Client for Facebook</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightTVEpisode005UsingMetadatawith_C5A0/image4.png" width="152" height="70" /></a> The <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-8-Inside-Look-at-the-Code-for-the-Silverlight-for-Facebook-App/">latest episode of Silverlight TV is now available on Channel 9</a>! In episode 8 John scores a cool interview with one of the developers responsible for the Silverlight client for Facebook application. This application made a big splash at the PDC 09 keynote, and another when it was released on <a href="http://www.silverlight.net">www.silverlight.net</a> at <a href="http://timheuer.com/blog/archive/2010/01/25/silverlight-client-for-facebook-from-pdc-available.aspx">this link here</a>. Rajendra Vishnumurty demonstrates some of the key features of the application and jumps right into the code for several areas. Be sure not to miss this inside look at the Silverlight client for Facebook.</p>
+<p>You can see the episode online by <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-8-Inside-Look-at-the-Code-for-the-Silverlight-for-Facebook-App/">clicking this link</a> or clicking the mage below:</p>
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-8-Inside-Look-at-the-Code-for-the-Silverlight-for-Facebook-App/"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SLTV8SilverlightClientforFacebook_6C2A/image_5.png" width="495" height="274" /></a> </p>
+<p>Follow <a href="http://www.twitter.com/SilverlightTV">@SilverlightTV</a> on Twitter for the latest updates.</p>
+<p><strong>Microsoft Silverlight Client for Facebook</strong></p>
+<p>This application brings together the many compelling platform capabilities of Silverlight 4 into a rich out-of-browser application in the familiar context of Facebook. Enjoy the photos, feeds, events, friends’ walls, and inbox mail from your Facebook account in a visually stunning and user-friendly environment.</p>
+<p><strong>Key Features Demonstrated</strong>: </p>
+<ul>   <li>     <p>Out-of-browser support</p>   </li>    <li>     <p>Hosting HTML content interactively</p>   </li>    <li>     <p>Local Device access (webcam) </p>   </li>    <li>     <p>Rich-Text control</p>   </li>    <li>     <p>Embedding alternative media content (i.e., YouTube)</p>   </li>    <li>     <p>Desktop notifications</p>   </li>    <li>     <p>COM integration (with Outlook) on the Windows platform</p>   </li>    <li>     <p>Right-click</p>   </li>    <li>     <p>Drag-n-drop</p>   </li>    <li>     <p>Window control </p>   </li>    <li>     <p>Animations</p>   </li> </ul>
+<p>Silverlight TV is once again unscripted and shot in 1 take. Don’t miss this one! </p>
+<table border="1" cellspacing="0" cellpadding="5"><tbody>     <tr>       <td colspan="2">         <p align="center"><b>Key links for Silverlight TV</b></p>       </td>     </tr>      <tr>       <td width="162">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="MediumSLTVBanner" border="0" alt="MediumSLTVBanner" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/MediumSLTVBanner_3.png" width="122" height="66" /></a>&#160;</p>       </td>        <td width="306">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/">Watch Silverlight TV Shows on Channel 9</a></p>          <p>Watch shows and catch the latest news in our Silverlight TV blog</p>       </td>     </tr>      <tr>       <td width="162">         <p>&#160;</p>          <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="RSS" border="0" alt="RSS" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_thumb.png" width="36" height="36" /></a></p>       </td>        <td width="306">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/RSS/">Subscribe to the RSS feed for the show itself</a></p>          <p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/zune/">Subscribe to the show on your Zune</a></p>          <p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/ipod/">Subscribe to the show for your iPod</a></p>       </td>     </tr>      <tr>       <td width="162">         <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="SilverlightTV_Bug" border="0" alt="SilverlightTV_Bug" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_thumb.png" width="64" height="64" /></a></p>       </td>        <td width="306">         <p>Follow <a href="http://www.twitter.com/SilverlightTV">@SilverlightTV</a> on Twitter for updates, alerts for new shows, and to submit comments and feedback.</p>       </td>     </tr>   </tbody></table>
+<p></p>
+<p></p>
+<p>If you have not watched the previous episodes of Silverlight TV, you can catch them here.</p>
+<ul>   <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-7-When-and-Where-to-use-MEF/">When and Where to use MEF</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-6-Creating-Custom-Pre-Loaders/">SL TV 6: Creating Customer Pre-Loaders</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-5-Using-Metadata-with-MEF/">SL TV 5: Using Metadata with MEF</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-4-3-Steps-to-MEF-Export-Import-Compose/">SL TV 4: 3 Steps to MEF – Export, Import, Compose</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-3-Multi-Touch-101-with-Silverlight/">SL TV 3: Multi-Touch 101 with Silverlight</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-2-Perspectives-on-Flash-and-Silverlight/">SL TV 2: Perspectives on Flash and Silverlight</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Out-of-Browser-in-Silverlight-4-Silverlight-TV-Episode-1/">SL TV 1: The Joys of Trusted Out-of-Browser Applications in Silverlight 4</a> </li> </ul>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    14th,
+    
+    2010
+  </span>
+
+  <h2>
+    <a href="/silverlight/2010/02/14/taking-a-break-with-hibachi-steak.html">Taking a Break with Hibachi Steak</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>This year for Valentine&rsquo;s Day I decided to try to replicate Hibachi steak. We are all pretty big on steak, including my daughters so it is an ideal meal when we can afford it. We cook steak and vegetables on the grill a lot using a home marinade we have come to prefer. But tonight it was time to attempt hibachi.</p>
+<p>I searched around for several recipes and came up with what is a fairly simple recipe. Total cook time is about 15 minutes for the vegetables on medium heat and about 7 minutes for the steak on medium heat. First, start with the following portions (multiple as needed):</p>
+<h5><strong>What you will need (serves 2):</strong></h5>
+<ul>
+<li>12 inch pan for the steak</li>
+<li>12 inch pan for the vegetables</li>
+<li>16 oz steak&nbsp; (filet mignon or strip)</li>
+<li>1/4 onion</li>
+<li>1 green pepper</li>
+<li>1 cup of mushrooms</li>
+<li>2 tbsp olive oil</li>
+<li>1 tbsp butter</li>
+<li>2 tsp garlic spread</li>
+<li>3 tbsp soy sauce</li>
+<li>1 tbsp sesame seeds</li>
+<li>2 large, shallow pans or one large cookie sheet</li>
+</ul>
+<h5><strong>Cooking the Vegetables (15 minutes): </strong></h5>
+<ol>
+<li>Heat 1 12 inch pan on a medium flame</li>
+<li>Cut the onions and green peppers into small bite sized pieces</li>
+<li>Toss the onions, peppers and mushrooms in the pan</li>
+<li>Add 1.5 tbsp soy sauce to vegetables and mix</li>
+<li>Add 1 tbsp butter to vegetables and mix</li>
+<li>Cook for 15 minutes on low to medium</li>
+</ol>
+<h5><strong>Searing the Steak (7 minutes): </strong></h5>
+<ol>
+<li>Heat 1 12 inch pan on a medium flame</li>
+<li>Put 2 tbsp olive oil in the pan</li>
+<li>Cut everything into bite-sized chunks</li>
+<li>Once the pan is hot, put the steak on the pan (should sear)</li>
+<li>Turn the steak pieces to sear all sides</li>
+<li>After about 7 minutes (or when prepared the way you like) put 2 tsps of garlic spread into the pan</li>
+<li>Add 1.5 tbsp of soy sauce and mix</li>
+<li>Add 1 tbsp of sesame seeds and serve</li>
+</ol>
+<h5><strong>Keys:</strong></h5>
+<ul>
+<li>Stewing beef is easy &hellip; too easy. You can toss in a lot of great marinades and stew it all in the juices. If that is what you want, then great. But for this recipe the key is to sear the steak, not stew it. &lt;</li>
+<li>Try not to overfill the pan with steak. If you make it for a family, try cooking it in waves based on the pan size. Make sure you have enough space for the meat to be seared.</li>
+<li>Keep the meat cut into bite size pieces (or slightly larger). Do not put overly large pieces in the pan. This worked well for me since I have to cut all of my daughters&rsquo; steak anyway :)</li>
+</ul>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    10th,
+    
+    2010
+  </span>
+
+  <h2>
+    <a href="/silverlight/2010/02/10/silverlight-tv-7-when-and-where-to-use-mef.html">Silverlight TV 7&#58; When and Where to Use MEF</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightTVEpisode005UsingMetadatawith_C5A0/image4.png" width="152" height="70" /></a> The <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-7-When-and-Where-to-use-MEF">latest episode of Silverlight TV is now available on Channel 9</a>! In episode 7 Glenn Block, Program Manager working on MEF and self professed &quot;MEF Maniac,” makes his first visit to Silverlight TV. Glenn and John set aside the code for this episode, taking a step back to discuss and explain some of the top scenarios where using MEF adds value. If you are considering using MEF and want to know where and when it makes sense, this is an ideal episode for you to watch. </p>
+<p>You can see the episode online by <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-7-When-and-Where-to-use-MEF">clicking this link</a> or clicking the mage below:</p>
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-7-When-and-Where-to-use-MEF/"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/931b858a9b46_1201C/image_3.png" width="490" height="265" /></a> </p>
+<p>Silverlight TV is once again unscripted and shot in 1 take. Don’t miss this one! </p>
+<p>If you have not watched the previous episodes of Silverlight TV, you can catch them here.</p>
+<ul>   <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-6-Creating-Custom-Pre-Loaders/">SL TV 6: Creating Customer Pre-Loaders</a></li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-5-Using-Metadata-with-MEF/">SL TV 5: Using Metadata with MEF</a></li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-4-3-Steps-to-MEF-Export-Import-Compose/">SL TV 4: 3 Steps to MEF – Export, Import, Compose</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-3-Multi-Touch-101-with-Silverlight/">SL TV 3: Multi-Touch 101 with Silverlight</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-2-Perspectives-on-Flash-and-Silverlight/">SL TV 2: Perspectives on Flash and Silverlight</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Out-of-Browser-in-Silverlight-4-Silverlight-TV-Episode-1/">SL TV 1: The Joys of Trusted Out-of-Browser Applications in Silverlight 4</a> </li> </ul>
+<table border="1" cellspacing="0" cellpadding="5"><tbody>     <tr>       <td colspan="2">         <p align="center"><b>Key links for Silverlight TV</b></p>       </td>     </tr>      <tr>       <td width="162">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="MediumSLTVBanner" border="0" alt="MediumSLTVBanner" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/MediumSLTVBanner_3.png" width="122" height="66" /></a>&#160;</p>       </td>        <td width="306">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/">Watch Silverlight TV Shows on Channel 9</a></p>          <p>Watch shows and catch the latest news in our Silverlight TV blog</p>       </td>     </tr>      <tr>       <td width="162">         <p>&#160;</p>          <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="RSS" border="0" alt="RSS" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_thumb.png" width="36" height="36" /></a></p>       </td>        <td width="306">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/RSS/">Subscribe to the RSS feed for the show itself</a></p>          <p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/zune/">Subscribe to the show on your Zune</a></p>          <p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/ipod/">Subscribe to the show for your iPod</a></p>       </td>     </tr>      <tr>       <td width="162">         <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="SilverlightTV_Bug" border="0" alt="SilverlightTV_Bug" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_thumb.png" width="64" height="64" /></a></p>       </td>        <td width="306">         <p>Follow <a href="http://www.twitter.com/SilverlightTV">@SilverlightTV</a> on Twitter for updates, alerts for new shows, and to submit comments and feedback.</p>       </td>     </tr>   </tbody></table>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    February
+    4th,
+    
+    2010
+  </span>
+
+  <h2>
+    <a href="/silverlight/2010/02/04/customer-preloader-silverlight-tv-006.html">Custom Preloader - Silverlight TV 006</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" width="152" height="70" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightTVEpisode005UsingMetadatawith_C5A0/image4.png" /></a> The <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-6-Creating-Custom-Pre-Loaders/">latest episode of Silverlight TV is now available on Channel 9</a>! In episode 6 <a href="http://riathoughts.com/blog/silverlight/silverlight-splash-page/">John Stockton</a> (Silverlight MVP) discusses how a custom preloader can spice up your application . He shows how to implement a basic custom preloader (aka splash Screen) and then goes further to show how you can add animations and other effects.</p>
+<p>You can see the episode online by <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-6-Creating-Custom-Pre-Loaders/">clicking this link</a> or clicking the mage below:</p>
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-6-Creating-Custom-Pre-Loaders/"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" width="411" height="250" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/CustomerPreloaderSilverlightTV006_BEB2/image_3.png" /></a></p>
+<p>Silverlight TV is once again unscripted and shot in 1 take. Don&rsquo;t miss this one!</p>
+<p>If you have not watched the previous episodes of Silverlight TV, you can catch them here.</p>
+<ul>
+<li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-5-Using-Metadata-with-MEF/">Episode 5: using Metadata with MEF</a></li>
+<li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-4-3-Steps-to-MEF-Export-Import-Compose/">Episode 4: 3 Steps to MEF &ndash; Export, Import, Compose</a></li>
+<li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-3-Multi-Touch-101-with-Silverlight/">Episode 3: Multi-Touch 101 with Silverlight</a></li>
+<li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-2-Perspectives-on-Flash-and-Silverlight/">Episode 2: Perspectives on Flash and Silverlight</a></li>
+<li><a href="http://channel9.msdn.com/shows/SilverlightTV/Out-of-Browser-in-Silverlight-4-Silverlight-TV-Episode-1/">Episode 1: The Joys of Trusted Out-of-Browser Applications in Silverlight 4</a></li>
+</ul>
+<table border="1" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<td colspan="2">
+<p align="center"><b>Key links for Silverlight TV</b></p>
+</td>
+</tr>
+<tr>
+<td width="162">
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="MediumSLTVBanner" border="0" alt="MediumSLTVBanner" width="122" height="66" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/MediumSLTVBanner_3.png" /></a>&nbsp;</p>
+</td>
+<td width="306">
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/">Watch Silverlight TV Shows on Channel 9</a></p>
+<p>Watch shows and catch the latest news in our Silverlight TV blog</p>
+</td>
+</tr>
+<tr>
+<td width="162">
+<p>&nbsp;</p>
+<p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="RSS" border="0" alt="RSS" width="36" height="36" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_thumb.png" /></a></p>
+</td>
+<td width="306">
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/RSS/">Subscribe to the RSS feed for the show itself</a></p>
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/zune/">Subscribe to the show on your Zune</a></p>
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/ipod/">Subscribe to the show for your iPod</a></p>
+</td>
+</tr>
+<tr>
+<td width="162">
+<p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="SilverlightTV_Bug" border="0" alt="SilverlightTV_Bug" width="64" height="64" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_thumb.png" /></a></p>
+</td>
+<td width="306">
+<p>Follow <a href="http://www.twitter.com/SilverlightTV">@SilverlightTV</a> on Twitter for updates, alerts for new shows, and to submit comments and feedback.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    January
+    31st,
+    
+    2010
+  </span>
+
+  <h2>
+    <a href="/silverlight/2010/01/31/silverlight-tv-episode-005-ndash-using-metadata-with-mef.html">Silverlight TV Episode 005 – Using Metadata with MEF</a>
+  </h2>
+
+  <div>
+    
+    
+    <p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightTVEpisode005UsingMetadatawith_C5A0/image4.png" width="152" height="70" /></a> The <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-5-Using-Metadata-with-MEF/">latest episode of Silverlight TV is now available on Channel 9</a>! Episode 5 is all about using Metadata with MEF. Hamilton Verissimo makes a return visit to show us how metadata can make MEF ever more valuable to build Silverlight applications.&#160; </p>
+<p>You can see the episode online by <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-5-Using-Metadata-with-MEF/">clicking this link</a> or clicking the mage below:</p>
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-5-Using-Metadata-with-MEF/"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/SilverlightTVEpisode005UsingMetadatawith_C5A0/image_6.png" width="494" height="257" /></a> </p>
+<p>Silverlight TV is once again unscripted and shot in 1 take. Don’t miss this one! </p>
+<p>If you have not watched the previous episodes of Silverlight TV, you can catch them here.</p>
+<ul>   <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-4-3-Steps-to-MEF-Export-Import-Compose/">Episode 4: 3 Steps to MEF – Export, Import, Compose</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-3-Multi-Touch-101-with-Silverlight/">Episode 3: Multi-Touch 101 with Silverlight</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-2-Perspectives-on-Flash-and-Silverlight/">Episode 2: Perspectives on Flash and Silverlight</a> </li>    <li><a href="http://channel9.msdn.com/shows/SilverlightTV/Out-of-Browser-in-Silverlight-4-Silverlight-TV-Episode-1/">Episode 1: The Joys of Trusted Out-of-Browser Applications in Silverlight 4</a> </li> </ul>
+<table border="1" cellspacing="0" cellpadding="5"><tbody>     <tr>       <td colspan="2">         <p align="center"><b>Key links for Silverlight TV</b></p>       </td>     </tr>      <tr>       <td width="162">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="MediumSLTVBanner" border="0" alt="MediumSLTVBanner" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/MediumSLTVBanner_3.png" width="122" height="66" /></a>&#160;</p>       </td>        <td width="306">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/">Watch Silverlight TV Shows on Channel 9</a></p>          <p>Watch shows and catch the latest news in our Silverlight TV blog</p>       </td>     </tr>      <tr>       <td width="162">         <p>&#160;</p>          <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="RSS" border="0" alt="RSS" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_thumb.png" width="36" height="36" /></a></p>       </td>        <td width="306">         <p><a href="http://channel9.msdn.com/shows/SilverlightTV/RSS/">Subscribe to the RSS feed for the show itself</a></p>          <p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/zune/">Subscribe to the show on your Zune</a></p>          <p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/ipod/">Subscribe to the show for your iPod</a></p>       </td>     </tr>      <tr>       <td width="162">         <p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="SilverlightTV_Bug" border="0" alt="SilverlightTV_Bug" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_thumb.png" width="64" height="64" /></a></p>       </td>        <td width="306">         <p>Follow <a href="http://www.twitter.com/SilverlightTV">@SilverlightTV</a> on Twitter for updates, alerts for new shows, and to submit comments and feedback.</p>       </td>     </tr>   </tbody></table>
+
+
+    
+    
+  </div>
+
+</article>
+
+
+<article class="home">
+
+  <span class="post-date">
+    
+    January
+    25th,
+    
+    2010
+  </span>
+
+  <h2>
+    <a href="/silverlight/2010/01/25/3-steps-to-mef-mef-part-1-ndash-silverlight-tv-episode-4.html">3 Steps to MEF (MEF Part 1) – Silverlight TV Episode 4</a>
+  </h2>
+
+  <div>
+    
+    
+    <p>The <a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-4-3-Steps-to-MEF-Export-Import-Compose/">latest episode of Silverlight TV is now available on Channel 9</a>! This episode kicks off an exploration of MEF with one of the Program Managers working on MEF, Hamilton Verissimo. John interviews Hamilton, of Castle Windsor fame, about his latest work on the MEF team. Hamilton (aka MEF Man) discusses what MEF does and why you want to use MEF with your Silverlight applications. He dives right into the code samples and walks through examples of creating composable objects from scratch. He exported, imported, and composed parts with skill! We had such a great time the we decided to schedule a follow up series with the MEF team to cover more scenarios with MEF and Silverlight.</p>
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-4-3-Steps-to-MEF-Export-Import-Compose/"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" width="382" height="218" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/image_3.png" /></a>&nbsp;</p>
+<p>Silverlight TV is once again unscripted, shot in 1 take with warts and all. Don&rsquo;t miss this one! You can download the source code for Hamilton&rsquo;s demo from this episode by <a href="/wp-content/uploads/files/downloads/SilverlightTV/SilverlightTV-004.zip">clicking on this link</a>.</p>
+<p>If you have not watched the previous episodes of Silverlight TV, you can catch them here.</p>
+<ul>
+<li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-3-Multi-Touch-101-with-Silverlight/">Episode 3: Multi-Touch 101 with Silverlight</a></li>
+<li><a href="http://channel9.msdn.com/shows/SilverlightTV/Silverlight-TV-Episode-2-Perspectives-on-Flash-and-Silverlight/">Episode 2: Perspectives on Flash and Silverlight</a></li>
+<li><a href="http://channel9.msdn.com/shows/SilverlightTV/Out-of-Browser-in-Silverlight-4-Silverlight-TV-Episode-1/">Episode 1: The Joys of Trusted Out-of-Browser Applications in Silverlight 4</a></li>
+</ul>
+<p>
+<table border="1" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<td colspan="2">
+<p align="center"><b>Key links for Silverlight TV</b></p>
+</td>
+</tr>
+<tr>
+<td width="162">
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="MediumSLTVBanner" border="0" alt="MediumSLTVBanner" width="122" height="66" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/MediumSLTVBanner_3.png" /></a>&nbsp;</p>
+</td>
+<td width="306">
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/">Watch Silverlight TV Shows on Channel 9</a></p>
+<p>Watch shows and catch the latest news in our Silverlight TV blog</p>
+</td>
+</tr>
+<tr>
+<td width="162">
+<p>&nbsp;</p>
+<p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="RSS" border="0" alt="RSS" width="36" height="36" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/3StepstoMEFSilverlightTVEpisode4_12BDA/RSS_thumb.png" /></a></p>
+</td>
+<td width="306">
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/RSS/">Subscribe to the RSS feed for the show itself</a></p>
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/zune/">Subscribe to the show on your Zune</a></p>
+<p><a href="http://channel9.msdn.com/shows/SilverlightTV/feed/ipod/">Subscribe to the show for your iPod</a></p>
+</td>
+</tr>
+<tr>
+<td width="162">
+<p><a href="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_2.png"><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="SilverlightTV_Bug" border="0" alt="SilverlightTV_Bug" width="64" height="64" src="/wp-content/uploads/files/media/image/WindowsLiveWriter/7f977e907c4d_EE29/SilverlightTV_Bug_thumb.png" /></a></p>
+</td>
+<td width="306">
+<p>Follow <a href="http://www.twitter.com/SilverlightTV">@SilverlightTV</a> on Twitter for updates, alerts for new shows, and to submit comments and feedback.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>&nbsp;</p>
+
+
+    
+    
+  </div>
+
+</article>
+
+<hr/>
+
+<ul class="pager"> 
+
+  
+  <li class="previous">
+    
+    <a href="/page87">&larr; Newer</a>
+    
+  </li>
+  
+  
+  <li>
+    <span class="page_number">Page: 88 of 136</span>
+  </li>
+
+  
+  <li class="next">
+    <a href="/page89">Older &rarr;</a>
+  </li>
+  
+
+</ul>
+
+
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2015 dbyll with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'dbyll']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
