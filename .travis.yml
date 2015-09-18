@@ -2,6 +2,8 @@ language: ruby
 rvm:
 - 2.2
 
+sudo: required
+
 script:
  - chmod +x ./script/cibuild
  - ./script/cibuild
