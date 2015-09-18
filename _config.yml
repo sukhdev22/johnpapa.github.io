@@ -18,11 +18,8 @@ defaults:
 description: John Papa
 author:
   name: John Papa
-  # email: dbyll@ismaildemirbilek.com
   github: johnpapa
   twitter: john_papa
-  # pinterest: asd123
-  # linkedin: asd123
   bio: Evangelist on the Loose
   email_md5: 0d3794fe37746ea54926ca6878712721
 
