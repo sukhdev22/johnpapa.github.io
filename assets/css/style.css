@@ -19,6 +19,13 @@ body{
 	margin: 0 2em;
 }
 
+.footer-text {
+	text-align: center;
+	margin: 0px 70px 0px 40px;
+	width: auto;
+	font-size: 0.9em;
+}
+
 .sidebar {
 	/*position: fixed;*/
 	top: 0px;

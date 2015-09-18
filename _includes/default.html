@@ -122,12 +122,16 @@
     <div class="col-sm-8">
         {{ content }}
 
-        <footer>
-            <hr/>
-            <p>
-                &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a>                by dbtek.
-            </p>
-        </footer>
+      <footer class="footer-text">
+        <hr/>
+        <p>
+        Copyright © 2015 - John Papa Blog content licensed under the Creative Commons <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a>
+        | Unless otherwise stated or granted, code samples licensed under the <a href="http://sm.mit-license.org/">MIT license</a>.
+        | Site design based on the <a href="https://github.com/dbtek/dbyll">dbyll theme</a> under the <a href="http://sm.mit-license.org/">MIT license</a>
+      </p>
+
+      </footer>
+
     </div>
 
     <script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/jquery/jquery.min.js"></script>

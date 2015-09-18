@@ -67,7 +67,7 @@
 
 		<h5>Recent Posts</h5>
 		<ul class="list-unstyled list-inline">
-			{% for post in site.posts limit:16 %}
+			{% for post in site.posts limit:10 %}
 				<li>
 					<span>{{ post.date | date_to_string }}</span> &raquo;
 					<a href="{{ BASE_PATH }}{{ post.url }}">
