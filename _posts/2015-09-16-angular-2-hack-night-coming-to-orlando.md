@@ -21,7 +21,7 @@ Come hack with us using ES5, ES2015, or TypeScript along with Angular 2. I'll be
 <h3>Event</h3>
 
 - Date: October 6th
-- Time: 6pm - 10:30pm
+- Time: 6pm - 11:00pm
 - Location:
 
   <pre>
