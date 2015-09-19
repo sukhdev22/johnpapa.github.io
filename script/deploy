@@ -1,8 +1,12 @@
 sudo apt-get install -qq ncftp
 
 ncftp -u "$USERNAME" -p "$PASSWORD" $HOST<<EOF
-rm -rf site/wwwroot
-mkdir site/wwwroot
+
+# remove all folders except wp-content
+#rm -rf site/wwwroot
+#mkdir site/wwwroot
+find site/wwwroot ! -name "wp-content" -delete
+
 quit
 EOF
 
