@@ -6,7 +6,8 @@ exclude: ["README.md", "vendor"] # files to exclude
 highlighter: pygments
 markdown: kramdown
 disqus: johnpapa
-google_analytics: johnpapa
+title: JohnPapa.net
+google_analytics: UA-18897867-1
 
 defaults:
   -
@@ -23,7 +24,10 @@ author:
   bio: Evangelist on the Loose
   email_md5: 0d3794fe37746ea54926ca6878712721
 
+github_repo_url: https://github.com/johnpapa/johnpapa.github.io/
+
 rss_path: feed.xml
+rss_url: http://feeds.feedburner.com/johnpapa
 categories_path: categories.html
 tags_path: tags.html
 
