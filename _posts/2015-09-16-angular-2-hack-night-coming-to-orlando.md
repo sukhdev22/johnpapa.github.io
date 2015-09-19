@@ -24,12 +24,12 @@ Come hack with us using ES5, ES2015, or TypeScript along with Angular 2. I'll be
 - Time: 6pm - 10:30pm
 - Location:
 
-  ```
-  Canvs
-  101 South Garland Avenue
-  #108
-  Orlando, FL 32801
-  ```
+  <pre>
+      Canvs
+      101 South Garland Avenue
+      108
+      Orlando, FL 32801
+  </pre>
 
 This event is made possible by some awesome community sponsors:
 
