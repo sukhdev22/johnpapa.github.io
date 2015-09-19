@@ -12,15 +12,24 @@ Want to learn <a href="http://angular.io">Angular 2</a> from the beginning? Join
 
 <h3>Registration</h3>
 
-Space is limited and registration opens this Friday September 18th at 12 noon EDT. Keep an eye on this blog and follow me on twitter <a href="http://twitter.com/john_papa">@john_papa</a> for alerts. We're expecting to sell out and space is limited ... so please only sign up if you plan to attend.
+You can [register here](http://jpapa.me/ng2hackorlando2015). We're expecting to sell out and space is limited ... so please only sign up if you plan to attend.
 
-Come hack with us using ES5, ES2015, or TypeScript along with Angular 2. I'll be using TypeScript and Angular inside of Visual Studio Code. Join us live tweeting at <a href="https://twitter.com/hashtag/TryAngular2?src=hash">#TryAngular2</a>
+We are currently at capacity, the first wav sold ou tin 7 minutes! But we expect to make a very limited number of additional tickets available on Tuesday Sep 22 at 12 pm EDT. So mark your calendars and be ready! [Follow me on twitter](http://twittercom/john_papa) for the announcement or just check back at 12 noon on Tuesday.
+
+Come hack with us using ES5, ES2015, or TypeScript along with Angular 2. I'll be using TypeScript and Angular inside of Visual Studio Code. Of course you can use whatever combination you want. Join us live tweeting at <a href="https://twitter.com/hashtag/TryAngular2?src=hash">#TryAngular2</a>
 
 <h3>Event</h3>
 
-Date: October 6th
-Time: 6pm - 10:30pm
-Location: To be Revealed Soon
+- Date: October 6th
+- Time: 6pm - 10:30pm
+- Location:
+
+  ```
+  Canvs
+  101 South Garland Avenue
+  #108
+  Orlando, FL 32801
+  ```
 
 This event is made possible by some awesome community sponsors:
 
