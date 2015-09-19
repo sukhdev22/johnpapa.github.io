@@ -19,6 +19,12 @@ body{
 	margin: 0 2em;
 }
 
+@media (min-width:768px) {
+	.navbar-header {
+		float: inherit;
+	}
+}
+
 #page-nav {
 	margin: 2em 0;
 	text-align: center;
