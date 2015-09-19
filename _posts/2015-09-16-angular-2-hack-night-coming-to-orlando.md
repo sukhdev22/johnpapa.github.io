@@ -8,7 +8,10 @@ categories: [angular, angular2, community, event, javascript, Uncategorized]
 ---
 Want to learn <a href="http://angular.io">Angular 2</a> from the beginning? Join me and many fellow developers at the Orlando Angular 2 hack Night in Orlando! How about if we make this free?
 
-<img src="http://www.johnpapa.net/wp-content/uploads/2015/09/angular-shield-150x150.png" alt="angular-shield" width="150" height="150" class="alignleft size-thumbnail wp-image-63061" /> I'll be there along with some members of the Angular team (both in person and over a Google Hangout), and many local community leaders, to help you code. We'll have several categories for the hack night with judging at the end of the evening. Our sponsors have been generous to help us get some great prizes (hint, one is a tablet) for the best hacks! Look to some upcoming posts to learn more about the hack categories and some of the prizes.
+<img src="http://www.johnpapa.net/wp-content/uploads/2015/09/angular-shield-150x150.png" alt="angular-shield" width="150" height="150" class="alignleft size-thumbnail wp-image-63061" />
+
+I'll be there along with some members of the Angular team (both in person and over a Google Hangout), and many local community leaders, to help you code. We'll have several categories for the hack night with judging at the end of the evening. Our sponsors have been generous to help us get some great prizes (hint, one is a tablet) for the best hacks! Look to some upcoming posts to learn more about the hack categories and some of the prizes.
+
 
 <h3>Registration</h3>
 
