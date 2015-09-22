@@ -24,7 +24,7 @@ author:
   bio: Evangelist on the Loose
   email_md5: 0d3794fe37746ea54926ca6878712721
 
-permalink: /:title.html
+permalink: /:title
 
 github_repo_url: https://github.com/johnpapa/johnpapa.github.io/
 
