@@ -17,7 +17,7 @@ I'll be there along with some members of the Angular team (both in person and ov
 
 You can [register here](http://jpapa.me/ng2hackorlando2015). We're expecting to sell out and space is limited ... so please only sign up if you plan to attend.
 
-We are currently at capacity, the first wav sold ou tin 7 minutes! But we expect to make a very limited number of additional tickets available on Tuesday Sep 22 at 12 pm EDT. So mark your calendars and be ready! [Follow me on twitter](http://twittercom/john_papa) for the announcement or just check back at 12 noon on Tuesday.
+We are currently at capacity, the first wav sold ou tin 7 minutes! But we expect to make a very limited number of additional tickets available on Tuesday Sep 22 at 12 pm EDT. So mark your calendars and be ready! [Follow me on twitter](http://twitter.com/john_papa) for the announcement or just check back at 12 noon on Tuesday.
 
 Come hack with us using ES5, ES2015, or TypeScript along with Angular 2. I'll be using TypeScript and Angular inside of Visual Studio Code. Of course you can use whatever combination you want. Join us live tweeting at <a href="https://twitter.com/hashtag/TryAngular2?src=hash">#TryAngular2</a>
 
