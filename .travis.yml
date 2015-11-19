@@ -2,7 +2,9 @@ language: ruby
 rvm:
 - 2.2
 
-sudo: required
+# sudo: required
+# sudo false tells travis to use docker containers
+sudo: false
 
 script:
  - chmod +x ./script/cibuild
