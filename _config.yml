@@ -26,6 +26,8 @@ author:
 
 permalink: /:title
 
+gems: [jekyll-paginate]
+
 github_repo_url: https://github.com/johnpapa/johnpapa.github.io/
 
 rss_path: feed.xml
