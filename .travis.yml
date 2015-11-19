@@ -4,7 +4,7 @@ rvm:
 
 # sudo: required
 # sudo false tells travis to use docker containers
-sudo: required
+sudo: false
 
 script:
  - chmod +x ./script/cibuild
