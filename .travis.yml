@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.2
 
-cache: bundler
+#cache: bundler
 before_script: bundle update
 
 # sudo: required
