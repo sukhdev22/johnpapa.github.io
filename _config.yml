@@ -26,7 +26,7 @@ author:
 
 permalink: /:title
 
-gems: [jekyll-paginate]
+gems: ["jekyll-paginate"]
 
 github_repo_url: https://github.com/johnpapa/johnpapa.github.io/
 
