@@ -2,6 +2,9 @@ language: ruby
 rvm:
 - 2.2
 
+cache: bundler
+before_script: bundle update
+
 # sudo: required
 # sudo false tells travis to use docker containers
 sudo: false
