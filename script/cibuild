@@ -2,6 +2,7 @@
 set -e # halt script on error
 
 gem install jekyll-paginate
+bundle update
 bundle exec jekyll build
 #ls ./_site
 #cat ./_site/index.html
