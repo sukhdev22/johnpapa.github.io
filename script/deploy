@@ -8,7 +8,7 @@ ncftp -u "$USERNAME" -p "$PASSWORD" $HOST<<EOF
 find site/wwwroot ! -name "wp-content" -delete
 
 # copy the index file from site to root
-copy ./_site/index.html ./index.html
+cp ./_site/index.html ./index.html
 
 quit
 EOF
