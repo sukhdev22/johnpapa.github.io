@@ -2,9 +2,9 @@
 
 # sudo
 
-echo 'i am about to deal with ncftp'
-apt-get -yq --no-install-suggests --no-install-recommends --force-yes install ncftp
-echo 'i am done with ncftp'
+# echo 'i am about to deal with ncftp'
+# apt-get -yq --no-install-suggests --no-install-recommends --force-yes install ncftp
+# echo 'i am done with ncftp'
 which ncftp
 
 ncftp -u "$USERNAME" -p "$PASSWORD" $HOST<<EOF

@@ -12,6 +12,9 @@ script:
  - chmod +x ./script/cibuild
  - ./script/cibuild
 
+before_install:
+ - sudo apt-get install --qq ncftp
+
 after_success:
  - chmod +x ./script/deploy
  - ./script/deploy
