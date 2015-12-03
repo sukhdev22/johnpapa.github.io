@@ -1,5 +1,6 @@
-# sudo
-apt-get install -qq ncftp
+# sudo apt-get install -qq ncftp
+
+sudo -E apt-get -yq --no-install-suggests --no-install-recommends --force-yes install ncftp
 
 ncftp -u "$USERNAME" -p "$PASSWORD" $HOST<<EOF
 
