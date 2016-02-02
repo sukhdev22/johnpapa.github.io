@@ -32,7 +32,7 @@ github_repo_url: https://github.com/johnpapa/johnpapa.github.io/
 
 rss_path: feed.xml
 rss_url: http://feeds.feedburner.com/johnpapa
-categories_path: categories.html
+categories_path: categories/
 #tags_path: tags.html
 
 BASE_PATH:
