@@ -24,7 +24,7 @@ author:
   bio: Evangelist on the Loose
   email_md5: 0d3794fe37746ea54926ca6878712721
 
-permalink: /:title/index.html
+permalink: /:title/
 
 gems: ["jekyll-paginate"]
 
