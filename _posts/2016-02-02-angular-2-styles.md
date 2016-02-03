@@ -46,4 +46,7 @@ A barrel is a module whose purpose in life is to aggregate other modules and exp
 ### Want More?
 Want more? I'll be blogging more with these ideas til the guide is released.
 
-I'm also working on a Pluralsight course titled `Angular 2 First Look` due out in early March.
+I'm also working on a Pluralsight course titled `Angular 2 First Look` due out in early March. This is a "first look", which means it's not a conclusive set of al features, but rather it is targeting folks wanting to learn more about Angular 2 who just want a solid foundation of what that means. Of course, I'll be teaching the main concepts too.
+
+Here is a glimpse at the app that will be featured in it
+![Storyline Tracker App](https://s3-us-west-2.amazonaws.com/johnpapa-blog-images/mobile-storyline.png)
