@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Angular 2 Styles and File Structure
-date: 2015-11-19 01:11
+date: 2016-02-02 01:11
 author: John
 comments: true
 categories: [angular, angular2, javascript, Uncategorized]
