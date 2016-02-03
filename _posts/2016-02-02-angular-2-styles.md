@@ -12,7 +12,7 @@ Soon. Before ngConf is my goal. What will be there by then? I am careful to only
 
 Until then, here is a quick glimpse at a project structure that I have been working with. I've had input that has impacted this from Ward Bell, Dan Wahlin, Igor Minar, Jules Kremer, and others from the Angular team and Angular GDEs.
 
-## Example File Structure and Naming of Components/Services
+### Example File Structure and Naming of Components/Services
 
 ```
   index.html                      // Starting page
@@ -40,10 +40,10 @@ Until then, here is a quick glimpse at a project structure that I have been work
 
 Note that the names `list` and `detail` are arbitrary descriptive names for these components. There is no rule that says you have to use those. The convention is to pick a convention on how to name a list of things component such as HeroesListComponent, HeroListComponent, HeroSearchComponent and be consistent. Same with `Details`. It could be HeroDetailComponent, HeroEditorComponent, or anything that is decriptive and consistent in our app.
 
-## Barrel
+### Barrel
 A barrel is a module whose purpose in life is to aggregate other modules and export them. Why? Because this reduces the number of import statements you need to use the modules. To put it another way, if the Angular 2 team did not use barrels, you might have 100 import statements everywhere :) Thankfully, they use barrels such as `angular2/core`. In the example above, barrels are used to aggregate the heroes feature.
 
-## Want More?
+### Want More?
 Want more? I'll be blogging more with these ideas til the guide is released.
 
 I'm also working on a Pluralsight course titled `Angular 2 First Look` due out in early March.
