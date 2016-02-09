@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Angular 2 Tutorial - QuickStart to Routing
-date: 2016-02-03 01:11
+date: 2016-02-09 01:11
 author: John
 comments: true
 categories: [node, angular2, angularjs, javascript, Uncategorized]
