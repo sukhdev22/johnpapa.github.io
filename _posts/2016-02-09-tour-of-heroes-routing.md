@@ -10,7 +10,7 @@ The Tour of Heroes tutorial takes us through the steps of creating an Angular ap
 <style>img[alt=heroes] { height=100px; width:100px}</style>
 ![heroes](https://s3-us-west-2.amazonaws.com/johnpapa-blog-images/heroes.png )
 
-We tackle new technologies often, probably more often that we prefer. We are pressured to get up to speed on these technologies as quickly as possible. Often the technology fights back at us with awful or no documentation. Sometimes the documentation is wonderful for APIs but no so great at showing us how to think about building an app. I have a passion for Angular 2 and JavaScript so when the Angular team and Ward Bell were designing the docs at http://angular.io and they approached me about helping build a tutorial, I viewed this as an opportunity to be part of the solution for Angular 2.
+We tackle new technologies often, probably more often that we prefer. We are pressured to get up to speed on these technologies as quickly as possible. Often the technology fights back at us with awful or no documentation. Sometimes the documentation is wonderful for APIs but no so great at showing us how to think about building an app. I have a passion for Angular 2 and JavaScript so when the Angular team and Ward Bell were designing the docs at [http://angular.io](http://angular.io) and they approached me about helping build a tutorial, I viewed this as an opportunity to be part of the solution for Angular 2.
 
 In fact, Ward has made sure that all of the [dev guide](https://angular.io/docs/ts/latest/guide/) chapters follow a story, not just the tutorial. Each part of the guide is motivated by something real we all face.
 
