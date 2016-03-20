@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding ES5, ES2016 and TypeScript
+title: Understanding ES5, ES2015 and TypeScript
 date: 2016-03-20 01:11
 author: John
 comments: true
