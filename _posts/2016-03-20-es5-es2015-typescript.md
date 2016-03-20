@@ -91,9 +91,10 @@ The value in TypeScript is not in the writing less code. The value of TypeScript
 > You can [try out TypeScript here in their playground](http://www.typescriptlang.org/Playground).
 
 ### ES+
-I joke that TypeScript should be alled ES+, but when we examine it more closely, that is what is really is.
+I joke that TypeScript should be called ES+, but when we examine it more closely, that is what is really is.
 
 So what does TypeScript offer over ES2015? I'll focus on the three main additions I feel add the most value:
+
 1. Types
 2. Interfaces
 3. Future ES2016+ features (such as Annotations/Decorators and async/await)
