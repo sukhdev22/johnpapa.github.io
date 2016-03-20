@@ -112,11 +112,11 @@ From the top of the [TypeScript website's front page](http://www.typescriptlang.
 
 This is hugely important. TypeScript is not a shortcut language. It doesn't deviate from JavaScript. It doesn't take us in another direction. It's purpose is to allow us to use features in the future versions of JavaScript today, and to provide a better and safer experience.
 
-## Why Not Just use ES2015?
+### Why Not Just use ES2015?
 That's a great option! Learning ES2015 is a huge leap from ES5. Once you master ES2015, I argue that going from their to TypeScript is a very small step. So I suggest back, once you learn ES2015, try TypeScript and take advantage of its tooling.
 
-## Does learning ES2015 or TypeScript hurt my Employability?
-Absolutely not. But it also doesn't mean that you shouldn't understand ES5. ES5 is everywhere today. That will curve down eventually, but there is a lot of ES5 code and it's good to understand the language both to support it and to understand what problems ES2015 and TypeScript help solve. Plus we can use our knowledge of ES5 to help use debug issues using sourcemaps in the browsers.
+### What About Employability?
+Does learning ES2015 or TypeScript hurt my employability? Absolutely not. But it also doesn't mean that you shouldn't understand ES5. ES5 is everywhere today. That will curve down eventually, but there is a lot of ES5 code and it's good to understand the language both to support it and to understand what problems ES2015 and TypeScript help solve. Plus we can use our knowledge of ES5 to help use debug issues using sourcemaps in the browsers.
 
 ## Keeping Up with the Emerging Technology
 For a long time we didn't need transpilers. The Web used JavaScript and most folks who wrote in ES3 and ES5 used jQuery to handle any cross browser issues. When ES5 came along, not much changed there. For a long period of years in Web development we had a stable set of JavaScript features that most browsers understood. Where there were issues we used things like es5-shim.js and even jQuery to work around them. Things have changed.
