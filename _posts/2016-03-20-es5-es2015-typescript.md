@@ -71,7 +71,7 @@ How do we run ES2015 in browsers that do not yet support ES2015? We can use ES20
 ## TypeScript
 Where does [TypeScript](http://typescriptlang.org) fit in? Should we even bother with it?
 
-First, I think the name throws people off. The word *Type* in TypeScript indicates that we now have types. These types are optional, so we do not have to use them. So shouldn't we optionally call it *Type?Script* or *[Type]Script* ? Kidding aside, the types are just once piece of TypeScript. Perhaps a better name is simply *ES+*.
+First, I think the name throws people off. The word *Type* in TypeScript indicates that we now have types. These types are optional, so we do not have to use them. Don;t believe me? Try pasting your ES5 code into the [TypeScript playground](http://www.typescriptlang.org/Playground). Look mom! No types needed! So shouldn't we optionally call it *Type?Script* or *[Type]Script* ? Kidding aside, the types are just once piece of TypeScript. Perhaps a better name is simply *ES+*.
 
 Let's step back for a moment and revisit one of the concerns I mentioned previously that many developers have with writing JavaScript: the difficulty in identifying mistakes at development time.
 
