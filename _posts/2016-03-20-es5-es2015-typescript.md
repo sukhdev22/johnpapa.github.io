@@ -16,7 +16,7 @@ First, let's create a foundation for our discussion for each of these. TypeScrip
 We want to understand the differences between them, but first we must understand what each of these are and why they exist. We'll start with ES5.
 
 ## ES5
-ES5 is what most of us have used for years. Functional programming at its best, or worst, depending on how you view it. I personally love programming with ES5. All modern browsers support it. It's extremely flexible but also has many factors that contribute to apps that can become train wrecks. Scoping, closures, IFFE's and good guard logic are required to keep our train on the rails with ES5. Despite this, its flexibility is also a strength that many of us have leaned on.
+ES5 is what most of us have used for years. Functional programming at its best, or worst, depending on how you view it. I personally love programming with ES5. All modern browsers support it. It's extremely flexible but also has many factors that contribute to apps that can become train wrecks. Scoping, closures, IIFE's and good guard logic are required to keep our train on the rails with ES5. Despite this, its flexibility is also a strength that many of us have leaned on.
 
 This [chart shows the current compatibility of browsers for ES5](https://kangax.github.io/compat-table/es5/).
 
