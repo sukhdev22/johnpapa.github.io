@@ -13,7 +13,7 @@ First, let's create a foundation for our discussion for each of these. ES5 is a 
 
 ![ES5 to ES2015 to TypeScript](https://s3-us-west-2.amazonaws.com/johnpapa-blog-images/es5-es2015-ts.gif)
 
-We want to understand the differences between them, but firt we must understand what each of these are and why they exist. We'll start with ES5.
+We want to understand the differences between them, but first we must understand what each of these are and why they exist. We'll start with ES5.
 
 ## ES5
 ES5 is what most of us have used for years. Functional programming at its best, or worst, depending on how you view it. I personally love programming with ES5. All modern browsers support it. It's extremely flexible but also has many factors that contribute to apps that can become train wrecks. Scoping, closures, IFFE's and good guard logic are required to keep our train on the rails with ES5. Despite this, its flexibility is also a strength that many of us have leaned on.
