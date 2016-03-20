@@ -9,7 +9,7 @@ categories: [i18n, es2015, es5, es6, typescript, javascript, Uncategorized]
 
 What is the difference between ES5, ES2015 (formerly known as ES6), and TypeScript? Which should we learn and use?
 
-First, let's create a foundation for our discussion for each of these. ES5 is a subset of ES2015. ES2015 is a subset of TypeScript. This simple relationship makes it easier to learn them progressively.
+First, let's create a foundation for our discussion for each of these. TypeScript is a superset of JavaScript. ES2015 is the evolution of ES5. This relationship makes it easier to learn them progressively.
 
 ![ES5 to ES2015 to TypeScript](https://s3-us-west-2.amazonaws.com/johnpapa-blog-images/es5-es2015-ts.gif)
 
